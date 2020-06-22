@@ -5,7 +5,7 @@
 
 #### Day 1: introduction, best practices, errors and ethics
 
-- introduction to this module([slides](pdf_lectures/day1_1_intro.pdf))
+- introduction to this module ([slides](pdf_lectures/day1_1_intro.pdf))
 
 - best practices for scientific computing ([slides](pdf_lectures/day1_2_BestPractices.pdf))
 
@@ -17,8 +17,24 @@
 
 #### Day 2: version control systems - git 
 
-- Learning git the hard way ([online workshop](https://escodebar.github.io/trainings/git/#/), unformatted [slides](pdf_lectures/day2_Git_workshop.pdf))
+- workshop: learning Git the hard way ([online](https://escodebar.github.io/trainings/git/#/), unformatted [slides](pdf_lectures/day2_Git_workshop.pdf))
+- additional references:
+    - Pro Git book (available [online](https://git-scm.com/book/en/v2))
+    - Atlassian Git tutorial ([online](https://www.atlassian.com/git))
+    
+    - [Git magic tutorial](http://www-cs-students.stanford.edu/~blynn/gitmagic)) by Ben Lynn (Stanford University)
 
+    - [GitHub cheat sheet](my_readings/day2_github-git-cheat-sheet.pdf)
+    
+    - course from Site du zéro (in French): Gérez vos codes source avec Git ([pdf](http://user.oc-static.com/pdf/254198-gerez-vos-codes-source-avec-git.pdf); [personal lecture notes and command summary](my_readings/day2_siteduzero_cmds.txt) A FORMATER!!!)
+
+- Git course by Daloze and Wilmet (in French) with cheatsheet, slides and exercises ([online](https://eregon.me/git), assembled in [pdf](my_readings/day2_all_eregon.pdf))
+
+    - Git par la pratique by Demaree (in French): [personal lecture notes and command summary](my_readings/day2_git_par_la_pratique_cmds.txt) A FORMATER!!!)
+
+    - tutorials  (in French) from [développez.com](https://djibril.developpez.com/tutoriels/conception/pro-git/?page=page_2#LII) -- A COMPLETER
+    
+    - [personal reading notes](my_readings/day2_git_web_readings_all.pdf): unordered information retrieved from various web sites about git and GitHub
 
 #### Day 3: IT security
 
@@ -26,9 +42,9 @@
 
 #### Day 4: software licensing and documentation
 
-- Free and Open Source Software Licensing ([slides](pdf_lectures/day4_final_FOSS_slides_18.6.2020.pptx)) - NEED TO UPDATE !
-- software documentation
-
+- free and open source software licensing ([slides](pdf_lectures/day4_final_FOSS_slides_18.6.2020.pptx)) - NEED TO UPDATE !
+- software documentation: [online tutorial](https://coderefinery.github.io/documentation) ([pdf of main parts](pdf_lectures/day4_coderefinery.pdf))
+- additional notes on documentation by Dr. Alexander Kashev ([pdf](pdf_lectures/day4_NotesOnDocumentation.pdf), [html](pdf_lectures/day4_NotesOnDocumentation.html), [md](pdf_lectures/day4_NotesOnDocumentation.md))
 
 
 ### Contact
