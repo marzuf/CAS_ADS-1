@@ -1,5 +1,7 @@
 ## Module 2: statistical inference for data science
 
+[[Back to main page]](../index.md)
+
 1. Descriptive statistics ([jupyter notebook](nb_lectures/CAS-D1-DescriptiveStatistics.ipynb), [html version](nb_lectures/CAS-D1-DescriptiveStatistics.html)))
 2. Probability and descriptive statistics ([jupyter notebook](nb_lectures/CAS-D1-Probability.ipynb), [html version](nb_lectures/CAS-D1-Probability.html)))
 3. Parameter estimation / regression ([jupyter notebook](nb_lectures/CAS-D2-Regression.ipynb), [html version](nb_lectures/CAS-D2-Regression.html)))
