@@ -1,6 +1,6 @@
 # CAS in Applied Data Science (ADS)
 
-This repository contains some material and additional references related to the courses attended in the context of the [ADS CAS](https://www.math.unibe.ch/continuing_education/cas_applied_data_science/index_eng.html) at University of Bern (2019-2020).
+This repository contains some material and additional references related to the courses attended during my [ADS CAS](https://www.math.unibe.ch/continuing_education/cas_applied_data_science/index_eng.html) at University of Bern (2019-2020).
 
 ## Summary of the content
 
