@@ -4,8 +4,7 @@
 
 ### Lectures
 
-- day 1 - [Machine Learning Trends – Generative Adversarial
-Networks (GANs)](pdf_lectures/talk1_2-GANS-ML-Trends-Generative Adversarial-Networks.pdf)
+- day 1 - [ML](pdf_lectures/talk1_2-GANS-ML-Trends-Generative Adversarial-Networks.pdf)
     - nested sublist
 - day 1 - [GANs - Implicit Generative Modeling for Password
 Estimation](pdf_lectures/talk1_2-GANS-Passwords-Implicit-Generative-Modeling-for-Password-Estimation.pdf)
