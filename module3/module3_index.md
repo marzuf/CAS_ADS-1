@@ -2,15 +2,15 @@
 
 [[Back to main page]](../index.md)
 
-Lectures
+### Lectures
 
-day 1 - [Machine Learning Trends – Generative Adversarial
+- day 1 - [Machine Learning Trends – Generative Adversarial
 Networks (GANs)](pdf_lectures/talk1_2-GANS-ML-Trends-Generative Adversarial-Networks.pdf)
-day 1 - [GANs - Implicit Generative Modeling for Password
+- day 1 - [GANs - Implicit Generative Modeling for Password
 Estimation](pdf_lectures/talk1_2-GANS-Passwords-Implicit-Generative-Modeling-for-Password-Estimation.pdf)
-day 1 - [Machine learning and deep learning](pdf_lectures/talk2_3-Lecture-1_MLandDL.pdf)
+- day 1 - [Machine learning and deep learning](pdf_lectures/talk2_3-Lecture-1_MLandDL.pdf)
 
-Tutorials (juypter notebooks)
+### Tutorials (juypter notebooks)
 - day 1 - [tutorial 1](tutorials/tutorial_1/tutorial_1.ipynb)
 - day 1 - [tutorial 2](tutorials/tutorial_2/Tutorial_II.ipynb)
 
