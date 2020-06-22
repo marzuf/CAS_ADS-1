@@ -13,7 +13,7 @@ This repository contains some material and additional references related to the 
 
 ## Contact
 
-Questions, comments or suggestions ? Don't hesitate to contact me [documentation](mailto:zufferey.marie@bluewin.ch) !
+Questions, comments or suggestions ? Don't hesitate to [contact me](mailto:zufferey.marie@bluewin.ch) !
 
 <!-- ```markdown
 - Module 1: data acquisition and management
