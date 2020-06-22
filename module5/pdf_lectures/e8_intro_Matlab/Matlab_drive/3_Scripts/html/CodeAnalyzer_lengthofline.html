@@ -1,0 +1,201 @@
+
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><head>
+      <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+   <!--
+This HTML was auto-generated from MATLAB code.
+To make changes, update the MATLAB code and republish this document.
+      --><title>CodeAnalyzer_lengthofline</title><meta name="generator" content="MATLAB 9.7"><link rel="schema.DC" href="http://purl.org/dc/elements/1.1/"><meta name="DC.date" content="2020-02-08"><meta name="DC.source" content="CodeAnalyzer_lengthofline.m"><style type="text/css">
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}body{line-height:1}ol,ul{list-style:none}blockquote,q{quotes:none}blockquote:before,blockquote:after,q:before,q:after{content:'';content:none}:focus{outine:0}ins{text-decoration:none}del{text-decoration:line-through}table{border-collapse:collapse;border-spacing:0}
+
+html { min-height:100%; margin-bottom:1px; }
+html body { height:100%; margin:0px; font-family:Arial, Helvetica, sans-serif; font-size:10px; color:#000; line-height:140%; background:#fff none; overflow-y:scroll; }
+html body td { vertical-align:top; text-align:left; }
+
+h1 { padding:0px; margin:0px 0px 25px; font-family:Arial, Helvetica, sans-serif; font-size:1.5em; color:#d55000; line-height:100%; font-weight:normal; }
+h2 { padding:0px; margin:0px 0px 8px; font-family:Arial, Helvetica, sans-serif; font-size:1.2em; color:#000; font-weight:bold; line-height:140%; border-bottom:1px solid #d6d4d4; display:block; }
+h3 { padding:0px; margin:0px 0px 5px; font-family:Arial, Helvetica, sans-serif; font-size:1.1em; color:#000; font-weight:bold; line-height:140%; }
+
+a { color:#005fce; text-decoration:none; }
+a:hover { color:#005fce; text-decoration:underline; }
+a:visited { color:#004aa0; text-decoration:none; }
+
+p { padding:0px; margin:0px 0px 20px; }
+img { padding:0px; margin:0px 0px 20px; border:none; }
+p img, pre img, tt img, li img, h1 img, h2 img { margin-bottom:0px; } 
+
+ul { padding:0px; margin:0px 0px 20px 23px; list-style:square; }
+ul li { padding:0px; margin:0px 0px 7px 0px; }
+ul li ul { padding:5px 0px 0px; margin:0px 0px 7px 23px; }
+ul li ol li { list-style:decimal; }
+ol { padding:0px; margin:0px 0px 20px 0px; list-style:decimal; }
+ol li { padding:0px; margin:0px 0px 7px 23px; list-style-type:decimal; }
+ol li ol { padding:5px 0px 0px; margin:0px 0px 7px 0px; }
+ol li ol li { list-style-type:lower-alpha; }
+ol li ul { padding-top:7px; }
+ol li ul li { list-style:square; }
+
+.content { font-size:1.2em; line-height:140%; padding: 20px; }
+
+pre, code { font-size:12px; }
+tt { font-size: 1.2em; }
+pre { margin:0px 0px 20px; }
+pre.codeinput { padding:10px; border:1px solid #d3d3d3; background:#f7f7f7; }
+pre.codeoutput { padding:10px 11px; margin:0px 0px 20px; color:#4c4c4c; }
+pre.error { color:red; }
+
+@media print { pre.codeinput, pre.codeoutput { word-wrap:break-word; width:100%; } }
+
+span.keyword { color:#0000FF }
+span.comment { color:#228B22 }
+span.string { color:#A020F0 }
+span.untermstring { color:#B20000 }
+span.syscmd { color:#B28C00 }
+
+.footer { width:auto; padding:10px 0px; margin:25px 0px 0px; border-top:1px dotted #878787; font-size:0.8em; line-height:140%; font-style:italic; color:#878787; text-align:left; float:none; }
+.footer p { margin:0px; }
+.footer a { color:#878787; }
+.footer a:hover { color:#878787; text-decoration:underline; }
+.footer a:visited { color:#878787; }
+
+table th { padding:7px 5px; text-align:left; vertical-align:middle; border: 1px solid #d6d4d4; font-weight:bold; }
+table td { padding:7px 5px; text-align:left; vertical-align:top; border:1px solid #d6d4d4; }
+
+
+
+
+
+  </style></head><body><div class="content"><pre class="codeinput"><span class="keyword">function</span> [len,dims] = lengthofline(hline)
+<span class="comment">%LENGTHOFLINE Calculates the length of a line object</span>
+<span class="comment">%   LEN = LENGTHOFLINE(HLINE) takes the handle to a line object as the</span>
+<span class="comment">%   input, and returns its length.  The accuracy of the result is directly</span>
+<span class="comment">%   dependent on the number of distinct points used to describe the line.</span>
+<span class="comment">%</span>
+<span class="comment">%   [LEN,DIM] = LENGTHOFLINE(HLINE) additionally tells whether the line is</span>
+<span class="comment">%   2D or 3D by returning either a numeric 2 or 3 in DIM.  A line in a</span>
+<span class="comment">%   plane parallel to a coordinate plane is considered 2D.</span>
+<span class="comment">%</span>
+<span class="comment">%   If HLINE is a matrix of line handles, LEN and DIM will be matrices of results.</span>
+<span class="comment">%</span>
+<span class="comment">%   Example:</span>
+<span class="comment">%       figure; h2 = plot3(1:10,rand(1,10),rand(10,5));</span>
+<span class="comment">%       hold on; h1 = plot(1:10,rand(10,5));</span>
+<span class="comment">%       [len,dim] = lengthofline([h1 h2])</span>
+
+
+
+<span class="comment">% Find input indices that are not line objects</span>
+nothandle = ~ishandle(hline);
+<span class="keyword">for</span> nh = 1:prod(size(hline))
+    notline(nh) = ~ishandle(hline(nh)) || ~strcmp(<span class="string">'line'</span>,lower(get(hline(nh),<span class="string">'type'</span>)));
+<span class="keyword">end</span>
+
+len = zeros(size(hline));
+<span class="keyword">for</span> nl = 1:prod(size(hline))
+    <span class="comment">% If it's a line, get the data and compute the length</span>
+    <span class="keyword">if</span> ~notline(nl)
+        flds = get(hline(nl));
+        fdata = {<span class="string">'XData'</span>,<span class="string">'YData'</span>,<span class="string">'ZData'</span>};
+        <span class="keyword">for</span> nd = 1:length(fdata)
+            data{nd} = getfield(flds,fdata{nd});
+        <span class="keyword">end</span>
+        <span class="comment">% If there's no 3rd dimension, or all the data in one dimension is</span>
+        <span class="comment">% unique, then consider it to be a 2D line.</span>
+        <span class="keyword">if</span> isempty(data{3}) | <span class="keyword">...</span>
+               (length(unique(data{1}(:)))==1 | <span class="keyword">...</span>
+                length(unique(data{2}(:)))==1 | <span class="keyword">...</span>
+                length(unique(data{3}(:)))==1)
+            data{3} = zeros(size(data{1}));
+            dim(nl) = 2;
+        <span class="keyword">else</span>
+            dim(nl) = 3;
+        <span class="keyword">end</span>
+        <span class="comment">% Do the actual computation</span>
+        temp = diff([data{1}(:) data{2}(:) data{3}(;)]);
+        len(nl) = sum([sqrt(dot(temp',temp'))])
+    <span class="keyword">end</span>
+<span class="keyword">end</span>
+
+<span class="comment">% If some indices are not lines, fill the results with NaNs.</span>
+<span class="keyword">if</span> any(notline(:))
+    warning(<span class="string">'lengthofline:FillWithNaNs'</span>, <span class="keyword">...</span>
+        <span class="string">'\n%s of non-line objects are being filled with %s.'</span>, <span class="keyword">...</span>
+        <span class="string">'Lengths'</span>,<span class="string">'NaNs'</span>,<span class="string">'Dimensions'</span>,<span class="string">'NaNs'</span>)
+    len(notline) = NaN;
+    dim(notline) = NaN;
+<span class="keyword">end</span>
+
+<span class="keyword">if</span> nargout &gt; 1
+    dims = dim;
+<span class="keyword">end</span>
+</pre><pre class="codeoutput error">Error using dbstatus
+Error: File: C:\Users\resjoehr\MATLAB Drive\Customers\IntroWorkshop\3_Scripts\CodeAnalyzer_lengthofline.m Line: 47 Column: 52
+Invalid expression. When calling a function or indexing a variable, use parentheses. Otherwise, check for mismatched delimiters.
+</pre><p class="footer">Copyright 1984-2004 The MathWorks, Inc.<br><a href="https://www.mathworks.com/products/matlab/">Published with MATLAB&reg; R2019b</a><br></p></div><!--
+##### SOURCE BEGIN #####
+function [len,dims] = lengthofline(hline)
+%LENGTHOFLINE Calculates the length of a line object
+%   LEN = LENGTHOFLINE(HLINE) takes the handle to a line object as the
+%   input, and returns its length.  The accuracy of the result is directly
+%   dependent on the number of distinct points used to describe the line.
+%
+%   [LEN,DIM] = LENGTHOFLINE(HLINE) additionally tells whether the line is
+%   2D or 3D by returning either a numeric 2 or 3 in DIM.  A line in a
+%   plane parallel to a coordinate plane is considered 2D.
+%
+%   If HLINE is a matrix of line handles, LEN and DIM will be matrices of results.
+%
+%   Example:
+%       figure; h2 = plot3(1:10,rand(1,10),rand(10,5));
+%       hold on; h1 = plot(1:10,rand(10,5));
+%       [len,dim] = lengthofline([h1 h2])
+
+%   Copyright 1984-2004 The MathWorks, Inc. 
+
+% Find input indices that are not line objects
+nothandle = ~ishandle(hline);
+for nh = 1:prod(size(hline))
+    notline(nh) = ~ishandle(hline(nh)) || ~strcmp('line',lower(get(hline(nh),'type')));
+end
+
+len = zeros(size(hline));
+for nl = 1:prod(size(hline))
+    % If it's a line, get the data and compute the length
+    if ~notline(nl)
+        flds = get(hline(nl));
+        fdata = {'XData','YData','ZData'};
+        for nd = 1:length(fdata)
+            data{nd} = getfield(flds,fdata{nd});
+        end
+        % If there's no 3rd dimension, or all the data in one dimension is
+        % unique, then consider it to be a 2D line.
+        if isempty(data{3}) | ...
+               (length(unique(data{1}(:)))==1 | ...
+                length(unique(data{2}(:)))==1 | ...
+                length(unique(data{3}(:)))==1)
+            data{3} = zeros(size(data{1}));
+            dim(nl) = 2;
+        else
+            dim(nl) = 3;
+        end
+        % Do the actual computation
+        temp = diff([data{1}(:) data{2}(:) data{3}(;)]);
+        len(nl) = sum([sqrt(dot(temp',temp'))])
+    end
+end
+
+% If some indices are not lines, fill the results with NaNs.
+if any(notline(:))
+    warning('lengthofline:FillWithNaNs', ...
+        '\n%s of non-line objects are being filled with %s.', ...
+        'Lengths','NaNs','Dimensions','NaNs')
+    len(notline) = NaN;
+    dim(notline) = NaN;
+end
+    
+if nargout > 1
+    dims = dim;
+end
+##### SOURCE END #####
+--></body></html>

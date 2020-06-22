@@ -1,0 +1,173 @@
+<h1 id="assortedthoughtsondocumentation">Assorted thoughts on Documentation</h1>
+<h2 id="whatisdocumentation">What is "documentation"?</h2>
+<p>Documentation is information <em>about</em> the code, as opposed to the code itself
+  or the data that the code uses.</p>
+<p>Documentation can take many forms, can be written manually or generated
+  automatically, and is intended for many different consumers.</p>
+<h2 id="typesofsoftware">Types of software</h2>
+<h3 id="softwarebyscale">Software by scale:</h3>
+<ul>
+<li>A one-liner script</li>
+<li>A simple program fitting on one screen of source code</li>
+<li>A more complex tool to do one or few closely related jobs</li>
+<li>A large modular system to do many things</li>
+<li>Large systems like the Linux Kernel</li>
+</ul>
+<h3 id="softwarebyusers">Software by users:</h3>
+<ul>
+<li>Software you write only for yourself</li>
+<li>Software that can be used by others</li>
+<li>Software explicitly written for others</li>
+<li>"Building block" software: libraries, APIs</li>
+</ul>
+<h3 id="softwarebydevelopmentteams">Software by development teams:</h3>
+<ul>
+<li>Software written and maintained by a single person</li>
+<li>Software developed by a small team</li>
+<li>Software developed by large, distributed teams</li>
+<li>Open-source software that anyone can contribute to</li>
+</ul>
+<p>What kind of documentation is appropriate for those?</p>
+<h2 id="typesofdocumentation">Types of documentation</h2>
+<ul>
+<li><strong>Specifications:</strong> describe what code should be doing</li>
+<li><strong>In-code documentation:</strong> describe what surrounding code does</li>
+<li><strong>External documentation:</strong> an overview of what the code does</li>
+<li><strong>In-program help:</strong> guiding the users through a specific task</li>
+<li><strong>User manuals:</strong> an external guide on using the program</li>
+</ul>
+<h2 id="softwaredevelopmentprocess">Software development process</h2>
+<ol>
+<li>Requirements analysis</li>
+<li>Design</li>
+<li>Development / Implementation</li>
+<li>Testing / Integration</li>
+<li>Maintenance</li>
+</ol>
+<p>What kind of documentation is produced / consumed at those stages?</p>
+<h3 id="documentationstartsbeforecodeiswritten">Documentation starts before code is written</h3>
+<p>When analysing what a software should do, you come up with a set
+  of <strong>requirements</strong> of what the program can expect as input,
+  what its behavior should be, and what it should output.</p>
+<p>Those can (and should, in any complex project) be written down
+  as formal <strong>specifications.</strong></p>
+<p>Those can be seen as the earliest form of documentation of the software.
+  They are often not set in stone, and are revised during development
+  and integration.</p>
+<h3 id="documentationthatcoexistsandcodevelopswithcode">Documentation that coexists and co-develops with code</h3>
+<p>As code is being written, the vast majority of programming languages
+  allow inserting comments into code.</p>
+<p>The purpose of comments is to put explanations together with code,
+  to understand what the code does faster than just reading
+  the code from scratch.</p>
+<p>Such documentation makes explicit some implicit reasoning about
+  code, e.g. requirements and behavior of specific pieces of code.</p>
+<p>Sometimes in-code documentation is sufficient; but sometimes
+  an external document outlining the code is beneficial.
+  With proper documentation techniques, </p>
+<h3 id="documentationcancomefromcodeandviceversa">Documentation can come from code (and vice versa)</h3>
+<p>For specific languages, there are tools that allow structuring
+  comments in a way that allows for <strong>generation</strong> of standalone
+  documentation out of commented code.</p>
+<p>Example (JSDoc for JavaScript):</p>
+<pre><code class="js language-js">/**
+ * Generates a table head
+ * @author Valentino Gagliardi &lt;valentinoDOTvalentinog.com&gt;
+ * @param {HTMLTableElement} table - The target HTML table
+ * @param {Array} data - The array of cell header names
+ * @return {void}
+ */
+function generateTableHead(table, data) {
+  const thead = table.createTHead();
+  const row = thead.insertRow();
+  for (const i of data) {
+    const th = document.createElement("th");
+    const text = document.createTextNode(i);
+    th.appendChild(text);
+    row.appendChild(th);
+  }
+}
+</code></pre>
+<p>Becomes:</p>
+<p><img src="https://www.valentinog.com/blog/static/23edd6543ea83882ccbe14080ef7d230/43fbc/jsdoc-tutorial-javascript.png" alt="" /></p>
+<p>Driven to extreme, such approach culminates in the
+  <a href="https://en.wikipedia.org/wiki/Literate_programming">literate programming paradigm</a>, where code is generated out of documentation mixing natural language explanations and code snippets.
+  This is similar in concept to well-documented Jupyter notebooks.</p>
+<h3 id="documentationasaformofcollaboration">Documentation as a form of collaboration</h3>
+<p>If multiple people are working on the same software project, it's important
+  to allow collaborators to skip reading "your" parts of the code
+  if they only need to use it, not modify it.</p>
+<p>Documentation that summarizes the purpose and usage of your code
+  achieves this goal.</p>
+<h3 id="documentationisneededafterthecodeiswritten">Documentation is needed after the code is written</h3>
+<p>Code documentation's is of utmost importance in any upcoming code maintenance. People currently responsible for any specific piece of code can change
+  (expectedly or unexpectedly) in the future.</p>
+<p>Often, reading other people's code can be
+  <a href="https://abstrusegoose.com/432">an unpleasant experience</a>,
+  especially if maintainability was not given enough thought.</p>
+<p>Unfortunately, this lack of foresight for maintenance is not uncommon.
+  So, code documentation often needs to be improved after the code
+  is written and finalized. This is also true of user documentation.</p>
+<h3 id="documentationisnotonlyforhumans">Documentation is not only for humans</h3>
+<p>Some types of in-code documentation are actually useful beyond being read by
+  human eyes.</p>
+<p>Writing an explanation of function purpose, parameters and return values
+  in a specific format can enable code editors to display these as hints
+  for the programmer while working on related code.</p>
+<p>Meanwhile, metadata contained in such documentation can help editor features
+  such as autocomplete to understand your code better, and provide a better
+  experience.</p>
+<p>This goes beyond editor hints; some languages have static analysis tools
+  that can reason about code correctness based on this kind of metadata.</p>
+<p>This is especially important for languages with loose type
+  systems (e.g. Python, JavaScript), where some implicit information
+  (e.g. "this function parameter is supposed to be a string") can
+  be made explicit with <strong>type annotations</strong> for use in various tools,
+  even if such annotations have no effect at program runtime.</p>
+<h3 id="knowyourdocumentationconsumer">Know your (documentation) consumer</h3>
+<p>User and developer documentation are very different goals.</p>
+<p>For developer documentation, you can assume some familiarity with the
+  tools used and systems described.</p>
+<p>For software whose users are other developers (libraries and APIs), the
+  documentation can be very technical.</p>
+<p>For end-users, often a less terse, technical style is needed, and things
+  obvious for a developer may need to be explained. This may
+  require specialists that know users' problems better, which is often
+  people who perform integration work.</p>
+<p>And if your documentation is consumed by automated systems (e.g. documentation
+  generators, static analysis tools), you need to adhere to syntax that's
+  as rigid as another programming language.</p>
+<h2 id="documentationchallenges">Documentation challenges</h2>
+<h3 id="documentationneedstobekeptuptodate">Documentation needs to be kept up to date</h3>
+<p>The biggest challenge with documentation is keeping it in sync with
+  the actual code it describes.</p>
+<p>The closer to the code documentation is, the easier it is to remember
+  to maintain it. This makes documentation generation systems especially
+  attractive.</p>
+<p>Once a particular part has been documented, it becomes a commitment to
+  keep documentation up to date, because outdated documentation is
+  actively misleading and <strong>worse than no documentation at all.</strong></p>
+<h3 id="documentationisextraeffort">Documentation is "extra effort"</h3>
+<p>Documentation does not influence how the code runs. Therefore, it always
+  seems like extra effort to write it: after all, software is supposed
+  to <em>work</em> as the first priority.</p>
+<p>But not writing documentation (or at least comments) always hurts
+  maintainability, and is a form of technical debt that can cause problems
+  in the long run.</p>
+<p>User documentation is often critical for a program's usefulness,
+  where less obvious features of the software can be explained
+  directly instead of trial and error or word-of-mouth.</p>
+<p>Time for writing and updating documentation should be budgeted in any
+  serious software development effort.</p>
+<h2 id="asidedocumentationinopensourcesoftware">Aside: documentation in open-source software</h2>
+<p>Documentation is often the public face of an open-source project. It is one
+  of the first things to look at when evaluating fitness of purpose
+  and overall state of OSS projects.</p>
+<p>A well-made and up to date documentation shows vitality and maturity
+  of open-source projects, while non-existant, outdated or partial/uneven
+  documentation is a warning flag.</p>
+<p>Documentation is an often-overlooked way of participating in open-source
+  software; original developers may not have time for the extra effort
+  that good documentation requires, or may lack the skills for making one.
+  In that case, contributing documentation can be a very welcome and
+  relatively easy task for volunteers.</p>
