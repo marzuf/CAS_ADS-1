@@ -1,21 +1,21 @@
 # CAS in Applied Data Science (ADS)
 
-This repository contains some material and additional references related to the courses attended in the context of the [ADS CAS] (https://www.math.unibe.ch/continuing_education/cas_applied_data_science/index_eng.html) at University of Bern.
+This repository contains some material and additional references related to the courses attended in the context of the [ADS CAS](https://www.math.unibe.ch/continuing_education/cas_applied_data_science/index_eng.html) at University of Bern.
 
 ## Summary of the content
 
-- Module 1: 
-- Module 2: 
-- Module 3: 
-- Module 4: 
-- Module 5: 
+- Module 1: data acquisition and management
+- Module 2: statistical inference for data science
+- Module 3: data analysis and machine learning
+- Module 4: ethics and best practices
+- Module 5: consolidations and electives
 
 
 ### [Module1](module1/module1_index.md)
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
+<!-- ```markdown
 Syntax highlighted code block
 
 # Header 1
@@ -39,6 +39,8 @@ For more details see [GitHub Flavored Markdown](https://guides.github.com/featur
 
 Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/mariezufferey/CAS_ADS/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
+
+-->
 ### Contact
 
 Questions, comments or suggestions ? Don't hesitate to contact me [documentation](zufferey.marie@bluewin.ch) !
