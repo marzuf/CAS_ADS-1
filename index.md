@@ -1,8 +1,17 @@
-## CAS in Applied Data Science (ADS)
+# CAS in Applied Data Science (ADS)
 
-This repository contains some material and additional references related to the courses attended in the context of the ADS CAS at University of Bern.
+This repository contains some material and additional references related to the courses attended in the context of the [ADS CAS] (https://www.math.unibe.ch/continuing_education/cas_applied_data_science/index_eng.html) at University of Bern.
 
-### Markdown
+## Summary of the content
+
+- Module 1: 
+- Module 2: 
+- Module 3: 
+- Module 4: 
+- Module 5: 
+
+
+### [Module1](module1/module1_index.md)
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
