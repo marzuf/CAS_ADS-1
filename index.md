@@ -15,6 +15,16 @@ This repository contains some material and additional references related to the 
 
 Questions, comments or suggestions ? Don't hesitate to [contact me](mailto:zufferey.marie@bluewin.ch) !
 
+
+### Varia
+
+I received the permission to put this material online. Some files are under specific licenses (see directly in the files). By respect for the authors, mention their name if you use this material.
+
+
+Last but most importantly, support the [GRAAL](http://graal-defenseanimale.org) !
+
+
+
 <!-- ```markdown
 - Module 1: data acquisition and management
 - Module 2: statistical inference for data science
