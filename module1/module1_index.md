@@ -6,7 +6,7 @@
 - [pdf lecture](pdf_lectures/Data_Acquisition_and_Management_1.pdf)
 - [pdf lecture - Data Management Planning](pdf_lectures/DataManagementPlanning.pdf)
 - [pdf lecture - Databases 1/2: the relational model](pdf_lectures/Databases_1-relmod.pdf)
-- [pdf lecture - Databases 2/2: the relational model](pdf_lectures/Databases_2-sql.pdf)
+- [pdf lecture - Databases 2/2: SQL](pdf_lectures/Databases_2-sql.pdf)
 - [Databases - pdf exercises](pdf_lectures/Databases_exercises.pdf)
 - [Databases - solutions to exercises (python script)](pdf_lectures/Databases_access-sql.py)
 
