@@ -7,7 +7,6 @@
 - [jupyter notebook](nb_lectures/M1-D1-DM.ipynb) ([html version](nb_lectures/M1-D1-DM.html))
 
 
-
 ### Contact
 
 Questions, comments or suggestions ? Don't hesitate to contact me [documentation](zufferey.marie@bluewin.ch) !
