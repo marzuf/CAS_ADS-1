@@ -2,28 +2,29 @@
 
 [[Back to main page]](../index.md)
 
+### Electives
 
-#### Python for programmers
+##### Python for programmers
 
-#### Data science with Python and Pandas
+##### Data science with Python and Pandas
 
-#### Statistics with Python 
+##### Statistics with Python 
 
-#### Scalable analytics with Python (DASK)
+##### Scalable analytics with Python (DASK)
 
-#### Image processing with Python
+##### Image processing with Python
 
-#### Machine Learning with Python 
+##### Machine Learning with Python 
 
-#### Machine learning with Dataiku 
+##### Machine learning with Dataiku 
 
-#### Introduction to MATLAB 
+##### Introduction to MATLAB 
 
-#### Deep learning: a practical approach in MATLAB 
+##### Deep learning: a practical approach in MATLAB 
 
-#### Advanced HPC topics 
+##### Advanced HPC topics 
 
-#### Working with containers 
+##### Working with containers 
 
 
 
