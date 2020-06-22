@@ -39,14 +39,16 @@ Estimation](pdf_lectures/pdf_lectures/day1_talk1_2-GANS-Passwords-Implicit-Gener
 ### Other links
 
 - [LeCun's lectures about deep learning at Collège de France](https://www.college-de-france.fr/site/yann-lecun/_audiovideos.htm)
-- [repository with pdf of LeCun's talks](https://drive.google.com/drive/folders/0BxKBnD5y2M8NUXhZaXBCNXE4QlE)
+
+- [Gdrive repository with pdf of LeCun's talks](https://drive.google.com/drive/folders/0BxKBnD5y2M8NUXhZaXBCNXE4QlE)
 
 - [Pattern Recognition and Machine Learning](http://csis.pace.edu/~ctappert/cs855-18fall) course from PACE University
 
 - [Deep learning](https://cs230.stanford.edu) course from Stanford University
 
-- [personal project](mz_cnn)
 - [personal reading notes](my_readings): unordered information retrieved from various web sites (mostly about CNN, RNN, layer output size calculation, Tensorflow implementation and batches)
+
+- [personal project](mz_cnn): final notebooks for my project (CNN)
 
 
 ### Books that helped me
@@ -55,14 +57,12 @@ Estimation](pdf_lectures/pdf_lectures/day1_talk1_2-GANS-Passwords-Implicit-Gener
 
 - Neural networks and deep learning by Michael Nielsen (available [online](http://neuralnetworksanddeeplearning.com) or as a [compiled version](https://github.com/antonvladyka/neuralnetworksanddeeplearning.com.pdf))
 
-- Neural networks and deep Learning by Aggarwal (pdf available [online](); slides for each chapter also available [here]())
+- Neural networks and deep Learning by Aggarwal (pdf available [online](https://rd.springer.com/book/10.1007/978-3-319-94463-0); slides for each chapter also available [here](http://www.charuaggarwal.net/neural.htm))
 
 can be found online [here](http://csis.pace.edu/~ctappert/cs855-18fall/DeepLearningPractitionersApproach.pdf) or [here]
 (https://github.com/changwookjun/StudyBook/blob/master/DeepLearningBooks/Deep%20Learning%20-%20Josh%20Patterson%20%26%20Adam%20Gibson.pdf)
 
-
 - Deep learning by Goodfellow et al. (available [online](http://www.deeplearningbook.org) or as a [compiled version](https://github.com/janishar/mit-deep-learning-book-pdf))
-
 
 - Tensorflow RIP Tutorial (available as [ebook](https://riptutorial.com/ebook/tensorflow))
 
