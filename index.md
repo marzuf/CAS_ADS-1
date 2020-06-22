@@ -10,6 +10,11 @@ This repository contains some material and additional references related to the 
 - [Module 4](module4/module4_index.md): ethics and best practices
 - [Module 5](module5/module5_index.md): consolidations and electives
 
+## Off-topic stuff of particular interest
+
+- pdf (in French) of old [Site du zéro](https://openclassrooms.com/fr/old-courses-pdf) courses  (now [openclassrooms](https://openclassrooms.com))
+- offline version of old tutorials from the [Site du zéro](http://sdz.tdct.org)
+- my other (unformatted) [blog](https://mzuer.github.io/blog/) with a series of posts with tips for R (most of them), python, bash
 
 ## Contact
 
