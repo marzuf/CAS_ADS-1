@@ -11,9 +11,35 @@ This repository contains some material and additional references related to the 
 - Module 5: consolidations and electives
 
 
-### [Module1](module1/module1_index.md)
+### [Module 1](module1/module1_index.md)
 
 Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+
+### [Module 2](module2/module2_index.md)
+
+### [Module 3](module3/module3_index.md)
+
+### [Module 4](module4/module4_index.md)
+
+### [Module 5](module5/module5_index.md)
+- Python for programmers
+- Data science with Python and Pandas
+- Statistics with Python 
+- Scalable analytics with Python (DASK)
+- Image processing with Python
+- Machine Learning with Python 
+- Machine learning with Dataiku 
+- Introduction to MATLAB 
+- Deep learning: a practical approach in MATLAB 
+- Advanced HPC topics 
+- Working with containers 
+
+
+## Contact
+
+Questions, comments or suggestions ? Don't hesitate to contact me [documentation](mailto:zufferey.marie@bluewin.ch) !
+
+
 
 <!-- ```markdown
 Syntax highlighted code block
@@ -41,6 +67,3 @@ Your Pages site will use the layout and styles from the Jekyll theme you have se
 
 
 -->
-### Contact
-
-Questions, comments or suggestions ? Don't hesitate to contact me [documentation](zufferey.marie@bluewin.ch) !
