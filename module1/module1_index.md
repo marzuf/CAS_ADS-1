@@ -20,6 +20,9 @@
 - [pdf lecture](pdf_lectures/Data_Acquisition_and_Management_3.pdf)
 - [jupyter notebook](nb_lectures/M1-D3-WWW.ipynb) ([html version](nb_lectures/M1-D3-WWW.html))
 
+### Personal project
+- [pdf](my_project/CAS-ADS-M1-Project_mzufferey.pdf)
+- [github repository] with all scripts (https://github.com/marzuf/CAS_ADS/tree/master/CAS_2020_M1)
 
 ### Contact
 
