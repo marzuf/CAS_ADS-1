@@ -4,11 +4,25 @@ This repository contains some material and additional references related to the 
 
 ## Summary of the content
 
+- [Module 1](module1/module1_index.md): data acquisition and management
+- [Module 2](module2/module2_index.md): statistical inference for data science
+- [Module 3](module3/module3_index.md): data analysis and machine learning
+- [Module 4](module4/module4_index.md): ethics and best practices
+- [Module 5](module5/module5_index.md): consolidations and electives
+
 - Module 1: data acquisition and management
 - Module 2: statistical inference for data science
 - Module 3: data analysis and machine learning
 - Module 4: ethics and best practices
 - Module 5: consolidations and electives
+
+## Contact
+
+Questions, comments or suggestions ? Don't hesitate to contact me [documentation](mailto:zufferey.marie@bluewin.ch) !
+
+
+
+<!-- ```markdown
 
 
 ### [Module 1](module1/module1_index.md)
@@ -35,13 +49,6 @@ Markdown is a lightweight and easy-to-use syntax for styling your writing. It in
 - Working with containers 
 
 
-## Contact
-
-Questions, comments or suggestions ? Don't hesitate to contact me [documentation](mailto:zufferey.marie@bluewin.ch) !
-
-
-
-<!-- ```markdown
 Syntax highlighted code block
 
 # Header 1
