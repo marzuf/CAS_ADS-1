@@ -53,7 +53,7 @@ Estimation](pdf_lectures/pdf_lectures/day1_talk1_2-GANS-Passwords-Implicit-Gener
 
 ### Books that helped me
 
-- The Elements of Statistical Learning by Hastie et al. (available [online and as pdf] http://www.web.stanford.edu/~hastie/ElemStatLearn)
+- The Elements of Statistical Learning by Hastie et al. (available [online and as pdf](http://www.web.stanford.edu/~hastie/ElemStatLearn))
 
 - Neural networks and deep learning by Michael Nielsen (available [online](http://neuralnetworksanddeeplearning.com) or as a [compiled version](https://github.com/antonvladyka/neuralnetworksanddeeplearning.com.pdf))
 
