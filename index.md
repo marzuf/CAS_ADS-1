@@ -1,8 +1,6 @@
-## Welcome to GitHub Pages
+## CAS in Applied Data Science (ADS)
 
-You can use the [editor on GitHub](https://github.com/mariezufferey/CAS_ADS/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
-
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+This repository contains some material and additional references related to the courses attended in the context of the ADS CAS at University of Bern.
 
 ### Markdown
 
