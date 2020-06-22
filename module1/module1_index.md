@@ -22,7 +22,7 @@
 
 ### Personal project
 - [pdf](my_project/CAS-ADS-M1-Project_mzufferey.pdf)
-- [github repository] with all scripts (https://github.com/marzuf/CAS_ADS/tree/master/CAS_2020_M1)
+- [github repository](https://github.com/marzuf/CAS_ADS/tree/master/CAS_2020_M1) with all scripts 
 
 ### Contact
 
