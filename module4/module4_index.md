@@ -7,7 +7,7 @@
 
 ### Contact
 
-Questions, comments or suggestions ? Don't hesitate to contact me [documentation](zufferey.marie@bluewin.ch) !
+Questions, comments or suggestions ? Don't hesitate to [contact me](mailto:zufferey.marie@bluewin.ch) !
 
 
 
