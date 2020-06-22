@@ -28,5 +28,5 @@ Questions, comments or suggestions ? Don't hesitate to [contact me](zufferey.mar
 
 ### Varia
 
-Last but most importantly, support the [GRAAL](graal-defenseanimale.org) !
+Last but most importantly, support the [GRAAL](http://graal-defenseanimale.org) !
 
