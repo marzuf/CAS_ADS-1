@@ -6,11 +6,9 @@
 
 ##### Python for programmers
 
+- slides ([html](pdf_lectures/e1_Python_for_programmers/Python_3_for_programmers.html), unformatted [pdf](pdf_lectures/e1_Python_for_programmers/Python_3_for_programmers.pdf))
 - [official tutorial](https://docs.python.org/3.7/tutorial)
 - [official documentation](https://docs.python.org/3)
-
-SEE FOLDER - pdf_lectures/e1_Python_for_programmers --- TO FORMAT
-
 - other references:
     - old courses from "Site du zéro": [Apprenez à programmer en Python](http://user.oc-static.com/pdf/223267-apprenez-a-programmer-en-python.pdf), [Pratiques avancées et méconnues en Python](http://user.oc-static.com/pdf/33509-pratiques-avancees-et-meconnues-en-python.pdf), [Utilisation avancée des listes en Python](http://user.oc-static.com/pdf/213097-utilisation-avancee-des-listes-en-python.pdf), [Le pattern Decorator en Python](http://user.oc-static.com/pdf/368501-le-pattern-decorator-en-python.pdf), [La programmation scientifique avec Python](http://user.oc-static.com/pdf/547399-la-programmation-scientifique-avec-python.pdf)
 
@@ -18,15 +16,15 @@ SEE FOLDER - pdf_lectures/e1_Python_for_programmers --- TO FORMAT
 
 - [pdf](pdf_lectures/e2_Python_Pandas/e2_all_pandas.pdf) of all notebooks
 - [notebooks](pdf_lectures/e2_Python_Pandas/notebooks): 
-        - [Pandas introduction](pdf_lectures/e2_Python_Pandas/notebooks/00-Pandas_introduction.ipynb)),
-        - [Pandas objects](pdf_lectures/e2_Python_Pandas/notebooks/01-Pandas_structures.ipynb),
-        - [Importing excel files](pdf_lectures/e2_Python_Pandas/notebooks/02-Pandas_import.ipynb),
-        - [Operations with Pandas objects](pdf_lectures/e2_Python_Pandas/notebooks/03-Pandas_operations.ipynb),
-        - [Combining information in Pandas](pdf_lectures/e2_Python_Pandas/notebooks/04-Pandas_combine.ipynb),
-        - [Splitting data](pdf_lectures/e2_Python_Pandas/notebooks/05-Pandas_splitting.ipynb),
-        - [Advanced plotting](pdf_lectures/e2_Python_Pandas/notebooks/06-Pandas_plotting.ipynb),
-        - [Insight into Machine Learning](pdf_lectures/e2_Python_Pandas/notebooks/07-Pandas_ML.ipynb),
-        - [Exercises](pdf_lectures/e2_Python_Pandas/notebooks/99-Exercise.ipynb),
+        - [Pandas introduction](pdf_lectures/e2_Python_Pandas/notebooks/00-Pandas_introduction.ipynb))
+        - [Pandas objects](pdf_lectures/e2_Python_Pandas/notebooks/01-Pandas_structures.ipynb)
+        - [Importing excel files](pdf_lectures/e2_Python_Pandas/notebooks/02-Pandas_import.ipynb)
+        - [Operations with Pandas objects](pdf_lectures/e2_Python_Pandas/notebooks/03-Pandas_operations.ipynb)
+        - [Combining information in Pandas](pdf_lectures/e2_Python_Pandas/notebooks/04-Pandas_combine.ipynb)
+        - [Splitting data](pdf_lectures/e2_Python_Pandas/notebooks/05-Pandas_splitting.ipynb)
+        - [Advanced plotting](pdf_lectures/e2_Python_Pandas/notebooks/06-Pandas_plotting.ipynb)
+        - [Insight into Machine Learning](pdf_lectures/e2_Python_Pandas/notebooks/07-Pandas_ML.ipynb)
+        - [Exercises](pdf_lectures/e2_Python_Pandas/notebooks/99-Exercise.ipynb)
         - [Solutions to exercises](pdf_lectures/e2_Python_Pandas/notebooks/99-Solutions.ipynb)
 
 ##### Statistics with Python 
