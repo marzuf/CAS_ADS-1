@@ -3,14 +3,17 @@
 [[Back to main page]](../index.md)
 
 ### Data acquisition and management
-- [pdf lecture](pdf_lectures/Data_Acquisition_and_Management_1.pdf)
-- [pdf lecture - Data Management Planning](pdf_lectures/DataManagementPlanning.pdf)
-- [pdf lecture - Databases 1/2: the relational model](pdf_lectures/Databases_1-relmod.pdf)
-- [pdf lecture - Databases 2/2: SQL](pdf_lectures/Databases_2-sql.pdf)
-- [Databases - pdf exercises](pdf_lectures/Databases_exercises.pdf)
-- [Databases - solutions to exercises (python script)](pdf_lectures/Databases_access-sql.py)
+- Introduction ([slides](pdf_lectures/Data_Acquisition_and_Management_1.pdf))
 
-- [jupyter notebook](nb_lectures/M1-D1-DM.ipynb) ([html version](nb_lectures/M1-D1-DM.html))
+- Data management [notebook](nb_lectures/M1-D1-DM.ipynb) ([html version](nb_lectures/M1-D1-DM.html))
+    *- Content:  About data management - Getting used to Jupyter lab - Import datasets into a Python dataframe - Indexing on a dataframe - Sorting - Filtering - Exporting -Missing and bad data - Metadata - Working on the filesysteme*
+
+- Data Management Planning ([slides](pdf_lectures/DataManagementPlanning.pdf))
+- Databases 1/2: the relational model ([slides](pdf_lectures/Databases_1-relmod.pdf))
+- Databases 2/2: SQL ([slides](pdf_lectures/Databases_2-sql.pdf))
+- Databases: [exercises](pdf_lectures/Databases_exercises.pdf) and [solutions to exercises (python script)](pdf_lectures/Databases_access-sql.py)
+
+
 
 ### Visualisation of Data
 - [pdf lecture](pdf_lectures/Data_Acquisition_and_Management_2.pdf)
