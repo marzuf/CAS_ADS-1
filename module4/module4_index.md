@@ -4,42 +4,26 @@
 
 
 #### Day 1: introduction, best practices, errors and ethics
-
 - introduction to this module ([slides](pdf_lectures/day1_1_intro.pdf))
-
 - best practices for scientific computing ([slides](pdf_lectures/day1_2_BestPractices.pdf))
-
 - software errors ([slides](pdf_lectures/day1_3_software_errors.pdf))
-
 - standards of scientific computing - perspectives from ethics and philosophy of science  (slides: [version 2019](pdf_lectures/day1_4_Standards-Computing-2019.pdf), [version 2020](pdf_lectures/day1_4_Standards-Computing-2019.pdf))
 
-
-
 #### Day 2: version control systems - git 
-
 - workshop: learning Git the hard way ([online](https://escodebar.github.io/trainings/git/#/), unformatted [slides](pdf_lectures/day2_Git_workshop.pdf))
 - additional references:
     - Pro Git book (available [online](https://git-scm.com/book/en/v2))
     - Atlassian Git tutorial ([online](https://www.atlassian.com/git))
-    
     - [Git magic tutorial](http://www-cs-students.stanford.edu/~blynn/gitmagic)) by Ben Lynn (Stanford University) (available in many languages, online or in pdf)
-
     -  [Curious git tutorial](https://matthew-brett.github.io/curious-git/index.html) by Matthew Brett (available online or in pdf)
-
     - [GitHub cheat sheet](my_readings/day2_github-git-cheat-sheet.pdf)
-    
     - course from Site du zéro (in French): Gérez vos codes source avec Git ([pdf](http://user.oc-static.com/pdf/254198-gerez-vos-codes-source-avec-git.pdf); [personal lecture notes and command summary](my_readings/day2_siteduzero_cmds.txt) A FORMATER!!!)
-
-- Git course by Daloze and Wilmet (in French) with cheatsheet, slides and exercises ([online](https://eregon.me/git), assembled in [pdf](my_readings/day2_all_eregon.pdf))
-
+    Git course by Daloze and Wilmet (in French) with cheatsheet, slides and exercises ([online](https://eregon.me/git), assembled in [pdf](my_readings/day2_all_eregon.pdf))
     - Git par la pratique by Demaree (in French): [personal lecture notes and command summary](my_readings/day2_git_par_la_pratique_cmds.txt) A FORMATER!!!)
-
     - tutorials  (in French) from [développez.com](https://djibril.developpez.com/tutoriels/conception/pro-git/?page=page_2#LII) -- A COMPLETER
-    
     - [personal reading notes](my_readings/day2_git_web_readings_all.pdf): unordered information retrieved from various web sites about git and GitHub
 
 #### Day 3: IT security
-
 - introduction to IT security for data scientists ([slides](pdf_lectures/day_3_Introduction_to_IT_Security_for_Data_Scientists_v2.pdf))
 
 #### Day 4: software licensing and documentation
