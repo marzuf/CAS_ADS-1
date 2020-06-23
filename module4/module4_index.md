@@ -40,7 +40,7 @@
 
 #### Day 3: IT security
 
-- introduction to IT security for data scientists ([slides](pdf_lectures/day_3_Introduction to_IT_Security_for_Data_Scientists_v2.pdf))
+- introduction to IT security for data scientists ([slides](pdf_lectures/day_3_Introduction_to_IT_Security_for_Data_Scientists_v2.pdf))
 
 #### Day 4: software licensing and documentation
 
