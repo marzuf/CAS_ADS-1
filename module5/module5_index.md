@@ -57,14 +57,12 @@
     - [Image import/export](pdf_lectures/e5_Python_image_processing/notebooks/03-Image_import.ipynb)
     - [Basic Image processing: Filtering, scaling, thresholding](pdf_lectures/e5_Python_image_processing/notebooks/04-Filtering_thresholding.ipynb)
     - [Binary operations, regions](pdf_lectures/e5_Python_image_processing/notebooks/05-Binary_operations.ipynb)
-    - [Applications: Satellite image]
-(pdf_lectures/e5_Python_image_processing/notebooks/06-Applicatio_satellite_image.ipynb)
+    - [Applications: Satellite image](pdf_lectures/e5_Python_image_processing/notebooks/06-Applicatio_satellite_image.ipynb)
     - [Functions](pdf_lectures/e5_Python_image_processing/notebooks/07-Functions.ipynb)
     - [Pattern matching, local maxima](pdf_lectures/e5_Python_image_processing/notebooks/08-Pattern_matching.ipynb)
     - [Watershed algorithm](pdf_lectures/e5_Python_image_processing/notebooks/09-Watershed.ipynb)
     - [3D case](pdf_lectures/e5_Python_image_processing/notebooks/10-3D_case.ipynb)
-    - [Create a short complete analysis]
-(pdf_lectures/e5_Python_image_processing/notebooks/11-Complete_analysis.ipynb)
+    - [Create a short complete analysis](pdf_lectures/e5_Python_image_processing/notebooks/11-Complete_analysis.ipynb)
     - [Image registration](pdf_lectures/e5_Python_image_processing/notebooks/12-Registration.ipynb)
     - [Pixel classification](pdf_lectures/e5_Python_image_processing/notebooks/13-Pixel_classification.ipynb)
     - [Image classification by machine learning: Optical text recognition](pdf_lectures/e5_Python_image_processing/notebooks/14-OCR.ipynb)
@@ -80,8 +78,7 @@
     - [part 1](pdf_lectures/e6_Python_ML/notebooks/Course_1.ipynb): introduction, performance measures, regression ([solutions to exercise](pdf_lectures/e6_Python_ML/notebooks/Solutions_1.ipynb))
     - [part 2](pdf_lectures/e6_Python_ML/notebooks/Course_2.ipynb): decision tree, random forest, boosted decision trees, unsupervised learning techniques (PCA), data visualization (t-SNE/UMAP) ([solutions to exercise](pdf_lectures/e6_Python_ML/notebooks/Solutions_2.ipynb))
     - [part 3](pdf_lectures/e6_Python_ML/notebooks/Course_3.ipynb): clustering (k-means), gaussian mixtures, introduction to neural networks ([solutions to exercise](pdf_lectures/e6_Python_ML/notebooks/Solutions_3.ipynb))
-    - [part 4]
-(pdf_lectures/e6_Python_ML/notebooks/Course_4.ipynb): classification with neural network ([solutions to exercise](pdf_lectures/e6_Python_ML/notebooks/Solutions_4.ipynb))
+    - [part 4](pdf_lectures/e6_Python_ML/notebooks/Course_4.ipynb): classification with neural network ([solutions to exercise](pdf_lectures/e6_Python_ML/notebooks/Solutions_4.ipynb))
 
 ##### Machine learning with Dataiku 
 - introduction to Dataiku ([slides](pdf_lectures/e7_Dataiku/e7_0_U0Bern_Slidedeck_Intro.pdf))
