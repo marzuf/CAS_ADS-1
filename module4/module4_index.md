@@ -11,7 +11,7 @@
 
 - software errors ([slides](pdf_lectures/day1_3_software_errors.pdf))
 
-- standards of scientific computing - perspectives from ethics and philosophy of science  (slides: [version 2019 pdf](pdf_lectures/day1_4_Standards-Computing-2019.pdf), [version 2020 pdf](pdf_lectures/day1_4_Standards-Computing-2019.pdf))
+- standards of scientific computing - perspectives from ethics and philosophy of science  (slides: [version 2019](pdf_lectures/day1_4_Standards-Computing-2019.pdf), [version 2020](pdf_lectures/day1_4_Standards-Computing-2019.pdf))
 
 
 
@@ -22,7 +22,9 @@
     - Pro Git book (available [online](https://git-scm.com/book/en/v2))
     - Atlassian Git tutorial ([online](https://www.atlassian.com/git))
     
-    - [Git magic tutorial](http://www-cs-students.stanford.edu/~blynn/gitmagic)) by Ben Lynn (Stanford University)
+    - [Git magic tutorial](http://www-cs-students.stanford.edu/~blynn/gitmagic)) by Ben Lynn (Stanford University) (available in many languages, online or in pdf)
+
+    -  [Curious git tutorial](https://matthew-brett.github.io/curious-git/index.html) by Matthew Brett (available online or in pdf)
 
     - [GitHub cheat sheet](my_readings/day2_github-git-cheat-sheet.pdf)
     
