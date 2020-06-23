@@ -14,7 +14,7 @@ This repository contains some material and additional references related to the 
 
 - pdf (in French) of old [Site du zéro](https://openclassrooms.com/fr/old-courses-pdf) courses  (now [openclassrooms](https://openclassrooms.com))
 - offline version of old tutorials from the [Site du zéro](http://sdz.tdct.org)
-- pdf and onlien tutorials (in French) from [développez.com](https://general.developpez.com/cours/)
+- pdf and online tutorials (in French) from [développez.com](https://general.developpez.com/cours/)
 - my other (unformatted) [blog](https://mzuer.github.io/blog/) with a series of posts with tips for R (most of them), python, bash
 
 ## Contact
@@ -22,10 +22,12 @@ This repository contains some material and additional references related to the 
 Questions, comments or suggestions ? Don't hesitate to [contact me](mailto:zufferey.marie@bluewin.ch) !
 
 
-### Varia
+## Disclaimer
 
 I received the permission to put this material online. Some files are under specific licenses (see directly in the files). By respect for the authors, mention their name if you use this material.
 
+
+## Varia
 
 Last but most importantly, support the [GRAAL](http://graal-defenseanimale.org) !
 
