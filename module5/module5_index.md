@@ -19,8 +19,18 @@ SEE FOLDER - pdf_lectures/e1_Python_for_programmers --- TO FORMAT
 ##### Data science with Python and Pandas
 
 - [pdf](pdf_lectures/e2_Python_Pandas/e2_all_pandas.pdf) of all notebooks
-- [notebooks](pdf_lectures/e2_Python_Pandas/notebooks)
-    - [notebook_theme1](pdf_lectures/e2_Python_Pandas/notebooks)
+- [notebooks](pdf_lectures/e2_Python_Pandas/notebooks): 
+        - [Pandas introduction](pdf_lectures/e2_Python_Pandas/notebooks/00-Pandas_introduction.ipynb)),
+        - [Pandas objects](pdf_lectures/e2_Python_Pandas/notebooks/01-Pandas_structures.ipynb),
+        - [Importing excel files](pdf_lectures/e2_Python_Pandas/notebooks/02-Pandas_import.ipynb),
+        - [Operations with Pandas objects](pdf_lectures/e2_Python_Pandas/notebooks/03-Pandas_operations.ipynb),
+        - [Combining information in Pandas](pdf_lectures/e2_Python_Pandas/notebooks/04-Pandas_combine.ipynb),
+        - [Splitting data](pdf_lectures/e2_Python_Pandas/notebooks/05-Pandas_splitting.ipynb),
+        - [Advanced plotting](pdf_lectures/e2_Python_Pandas/notebooks/06-Pandas_plotting.ipynb),
+        - [Insight into Machine Learning](pdf_lectures/e2_Python_Pandas/notebooks/07-Pandas_ML.ipynb),
+        - [Exercises](pdf_lectures/e2_Python_Pandas/notebooks/99-Exercise.ipynb),
+        - [Solutions to exercises](pdf_lectures/e2_Python_Pandas/notebooks/99-Solutions.ipynb)
+
 
 
 ##### Statistics with Python 
@@ -28,16 +38,23 @@ SEE FOLDER - pdf_lectures/e1_Python_for_programmers --- TO FORMAT
 - [pdf](pdf_lectures/e3_Python_statistics/e3_python_statistics.pdf) of all notebooks
 
 - [notebooks](pdf_lectures/e3_Python_statistics/notebooks)
-    - [notebook_theme1](pdf_lectures/e3_Python_statistics/notebooks)
-
-
+        - [part 1](pdf_lectures/e3_Python_statistics/notebooks/C-DSF4-NB-1.ipynb): random variables and pdfs, describing data with pdfs, descriptive statistics with Python
+        - [part 2](pdf_lectures/e3_Python_statistics/notebooks/C-DSF4-NB-2.ipynb): parameter estimation and regression
+        - [part 3](pdf_lectures/e3_Python_statistics/notebooks/C-DSF4-NB-3.ipynb): hypothesis testing
 
 ##### Scalable analytics with Python (DASK)
 
 - [slides](pdf_lectures/e4_Python_DASK/01-Dask_delay.pdf) of the course
 
-- [course material](pdf_lectures/e4_Python_DASK/notebooks) TO UPDATE !!! 
-
+- [pdf](pdf_lectures/e4_Python_DASK/notebooks_pdf/e4_all_DASK.pdf) of all notebooks
+- [notebooks](pdf_lectures/e4_Python_DASK/notebooks) 
+        - [Delay and parallel computing](pdf_lectures/e4_Python_DASK/notebooks/01-Dask_delay.ipynb)
+        - [Applied problem: Sequence of operations on images](pdf_lectures/e4_Python_DASK/notebooks/02-Applied_delay_images.ipynb)
+        - [Creating a cluster and observing it](pdf_lectures/e4_Python_DASK/notebooks/03-Cluster_client.ipynb)
+        - [Dask (numpy) arrays](pdf_lectures/e4_Python_DASK/notebooks/04-Dask_arrays.ipynb)
+        - [Dask dataframes](pdf_lectures/e4_Python_DASK/notebooks/05-Dask_dataframes.ipynb)
+        - [Some more features](pdf_lectures/e4_Python_DASK/notebooks/07-Specialized_dask.ipynb)
+        - [Running dask on a cluster](pdf_lectures/e4_Python_DASK/notebooks/08-dask_on_cluster.ipynb)
 
 ##### Image processing with Python
 
@@ -47,6 +64,27 @@ SEE FOLDER - pdf_lectures/e1_Python_for_programmers --- TO FORMAT
     - [notebook_theme1](pdf_lectures/e5_Python_image_processing/notebooks)
 
 - [slides](pdf_lectures/e5_Python_image_processing/Fundamentals_image_processing_slides.pdf)
+       - [Introduction](pdf_lectures/e5_Python_image_processing/notebooks/01-Introduction.ipynb)
+       - [Numpy with images](pdf_lectures/e5_Python_image_processing/notebooks/02-Numpy_images.ipynb)
+       - [Image import/export](pdf_lectures/e5_Python_image_processing/notebooks/03-Image_import.ipynb)
+       - [Basic Image processing: Filtering, scaling, thresholding](pdf_lectures/e5_Python_image_processing/notebooks/04-Filtering_thresholding.ipynb)
+       - [Binary operations, regions](pdf_lectures/e5_Python_image_processing/notebooks/05-Binary_operations.ipynb)
+       - [Applications: Satellite image]
+(pdf_lectures/e5_Python_image_processing/notebooks/06-Applicatio_satellite_image.ipynb)
+       - [Functions](pdf_lectures/e5_Python_image_processing/notebooks/07-Functions.ipynb)
+       - [Pattern matching, local maxima](pdf_lectures/e5_Python_image_processing/notebooks/08-Pattern_matching.ipynb)
+       - [Watershed algorithm](pdf_lectures/e5_Python_image_processing/notebooks/09-Watershed.ipynb)
+       - [3D case](pdf_lectures/e5_Python_image_processing/notebooks/10-3D_case.ipynb)
+       - [Create a short complete analysis]
+(pdf_lectures/e5_Python_image_processing/notebooks/11-Complete_analysis.ipynb)
+       - [Image registration](pdf_lectures/e5_Python_image_processing/notebooks/12-Registration.ipynb)
+       - [Pixel classification](pdf_lectures/e5_Python_image_processing/notebooks/13-Pixel_classification.ipynb)
+       - [Image classification by machine learning: Optical text recognition](pdf_lectures/e5_Python_image_processing/notebooks/14-OCR.ipynb)
+       - [Deep learning](pdf_lectures/e5_Python_image_processing/notebooks/15-DeepLearning.ipynb)
+       - [Image classification using deep learning](pdf_lectures/e5_Python_image_processing/notebooks/16-Image_classification.ipynb)
+       - [Semantic segmentation: Github resources](pdf_lectures/e5_Python_image_processing/notebooks/17-Semantic_segmentation.ipynb)
+       - [Application: DICOM](pdf_lectures/e5_Python_image_processing/notebooks/18-Application_DICOM.ipynb)
+
 
 ##### Machine Learning with Python 
 
@@ -55,6 +93,11 @@ SEE FOLDER - pdf_lectures/e1_Python_for_programmers --- TO FORMAT
 - [notebooks](pdf_lectures/e6_Python_ML/notebooks)
     - [notebook_theme1](pdf_lectures/e6_Python_ML/notebooks)
 
+    - [part 1](pdf_lectures/e6_Python_ML/notebooks/Course_1.ipynb): introduction, performance measures, regression ([solutions to exercise](pdf_lectures/e6_Python_ML/notebooks/Solutions_1.ipynb))
+    - [part 2](pdf_lectures/e6_Python_ML/notebooks/Course_2.ipynb): decision tree, random forest, boosted decision trees, unsupervised learning techniques (PCA), data visualization (t-SNE/UMAP) ([solutions to exercise](pdf_lectures/e6_Python_ML/notebooks/Solutions_2.ipynb))
+    - [part 3](pdf_lectures/e6_Python_ML/notebooks/Course_3.ipynb): clustering (k-means), gaussian mixtures, introduction to neural networks ([solutions to exercise](pdf_lectures/e6_Python_ML/notebooks/Solutions_3.ipynb))
+    - [part 4]
+(pdf_lectures/e6_Python_ML/notebooks/Course_4.ipynb): classification with neural network ([solutions to exercise](pdf_lectures/e6_Python_ML/notebooks/Solutions_4.ipynb))
 
 
 ##### Machine learning with Dataiku 
@@ -70,13 +113,14 @@ SEE FOLDER - pdf_lectures/e1_Python_for_programmers --- TO FORMAT
 ##### Introduction to MATLAB 
 
 - [slides](pdf_lectures/e8_intro_Matlab/e8_WorkshopSlides.pdf)
-- [course material](pdf_lectures/e8_intro_Matlab/Matlab_drive)  TO FORMAT !!! SEE FOLDER
+- [course material](pdf_lectures/e8_intro_Matlab/Matlab_drive): plottings, scripts, data analysis, programming  
 
 
 ##### Deep learning: a practical approach in MATLAB 
 
 - [slides](pdf_lectures/e9_Deep_Learning_Matlab/DeepLearningWorkshopSlides.pdf)
-- [course material](pdf_lectures/e9_Deep_Learning_Matlab/Matlab_drive)  TO FORMAT !!! SEE FOLDER
+- [course material](pdf_lectures/e9_Deep_Learning_Matlab/Matlab_drive): deep learning in 6 lines, pretrained model exercise, MNIST exercise, transfer learning exercise, GPU coder, ECG signal classification, improving network accuracy, speech command recognition, reinforcement learning
+
 
 ##### Advanced HPC topics 
 - [slides](pdf_lectures/e10_SCITS-UBELIX-Advanced.pdf)
