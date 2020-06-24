@@ -56,7 +56,7 @@ Estimation](pdf_lectures/day1_talk1_2-GANS-Passwords-Implicit-Generative-Modelin
 - Tensorflow RIP Tutorial (available as [ebook](https://riptutorial.com/ebook/tensorflow))
 
 ### Contact
-Questions, comments or suggestions ? Don't hesitate to [contact me](zufferey.marie@bluewin.ch) !
+Questions, comments or suggestions ? Don't hesitate to [contact me](mailto:zufferey.marie@bluewin.ch) !
 
 ### Varia
 Last but most importantly, support the [GRAAL](http://graal-defenseanimale.org) !
