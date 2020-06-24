@@ -8,7 +8,7 @@
 - best practices for scientific computing ([slides](pdf_lectures/day1_2_BestPractices.pdf))
 - software errors ([slides](pdf_lectures/day1_3_software_errors.pdf))
 - standards of scientific computing - perspectives from ethics and philosophy of science  (slides: [version 2019](pdf_lectures/day1_4_Standards-Computing-2019.pdf), [version 2020](pdf_lectures/day1_4_Standards-Computing-2019.pdf))
-    - Prelims - Scientific standards - Moral standards
+    - *Prelims - Scientific standards - Moral standards*
 
 #### Day 2: version control systems - git 
 - workshop: learning Git the hard way ([online](https://escodebar.github.io/trainings/git/#/), unformatted [slides](pdf_lectures/day2_Git_workshop.pdf))
@@ -26,12 +26,12 @@
 
 #### Day 3: IT security
 - introduction to IT security for data scientists ([slides](pdf_lectures/day_3_Introduction_to_IT_Security_for_Data_Scientists_v2.pdf))
-    - Current security threats - How to protect your assets - Good IT security practices - How to react to a security incident - Selected topics
+    - *Current security threats - How to protect your assets - Good IT security practices - How to react to a security incident - Selected topics*
 
 #### Day 4: software licensing and documentation
 
 - free and open source software licensing ([slides](pdf_lectures/day4_final_FOSS_slides_18.6.2020.pptx)) - NEED TO UPDATE !
-    - Computer programs: source code and object code - Free and Open Source Software (FOSS): definition(s) - Licensing - FOSS licenses - Allowed uses of FOSS - Price of FOSS - Obligations of FOSS Licenses - Permissive and copyleft licenses - Compatibility of FOSS licenses
+    - *Computer programs: source code and object code - Free and Open Source Software (FOSS): definition(s) - Licensing - FOSS licenses - Allowed uses of FOSS - Price of FOSS - Obligations of FOSS Licenses - Permissive and copyleft licenses - Compatibility of FOSS licenses*
 - software documentation: [online tutorial](https://coderefinery.github.io/documentation) ([pdf of main parts](pdf_lectures/day4_coderefinery.pdf))
     - Motivation and wishlist
     - Popular tools and solutions: comments in code - README files - Wikis - LaTeX/PDF - Doxygen - reStructuredText and Markdown - HTML static site generators
