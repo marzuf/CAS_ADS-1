@@ -3,7 +3,6 @@
 This repository contains some material and additional references related to the courses attended during my [ADS CAS](https://www.math.unibe.ch/continuing_education/cas_applied_data_science/index_eng.html) at University of Bern (2019-2020).
 
 ## Summary of the content
-
 - [Module 1](module1/module1_index.md): data acquisition and management
 - [Module 2](module2/module2_index.md): statistical inference for data science
 - [Module 3](module3/module3_index.md): data analysis and machine learning
@@ -11,24 +10,20 @@ This repository contains some material and additional references related to the 
 - [Module 5](module5/module5_index.md): consolidations and electives
 
 ## Off-topic stuff of particular interest
-
 - pdf (in French) of old [Site du zéro](https://openclassrooms.com/fr/old-courses-pdf) courses  (now [openclassrooms](https://openclassrooms.com))
 - offline version of old tutorials from the [Site du zéro](http://sdz.tdct.org)
 - pdf and online tutorials (in French) from [développez.com](https://general.developpez.com/cours/)
 - my other (unformatted) [blog](https://mzuer.github.io/blog/) with a series of posts with tips for R (most of them), python, bash
 
 ## Contact
-
 Questions, comments or suggestions ? Don't hesitate to [contact me](mailto:zufferey.marie@bluewin.ch) !
 
 
 ## Disclaimer
-
 I received the permission to put this material online. Some files are under specific licenses (see directly in the files). By respect for the authors, mention their name if you use this material.
 
 
 ## Varia
-
 Last but most importantly, support the [GRAAL](http://graal-defenseanimale.org) !
 
 
