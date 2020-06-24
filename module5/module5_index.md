@@ -5,7 +5,6 @@
 ### Electives
 
 ##### Python for programmers
-
 - slides ([html](pdf_lectures/e1_Python_for_programmers/Python_3_for_programmers.html), unformatted [pdf](pdf_lectures/e1_Python_for_programmers/Python_3_for_programmers.pdf))
 - [official tutorial](https://docs.python.org/3.7/tutorial)
 - [official documentation](https://docs.python.org/3)
@@ -13,9 +12,8 @@
     - old courses from "Site du zéro": [Apprenez à programmer en Python](http://user.oc-static.com/pdf/223267-apprenez-a-programmer-en-python.pdf), [Pratiques avancées et méconnues en Python](http://user.oc-static.com/pdf/33509-pratiques-avancees-et-meconnues-en-python.pdf), [Utilisation avancée des listes en Python](http://user.oc-static.com/pdf/213097-utilisation-avancee-des-listes-en-python.pdf), [Le pattern Decorator en Python](http://user.oc-static.com/pdf/368501-le-pattern-decorator-en-python.pdf), [La programmation scientifique avec Python](http://user.oc-static.com/pdf/547399-la-programmation-scientifique-avec-python.pdf)
 
 ##### Data science with Python and Pandas
-
 - [pdf](pdf_lectures/e2_Python_Pandas/e2_all_pandas.pdf) of all notebooks
-- [notebooks](https://github.com/mariezufferey/CAS_ADS/tree/master/module5/pdf_lectures/pdf_lectures/e2_Python_Pandas/notebooks): 
+- [notebooks](https://github.com/mariezufferey/CAS_ADS/tree/master/module5/pdf_lectures/e2_Python_Pandas/notebooks): 
     - [Pandas introduction](pdf_lectures/e2_Python_Pandas/notebooks/00-Pandas_introduction.ipynb)
     - [Pandas objects](pdf_lectures/e2_Python_Pandas/notebooks/01-Pandas_structures.ipynb)
     - [Importing excel files](pdf_lectures/e2_Python_Pandas/notebooks/02-Pandas_import.ipynb)
@@ -28,7 +26,6 @@
     - [Solutions to exercises](pdf_lectures/e2_Python_Pandas/notebooks/99-Solutions.ipynb)
 
 ##### Statistics with Python 
-
 - [pdf](pdf_lectures/e3_Python_statistics/e3_python_statistics.pdf) of all notebooks
 - [notebooks](https://github.com/mariezufferey/CAS_ADS/tree/master/module5/pdf_lectures/e3_Python_statistics/notebooks):
     - [part 1](pdf_lectures/e3_Python_statistics/notebooks/C-DSF4-NB-1.ipynb): random variables and pdfs, describing data with pdfs, descriptive statistics with Python
@@ -36,8 +33,6 @@
     - [part 3](pdf_lectures/e3_Python_statistics/notebooks/C-DSF4-NB-3.ipynb): hypothesis testing
 
 ##### Scalable analytics with Python (DASK)
-
-- [slides](pdf_lectures/e4_Python_DASK/01-Dask_delay.pdf) of the course
 - [pdf](pdf_lectures/e4_Python_DASK/notebooks_pdf/e4_all_DASK.pdf) of all notebooks
 - [notebooks](https://github.com/mariezufferey/CAS_ADS/tree/master/module5/pdf_lectures/e4_Python_DASK/notebooks):
     - [Delay and parallel computing](pdf_lectures/e4_Python_DASK/notebooks/01-Dask_delay.ipynb)
@@ -49,7 +44,6 @@
     - [Running dask on a cluster](pdf_lectures/e4_Python_DASK/notebooks/08-dask_on_cluster.ipynb)
 
 ##### Image processing with Python
-
 - [pdf](pdf_lectures/e5_Python_image_processing/e5_all_image_processing.pdf) of all notebooks
 - [notebooks](https://github.com/mariezufferey/CAS_ADS/tree/master/module5/pdf_lectures/e5_Python_image_processing/notebooks):
     - [Introduction](pdf_lectures/e5_Python_image_processing/notebooks/01-Introduction.ipynb)
@@ -72,7 +66,6 @@
     - [Application: DICOM](pdf_lectures/e5_Python_image_processing/notebooks/18-Application_DICOM.ipynb)
 
 ##### Machine Learning with Python 
-
 - [pdf](pdf_lectures/e6_Python_ML/e6_python_ML.pdf) of all notebooks
 - [notebooks](https://github.com/mariezufferey/CAS_ADS/tree/master/module5/pdf_lectures/e6_Python_ML/notebooks):
     - [part 1](pdf_lectures/e6_Python_ML/notebooks/Course_1.ipynb): introduction, performance measures, regression ([solutions to exercise](pdf_lectures/e6_Python_ML/notebooks/Solutions_1.ipynb))
@@ -90,12 +83,12 @@
 
 ##### Introduction to MATLAB 
 - [slides](pdf_lectures/e8_intro_Matlab/e8_WorkshopSlides.pdf)
-- [course material](pdf_lectures/e8_intro_Matlab/Matlab_drive): plottings, scripts, data analysis, programming  
+- [course material](https://github.com/mariezufferey/CAS_ADS/tree/master/module5/pdf_lectures/e8_intro_Matlab/Matlab_drive): plottings, scripts, data analysis, programming  
 
 
 ##### Deep learning: a practical approach in MATLAB 
 - [slides](pdf_lectures/e9_Deep_Learning_Matlab/DeepLearningWorkshopSlides.pdf)
-- [course material](pdf_lectures/e9_Deep_Learning_Matlab/Matlab_drive): deep learning in 6 lines, pretrained model exercise, MNIST exercise, transfer learning exercise, GPU coder, ECG signal classification, improving network accuracy, speech command recognition, reinforcement learning
+- [course material](https://github.com/mariezufferey/CAS_ADS/tree/master/module5/pdf_lectures/e9_Deep_Learning_Matlab/Matlab_drive): deep learning in 6 lines, pretrained model exercise, MNIST exercise, transfer learning exercise, GPU coder, ECG signal classification, improving network accuracy, speech command recognition, reinforcement learning
 
 ##### Advanced HPC topics 
 - [slides](pdf_lectures/e10_SCITS-UBELIX-Advanced.pdf)
@@ -105,11 +98,9 @@
 
 
 ### Contact
-
 Questions, comments or suggestions ? Don't hesitate to [contact me](mailto:zufferey.marie@bluewin.ch) !
 
 
 ### Varia
-
 Last but most importantly, support the [GRAAL](http://graal-defenseanimale.org) !
 
