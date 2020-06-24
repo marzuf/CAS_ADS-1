@@ -16,7 +16,7 @@
 
 - [pdf](pdf_lectures/e2_Python_Pandas/e2_all_pandas.pdf) of all notebooks
 - [notebooks](pdf_lectures/e2_Python_Pandas/notebooks): 
-    - [Pandas introduction](pdf_lectures/e2_Python_Pandas/notebooks/00-Pandas_introduction.ipynb))
+    - [Pandas introduction](pdf_lectures/e2_Python_Pandas/notebooks/00-Pandas_introduction.ipynb)
     - [Pandas objects](pdf_lectures/e2_Python_Pandas/notebooks/01-Pandas_structures.ipynb)
     - [Importing excel files](pdf_lectures/e2_Python_Pandas/notebooks/02-Pandas_import.ipynb)
     - [Operations with Pandas objects](pdf_lectures/e2_Python_Pandas/notebooks/03-Pandas_operations.ipynb)
