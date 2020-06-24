@@ -76,7 +76,7 @@
 ##### Machine learning with Dataiku 
 - introduction to Dataiku ([slides](pdf_lectures/e7_Dataiku/e7_0_U0Bern_Slidedeck_Intro.pdf))
 - data preparation and machine learning models ([slides](pdf_lectures/e7_Dataiku/e7_1_U0Bern_HandsOn_1.pdf))
-- image classification model (deep learning) ([slides](pdf_lectures/e7_Dataiku/e7_3_Hands-On_Deep_Learning_Session Simpsons.pdf))
+- image classification model (deep learning) ([slides](pdf_lectures/e7_Dataiku/e7_3_Hands-On_Deep_Learning_Session_Simpsons.pdf))
 - how to get a certificate ([slides](pdf_lectures/e7_Dataiku/e7_2_U0Bern_Slidedeck_Certifiable.pdf))
 - personal reading notes from internet about Dataiku concepts ([v1](pdf_lectures/e7_Dataiku/e7_dataiku_info.pdf), [v2](pdf_lectures/e7_Dataiku/e7_wwww_concepts.pdf))
 
