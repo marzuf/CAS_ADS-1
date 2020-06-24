@@ -44,7 +44,7 @@ Estimation](pdf_lectures/day1_talk1_2-GANS-Passwords-Implicit-Generative-Modelin
 - [Pattern Recognition and Machine Learning](http://csis.pace.edu/~ctappert/cs855-18fall) course from PACE University
 - [Deep learning](https://cs230.stanford.edu) course from Stanford University
 - [personal reading notes](my_readings): unordered information retrieved from various web sites (mostly about CNN, RNN, layer output size calculation, Tensorflow implementation and batches)
-- [personal project](mz_cnn): final notebooks for my project (CNN)
+- [personal project](https://github.com/mariezufferey/CAS_ADS/tree/master/module3/mz_cnn): final notebooks for my project (CNN)
 
 ### Some books of interest
 - The Elements of Statistical Learning by Hastie et al. (available [online and as pdf](http://www.web.stanford.edu/~hastie/ElemStatLearn))
