@@ -15,7 +15,7 @@
 - additional references:
     - Pro Git book (available [online](https://git-scm.com/book/en/v2))
     - Atlassian Git tutorial ([online](https://www.atlassian.com/git))
-    - [Git magic tutorial](http://www-cs-students.stanford.edu/~blynn/gitmagic)) by Ben Lynn (Stanford University) (available in many languages, online or in pdf)
+    - [Git magic tutorial](http://www-cs-students.stanford.edu/~blynn/gitmagic) by Ben Lynn (Stanford University) (available in many languages, online or in pdf)
     -  [Curious git tutorial](https://matthew-brett.github.io/curious-git/index.html) by Matthew Brett (available online or in pdf)
     - [GitHub cheat sheet](my_readings/day2_github-git-cheat-sheet.pdf)
     - course from Site du zéro (in French): Gérez vos codes source avec Git ([pdf](http://user.oc-static.com/pdf/254198-gerez-vos-codes-source-avec-git.pdf); [personal lecture notes and command summary](my_readings/day2_siteduzero_cmds.txt) A FORMATER!!!)
@@ -25,7 +25,7 @@
     - [personal reading notes](my_readings/day2_git_web_readings_all.pdf): unordered information retrieved from various web sites about git and GitHub
 
 #### Day 3: IT security
-- introduction to IT security for data scientists ([slides](pdf_lectures/day_3_Introduction to_IT_Security_for_Data_Scientists_v2.pdf))
+- introduction to IT security for data scientists ([slides](pdf_lectures/day_3_Introduction_to_IT_Security_for_Data_Scientists_v2.pdf))
     - Current security threats - How to protect your assets - Good IT security practices - How to react to a security incident - Selected topics
 
 #### Day 4: software licensing and documentation
