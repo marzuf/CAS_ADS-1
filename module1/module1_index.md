@@ -16,7 +16,7 @@
 
 ### Visualisation of Data
 - [slides](pdf_lectures/Data_Acquisition_and_Management_2.pdf)
-Line charts histograms scatter plots pie charts
+    - Line charts - Histograms - Scatter plots - Pie charts
 - [jupyter notebook](nb_lectures/M1-D2-DV.ipynb) ([html version](nb_lectures/M1-D2-DV.html))
 
 ### Data acquisition on the world wide web¶
