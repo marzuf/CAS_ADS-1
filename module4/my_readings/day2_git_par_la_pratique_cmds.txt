@@ -1,3 +1,7 @@
+###################################################
+##### FONDAMENTAUX
+###################################################
+
 git config <>
 # peut être utilisée depuis n'importe quel répertoire
 
@@ -75,6 +79,10 @@ git add mon_nouveau_fichier
 git add --all
 # ou 
 git add -A
+
+###################################################
+##### BRANCHES
+###################################################
 
 # gestion de versions séqentielles: chaque commit inclut une référence à la précédente (commit parent)
 
@@ -185,6 +193,9 @@ git merge master
 # les fusions fréquentes permettent aux branches de rester à jour les unes par rapport aux autres
 # et les rendent plus faciles à gérer en limitant les différences
 
+###################################################
+##### REPOSITORIES DISTANTS
+###################################################
 
 # un repository distant est une copie d'un projet git qui se trouve ailleurs
 # contrairement aux branches qui sont pour l'essentiel des copies virtuelles du projet
@@ -298,6 +309,10 @@ git merge origin/master
 git checkout nom_branche_a_travailler
 # (le préfixe origin/ n'est pas utile)
 
+
+###################################################
+##### HISTORIQUE
+###################################################
 
 # chaque commit ajouté contribue à l'historique du projet
 
@@ -425,6 +440,10 @@ git checkout origin/ma-branche-2
 
 # à noter que les branches de git peuvent être visualisées comme un graphique orienté acyclique (GOA)
 
+
+###################################################
+##### ANNEXE
+###################################################
 # résumé des commandes
 
 git config [--global] <clé> <valeur>

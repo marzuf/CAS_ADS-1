@@ -1,0 +1,552 @@
+###################################################
+####FONDAMENTAUX
+###################################################
+```
+git config <>
+```
+peut être utilisée depuis n'importe quel répertoire
+
+```
+git config --global <>
+```
+indique que ce sont les valeurs par défaut pour tous les projets de l'ordinateur
+
+le nom et l'adresse (git config --global user.name et git config --global user.email)
+sont utilisés pour attribuer les commits (tant que les commits n'ont pas été poussés
+vers un serveur, les informations restent locales)
+
+créer un nouveau projet
+```
+git init
+```
+
+cloner un projet existant
+```
+git clone <>
+```
+-> crée un nouveau répertoire (portant le nom du repository présent sur le serveur)
+-> intialise un nouveau repository git
+-> ajoute un serveur distant appelé origin
+-> extrait les modifications de ce serveur distant
+(pour utiliser un autre nom de répertoire, un autre nom de dossier peut être passé à la commande git clone 
+```
+git clone <adresse serveur> <nouveau nom>
+```
+le clone créé contient tout l'historique du repository, y.c. toutes les modifications partagées par 
+toutes les autres copies
+
+importance des commits: organisation et gestion de notre travail par git est axé sur les commits
+les commits sont un type de données git appelé objet (un type parmi d'autres d'objets)
+chaque information connue par git est stockée sous forme d'objet
+et chaque objet possède un nom unique dérivé de son contenu
+chaque commit représente un snapshot complet de l'état du projet à un moment donné
+git procède par additions: les commits sont toujours ajoutés
+
+git status
+permet de savoir l'état du projet
+
+pour pouvoir commiter un fichier, celui-ci doit être suivi (distinction entre l'ajout et le commit)
+le commit enregistre les modifications apportées aux fichiers figurant dans la base de données de git
+
+git add <>
+prend un snapshot du fichier et l'enregistre dans le repository pour qu'il soit référençable ultérieurement dans un commit
+
+pour commiter le fichier:
+git commit --message "premier comit"
+ou plus court:
+git commit -m "premier commit"
+
+avant de commiter, il faut ajouter avec git add -> indexation
+zone d'indexation = là où se trouvent les nouvelles versions, entre le moment où les fichiers sont mis à jour et 
+le moment où ils sont commités; est locale sur notre ordinateur (ni synchronisée, ni partagée)
+2 effets de l'indexation
+1) git fournit un snapshot du fichier à sa base de données afin de pouvoir y référence lors du prochain commit
+2) git démarre une ébauche locale du prochain commit en référençant tous les fichiers et répertoires contenus dans le dossier
+(un commit est autonome: ne réfèrence pas seulement ce qui a changé, mais tout ce qui compose l'état du projet)
+
+supprimer des fichiers
+si on supprime un fichier de la copie de travail d'un projet, il faut la retirer du repository
+rappel: git est un système d'accumulation; git ne se soucie des changements que dans le contexte d'un commit
+git rm mon_fichier
+-> git crée un nouveau snapshot du projet sans mon_fichier et indexe cette version comme la prochaine à commiter
+il faut donc après procéder au commit 
+git commit -m "suppression mon_fichier"
+
+si on renomme un fichier, git indiquera que le fichier avec le nom initial a été supprimé et qu'il y a un nouveau fichier
+avec le nouveau nom qui n'est pas suivi
+si on renomme mon_fichier en mon_nouveau_fichier, la commande
+git mv mon_fichier mon_nouveau_fichier 
+ne fonctionnera pas (il aurait fallu l'utiliser avant de renommer le fichier)
+en ayant renommé le fichier, git reconnait deux changements non commités: une suppression (de mon_fichier) et un ajout (de mon_nouveau_fichier)
+pour mettre fin a suivi de mon_fichier
+git rm mon_fichier
+suivre le fichier sous son nouveau nom
+git add mon_nouveau_fichier
+le même résultat aurait pu être obtenu en utilisant git mv dès le départ
+
+pour ajouter directement tout ce qui a changé dans notre copie locale:
+git add --all
+ou 
+git add -A
+
+###################################################
+####BRANCHES
+###################################################
+
+gestion de versions séqentielles: chaque commit inclut une référence à la précédente (commit parent)
+
+une branche est une copie virtuelle du projet (un projet dans le projet) où on peut commiter librement 
+des opérations de façon isolée par rapport au reste du repository, séparément de la branche master
+
+chaque repository commence avec une branche principale (master); est une branche comme les autres
+si ce n'est son rôle de version primaire, stable du projet
+
+lister toutes les branches du repository local
+git branch
+
+en coulisse, une branche n'est rien de plus qu'un surnom lisible pointant vers un commit particulier
+(branche est une pile de commits)
+
+si on veut travailler sur une partie du projet qui prendra du temps et beaucoup de commits -> créer une nouvelle branche (branche thématique ou branche de travail)
+pour créer nouvelle branche
+git branche nom_nouvelle_branche
+(le commit en cours est utilisé comme point de départ; la nouvelle branche démarre avec à sa tête le commit qui était en tête de la branche master)
+(les deux branches n'ont aucun lien excepté qu'elles partagent ce commit)
+après l'exécution de cette commande, master reste la branche en cours
+
+l'extraction d'une branche a 2 effets:
+1) réinitialise la copie de travail qui devient le reflet du commit de tête de la branche
+2) définit la branche choisie comme branche actuelle, de sorte que chaque nouveau commit sera ajouté à la branche en question
+
+pour changer de branche
+git checkout nom_nouvelle_branche
+
+raccourci: création et changement de branche peut se faire en une commande 
+git checkout -b nom_nouvelle_branche
+
+après cela la nouvelle branche devrait être visible en tapant
+git branch
+(l'astérisque indique la branche en cours)
+
+même s'ils sont parfaitement identiques pour le moment (le commit de tête des deux branches - ainsi que tous les précédents - 
+est le même), les deux objets sont distincts
+
+après avoir extrait la branche nom_nouvelle_branche, tout ce qu'on fait appartient à cette branche thématique et
+ne figurera pas dans la branche master
+
+git commit -am "mon commit"
+pour combiner l'ajout automatique de tous les fichiers et préciser un message de commit 
+(une seule option peut prendre un argument et doit être placée en dernier)
+
+git crée le commit et déplace le pointeur de la branche en cours vers le commit qui vient d'être effectué
+(lorsqu'on ajoute un commit à une branche, le nouveau commit remplace le précédent en tête de la branche)
+
+c'est sur le commit de tête de la branche que se base le prochain commit 
+
+si on travaille sur des branches en parallèle, toutes les modifications apportées
+sur une branche sont isolées de celles faites sur l'autre
+
+en principe, le nom de la branche doit donner un description logique de sa raison d'être
+
+une branche peut simplement être un lieu d'expérimentations jetables
+mais la plupart du temps on veut ensuite l'intégrer à la copie principale
+comme en principe master continue d'évoluer de son côté, il faudra synchroniser 
+ces modifications avec celles de la branche -> fusionner les deux versions
+extraire la branche master dans la copie locale (branche extraite = la branche en cours)
+git checkout master
+insérer les modifications de l'autre branche dans la copie de master
+git merge ma_branche
+la version master contient maintenant tout ce qui s'y trouvait plus les modifications apportées dans la branche ma_branche
+
+le résultat d'un merge est un commit (chaque commit représente un snapshot complet du projet)
+
+un merge fast-forward est le type le plus simple et le plus facile
+après un merge fast-forward, les 2 branches pointent vers le même commit et deviennent 
+à nouveau identiques à tous égards (à l'exception de leur nom)
+les fast-forward sont réservés aux cas où seule une des deux branches présente de nouveaux commits
+
+dans les autres cas, git détermine quel doit être l'état combiné du projet, crée un snapshot représentant
+cette nouvelle version fusionnée puis ajoute un commit d'un type spécifique (merge commit) pour finir l'opération
+(git compare les fichiers modifiés dans les deux branches et s'il n'y a pas de modifications à la même ligne, peut les fusionner)
+
+il est possible de demander à git de gérer et indexer la version fusionnée mais de ne pas la commiter avec
+git merge -- no-commit nom_branche
+(peut être utile si on veut ajouter un message de commit)
+
+les merge commits présentent quelques caractéristiques particulières, par ex. ils peuvent avoir plus d'un seul parent
+
+maintenir des branches avec une durée de vie courte avant de les fusionner à master réduit les risques de conflits de fusion
+et facilite le merge final
+
+il est recommandé de fusionner les nouveaux commits apportés à master dans la branche afin de maintenir cette dernière à jour
+en rentrant (depuis notre branche)
+git merge master
+
+les conflits de fusion apparaissent le plus souvent quand 2 lignes d'un merge se superposent
+i.e. quand deux versions différentes tentent de modifier simultanément la même ligne d'un même fichier
+dans ces cas-là git demande de terminer nous-même le merge commit
+
+en cas de conflit, les fichiers qui ont été modifiés et qui ne posent pas de problème sont automatiquement ajoutés
+à la zone d'indexation; pour ceux qui posent problème, il faut examiner les différences et sélectionner manuellement
+à cette fin, git remplit chaque fichier conflictuel d'annotations "marqueurs de conflit"; il faut les examiner unes 
+à unes en substituant au text annoté la version à obtenir après le merge (conflits signalés par des lignes de chevrons)
+
+une fois le fichier conflictuel modifié manuellement, il faut l'ajouter à la zone d'indexation (git add nom_fichier) et 
+le commité (git commit -m "") séparément 
+le conflit pourrait être résolu en modifiant le fichier de façon à ce qu'il ne ressemble à aucune des versions conflictuelles
+la version du fichier qui est indexée au moment du dernier commit et celle qui "remporte" le merge
+
+! accidentellement, un fichier plein de marqueurs de conflit pourrait être archivé !
+
+en fusionnant régulièrement dans la branche master les conflits peuvent souvent être évités
+les fusions fréquentes permettent aux branches de rester à jour les unes par rapport aux autres
+et les rendent plus faciles à gérer en limitant les différences
+
+###################################################
+####REPOSITORIES DISTANTS
+###################################################
+
+un repository distant est une copie d'un projet git qui se trouve ailleurs
+contrairement aux branches qui sont pour l'essentiel des copies virtuelles du projet
+chaque repository distant correspond à une copie réelle et physique du repository
+les repositories distants ne sont que des instances du projet stockées dans un endroit
+accessible permettant d'y pousser ou d'en tirer des commits
+
+les repositories côté serveur sont des repositories "vierges": ils comprennent uniquement les données réelles
+du repository (versions précédentes, branches), sans aucune copie de travail (et donc sans zone d'indexation)
+un repository git vierge est déisgné en ajoutant .git à son nom (l'architecture interne est similaire au .git
+de notre répertoire local de travail)
+côté serveur le repository git contient tous les commits qui ont été poussés et son propre groupe de branches
+
+! il n'existe pas forcément de relations directes entre les branches distantes et celles présentes en local
+il faudra être spécifique, e.g. pour pousser des modifications d'une branche locale vers la jumelle sur le serveur
+git push nom_repository nom_branche
+
+un repository est dit distant du moment qu'il est ailleurs; github est le service de repositories git le plus utilisé
+
+pour utiliser un repository git distant comme origine de notre projet
+git remote add origin <adresse.git>
+NB: git remote comprend des sous-commandes, les commandes liées à la configuration des repositories distants 
+(e.g. remote add, remote rm, etc.)
+sans sous-commande
+git remote
+présente une liste de tous les repositories distants ajoutés au projet
+
+si un projet est cloné avec git clone, add origine est effectué automatiquement: les repositories clonés depuis
+un serveur distant sont toujours préconfigurés avec ce serveur comme origine
+
+le repository distants principal s'appelle par défaut origin (peut être renommé, mais cela est déconseillé)
+
+git prend en charge 3 protocoles réseau différents git, ssh et http
+
+SSH ne fonctionne que pour les repositories privés car il n'offre aucun moyen d'autoriser à quelqu'un à accéder
+à des ressources sans authentification
+
+HTTPS est plus souple; n'importe quel internaute peut être autorisé à récupérer des modifications sur le repository
+tout en limitant le push aux membres d'une équipe; en principe, est le protocole à favoriser
+
+le protocole Git est rarement utilisé; ne permet que la lecture
+
+contrairement aux branches ordinaires, les branches distantes se trouvent sur une autre machine
+une fois commitée une modification dans une branche de notre repository local, il faut utiliser git push
+pour soumettre la copie de la branche (et tous les commits ajoutés) au serveur
+git push <repository_distant> <branche>
+e.g.
+git push origin nouvelle-page-accueil
+pour rafraichir la copie locale d'une branche pour récupérer les dernières modifications, il faut utiliser git pull
+pour intégrer les modifications effectuées dans une branche distante:
+git pull <repository_distant> <branche>
+e.g. 
+git pull origin nouvelle-page-accueil
+
+ce qu'il se passe lors d'un push/pull: git doit transférer un paquet d'objets (commits et fichiers suivis) depuis ou vers le serveur
+ensuite a lieu un merge (fast-forward si tout se passe bien); le merge fait implicitement partie d'un pull/push
+lors d'un pull, git copie la branche du serveur vers un emplacement de notre ordinateur (FETCH_HEAD) avant de tenter le merge
+(c'est une branche temporaire créée comme tampon afin de fusionner les modifications récupérées) 
+autrement dit, pull/push sont les versions distantes du merge et les deux font la même chose (déplacer une branche d'un ordinateur
+à un autre puis la fusionner à une autre branche)
+
+pour éviter les risques de conflits lors de la fusion, il est recommandé de récupérer régulièrement la branche master du serveur:
+git pull origin master
+
+résoudre les conflits lors d'un push:
+le processessus de résolution est le même que pour un git merge local
+une foit le conflit résolu, il faut indexer (git add nom_fichier), commiter (git commit -m "") et pousser sur le serveur (git push) ces modifications
+
+conflits lors d'un push: en règle général, les repositories git côté serveur n'ont pas de copie de travail, de zones d'indexation et d'utilisateurs
+pour résoudre les conflits -> ne peuvent pas faire une fusion de branche si le fast-forward ne fonctionne pas
+le conflit peut être résolu en récupérant les modifications depuis le serveur et en essayant de les pousser à nouveau 
+(le fast-forward consiste à déplacer le pointeur HEAD d'une branche du commit où il se trouve actuellement vers l'un de ses descendants directs; quand
+on récupère des modifications, le résultat est un merge commit, qui se trouve être un descendant direct du commit de la tête actuelle et peut donc 
+être traité par un fast-forward)
+-> pour éviter un rejet, en principe, toujours faire un pull avant un push pour être sûr que la copie locale est à jour
+
+rien ne lie par défaut les copies locales et distantes d'une branche donnée, même si elles portent le même nom
+on peut indiquer à git que les versions locales et distantes d'une branche sont liées en précisant qu'une branche locale
+suit son homologue distante (push/pull pourra être lancé sans argument pour pousser/récupérer des modifications)
+pour établir une relation de suivi, il faut indiquer --set-upstream (-u) dans git push
+git push -u nom_repository nom_branche
+ceci n'est à faire qu'une fois par branche locale
+
+git pull récupère les modifications d'une seule branche; git fetch récupère tout le contenu d'un repository distant en une opération
+git fetch nom_repository
+(récupère le snapshot de chaque branche d'un repository distant)
+
+git garde une trace de l'état de chaque branche d'un repository distant à l'aide d'un système de branches en lecture seule
+sans espace de nommage, basé dans notre copie locale du repository
+après fetch, on obtient des copies de chaque branche du repository distant, y compris de celles qui n'ont aucun équivalent
+local dans notre copie
+ces copies hors ligne spéciales peuvent parfois compliquer les choses, mais comme elles sont en lecture seule, ne servent
+qu'à représenter une copie de ce qui se trouve sur le serveur (git n'utilise le réseau que pour déplacer les commits)
+
+comment ajouter un commit à la branche de quelqu'un d'autre ?
+d'abord, récupérer des copies de toutes les branches actuellement sur le serveur:
+git fetch origin
+(toutes les branches du serveur sont maintenant à notre disposition, même hors ligne)
+
+git branche ne liste que les branches qui se trouvent sur notre copie locale; pour lister également toutes les branches connues 
+se trouvant sur des repositories distants:
+git branch --remote
+-> toutes ces branches peuvent être extraites et utilisées ou fusionnées dans l'une de  nos branches locales, NB:
+git pull origin master
+est en fait un raccourci pour
+git fetch
+git merge origin/master
+
+pour extraire la branche sur laquelle on veut travailler:
+(si on ne possède pas de branche locale avec ce nom, en crée une automatique pour suivre la branche distante)
+git checkout nom_branche_a_travailler
+(le préfixe origin/ n'est pas utile)
+
+
+###################################################
+####HISTORIQUE
+###################################################
+
+chaque commit ajouté contribue à l'historique du projet
+
+pour afficher une liste ordonnée (ordre chronologique inverse) de commits:
+git log
+par défaut, la liste présentée commence par le comit de tête de la branche actuelle
+pour afficher l'historique d'une branche particulière: 
+git log ma-branche
+
+on peut utiliser l'option --pretty pour choisir un formatage, e.g.
+git log --pretty=oneline
+e.g. format personnalisé afin de connaitre l'auteur de chaque commit
+git log --pretty='format:%h - %an: %s' 
+
+un commit contient une référence vers un ou plusieurs commits parents, qui pointent vers leurs 
+comits parents et ainsi de suite jusqu'au début du projet
+
+on peut faire afficher les commits qui ont eu lieu entre deux commits donnés (e.g. pour voir ce qui a changé entre 2 commits précis)
+git log debut..fin
+pour afficher tous les commits ajoutés à ma-branche pas encore fusionnés à master:
+git log --oneline master..ma-branche
+(oneline rend le résultat plus lisible)
+git log branche-a..branche-b affiche une liste de tous les commits de branche-b qui ne figurent pas dans branche-a
+si l'une des bornes de l'intervalle de commits est la HEAD actuelle, on peut laisser blanc, e.g.
+git log --oneline ..master
+
+on peut ajouter des options de filtrage pour limiter la liste des commits, e.g.
+git log --author=Demare --grep=heroku --online Gemfile
+-> filtre pour les commits dont l'auteur est Demare, qui proviennent de l'un de ces dossiers, contiennent le mot heroku et ont modifié le fichier Gemfile
+
+
+id des commits: git doit affecter un nom ou numéro d'identification unique à chaque commit
+bien qu'il soit décentralisé, git doit garantir l'exactitude des données
+crée et utilise des ids basés sur le contenu de chaque commit plutôt qu'en affectant un nom ou numéro arbitraire
+les ids sont des sommes de contrôle (= sorte d'empreinte digitale numérique généralement utilsée pour commiter des données transmises sur un réseau)
+
+quand on ajoute un commit, git prend tout ce qui le constitue (auteur, e-mail, date, heure, message de commit, référence aux commits parents 
+et snapshot du projet) et lui applique une fonction de hashage afin de générer une chaine de 40 caractères
+ainsi, deux commits identiques auront des hashes identiques quel que soit l'ordinateur qui les a ajoutés
+-> chaque hashe identifie donc un seul commit de façon unique
+les premiers caractères (au moins quatre) peuvent être utilisés à la place de l'id entier du moment que cet id court est unique dans le repository
+
+le message de commit peut être aussi long qu'on veut; il est recommandé qu'il soit court et descriptif
+seule la 1ère ligne apparait dans le log, c'est donc la plus importante
+
+si on omet le --message dans la commande commit, on peut saisir le message directement dans un éditeur; pour configurer quel est l'éditeur favori:
+git config --global core.editor 'atom --wait'
+
+recommandations pour les messages de commit: utile, précis, cohérent, en utilisant la voix active (e.g. "corrigé coquille page index")
+
+il est recommandé qu'un commit corresponde à une unité de travail (on peut indexer et commiter des fichiers séparément si cela fait plus de sens)
+
+chaque commit représente un changement par rapport au commit précédent; pour inspecter les différences entre deux commits
+git diff
+(les lignes ajoutées apparaissent préfixées de "+", celles supprimées de "-")
+NB: l'outil généraliste Kaleidoscope peut être utilisé pour comparer deux fichiers de n'importe quel type
+pour ouvrir les diff dans Kaleidoscope:
+git difftool
+
+pour afficher les statistiques des différences entre le commit HEAD actuel et le précédent (HEAD~1)
+git diff --stat HEAD~1
+
+git diff ne compare que deux versions à la fois
+git diff --stat HEAD~50
+-> ne représente pas les 50 derniers commits, mais la différence avec le commit qui occupe la 50ème place
+
+les statistiques peuvent aussi être utilisées avec git log
+git log --stat --pretty=format:"%h (%an) %s" HEAD~1..
+-> statistiques en se limitant aux modifications survenues depuis l'avant-dernier commit avec format personnalisé
+
+étiqueter les commits: les commits peuvent recevoir des noms permanents lisibles appelés tags
+tags sont semblables aux branches dans la mesure où elles attribuent des noms lisibles par l'homme à des commits particuliers
+mais contrairement aux branches qui flottent et désignent toujours le commit de tête, les tags désignent toujours un commit spécifique
+afin de marquer des moments intéressants ou importants du projet
+(en général, n'ont pas un grand intérêt)
+pour étiqueter un commit:
+git tag nom_tag
+une fois un commit étiqueté, le tag peut être utilisé partout là où on utiliserait l'id du commit
+si le commit n'est pas extrait au moment où on souhaite l'étiqueter:
+git tag nom_tag commit_id
+e.g.
+git tag version1.0 3028c32
+
+c'est un exemple de tag léger, qui est stocké dans le repository; juste un nom pointant vers un commit (comme dans le cas d'une branche)
+il existe des tags annotés qui, en plus d'un et une référence vers un commit, peuvent inclure un message similaire à un message de commit:
+git tag version1.0 -a -m 'Version 1.0 22 dec 2020'
+
+les tags comme les branches peuvent et doivent être partagés sur un repository distant et peuvent être poussés vers un repository distant 
+de la même manière avec git push
+git push version1.0
+
+quelques règles concernant les tags: 
+- les noms des tags doivent être uniques (sinon ne pourra pas être poussé)
+- une branche et un tag peuvent avoir le même nom (ce n'est pas une bonne idée); en cas d'ambiguïté, la priorité est donnée à la branche
+- les tags peuvent être modifiés et supprimés (git tag -d nom_tag pour supprimer un tag); mais un tag est fait pour servir dde surnom durable
+à un commit spécifique; il n'est pas recommandé de modifier les noms des tags
+
+git checkout sert à extraire une branche; il peut aussi servir à extraire un commit -> restaure une copie locale du projet dans la version demandée
+le principe est le même pour extraire une branche ou un commit; mais en principe on ne s'attend pas à ajouter des commits après l'extraction d'un commit
+(mais cela reste possible; e.g. si on veut restaurer une version antérieure si un bug a été introduit)
+git checkout commit_id
+ou
+git checkout commit_tag
+
+git propose aussi un outil qui effectue ce type de recherche binaire et trouve automatiquement le commit responsable d'un problème donné:
+git bisect
+
+quand on extrait un commit, contrairement à une branche, git place dans l'état de "HEAD détaché": le pointeur HEAD de notre ordinateur
+pointe vers un commit particulier mais pas une branche ("détaché" car on ne travaille sur aucune branche)
+si on ajoute des commits, ils seront enregistrés mais aucun nom de branche n'est disponible pour y faire référence)
+on n'est pas censé ajouter des commits dans cet état détaché, mais peut être utilisé comme "bac à sable" (cela limite les risques 
+d'intégrer les changements testés à la version de production)
+les commits réalisés restent dans l'état détaché, sans domicile, jusqu'à ce qu'une branche soit créée pour les contenir
+pour créer une nouvelle branche pour les accueillir:
+git checkout -b nouvelle_branche
+pour sortir de l'état détaché, il suffit d'extraire une branche; revenir à master:
+git checkout master
+
+NB: git checkout traite toutes les références qui ne sont pas un nom de branche comme un commit, même si on la demande en utilisant 
+une référence qui inclut le nom de la branche -> on pourrait ainsi se retrouver dans l'état détaché par inadvertance; ainsi:
+git checkout ma-branche-2 
+pour extraire la branche nommée ma-branche-2 -> on extrait une branche
+mais si on extrait une référence à une branche distante, on extrait le commit qui se trouve actuellement à la tête de la branche, mais pas la branche
+git checkout origin/ma-branche-2 
+
+à noter que les branches de git peuvent être visualisées comme un graphique orienté acyclique (GOA)
+
+
+###################################################
+####ANNEXE
+###################################################
+résumé des commandes
+
+git config [--global] <clé> <valeur>
+mise à jour des paramètres de git; --global indique que les préférences sont enregistrées dans un fichier du répertoire d'accueil
+autrement elles sont enregistrées et appliquées uniquement à un projet spécifique
+
+git init
+crée un nouveau projet git dans le répertoire de travail courant
+
+git clone <URL> [répertoire]
+copie un projet git existant
+
+git status [-s] [chemin/vers/truc]
+renvoie le statut de la copie de travail (identifie fichiers modifiés mais non indexés, ou ajoutés et non commités
+version raccourcie avec --short ou -s; un répertoire ou nom de fichier peut être indiqué pour limiter les résultés
+
+git add [--all] nomfichier.txt
+ajouter un fichier modifié à la zone d'indexation en vue de son inclusion dans le prochain commit
+
+git rm dossier/nomfichier.txt
+supprime le fichier puis indexe la suppression pour le prochain commit 
+si le fichier a déjà été supprimé, se contente d'indexer le changement
+
+git mv ancien.txt nouveau.txt
+déplace le fichier et indexe la modification
+
+git reset nomfichier.txt
+inverse de git add: désindexe la modification de nomfichier.txt préalablement indexée
+
+git commit [-a] [-m "mon mesage"]
+ajoute un commit comprenant toutes les modifications indexées
+--all ou -a pour indexer automatiquement toutes les modifications apportées à la copie de travail
+--message ou -m pour préciser le message de commit (si pas précisé, git ouvre l'éditeur de texte pour le saisir)
+
+git branch [-r|-a]
+affiche une liste de toutes les branches; par défaut présente uniquement celles présentes dans la copie local du repository
+-r pour présenter toutes les branches récupérées d'un repository distant
+-a pour afficher les branches locales et distantes
+
+git branch <nombranche> [<IDcommit>]
+avec un nom de branch, git branch crée une branche sous ce nom qui démarre au commit actuel ou au commit spécifié
+
+git checkout [-b] <nombranche-ou-commit>
+met à jour la copie de travail afin qu'elle corresponde à la branche ou commit indiqué
+(fait basculer sur cette branche/ce commit)
+si une branche est extraite: git la définit comme la branche en cours pour y ajouter des commits
+si un commit/tag est extrait: git nous détache de toutes les branches -> on peut ajouter des commits 
+#								mais ils ne seront accessibles que via leur identifiant
+
+git merge <autrebranche>
+fusionne autrebranche avec la branche actuelle; en cas de conflit, copie et indexe la plus grande portion possible
+de l'autre branche et balise les fichiers conflictuels
+
+git remote add <nom> <URL>
+ajoute un repository distant sous l'URL et le nom indiqué dans les paramètres du projet git local
+
+git remote rm <nom>
+retire le repository des paramètres de notre projet ainsi que toutes les branches de suivi distantes récupérées depuis le serveur
+(ne supprime le repository distant qu'au niveau des paramètres locaux; le serveur et les autres machines ne sont pas affectés)
+
+git push <nomrepodistant> <nombranche>
+pousse l'état actuel de nombranche dans le repository distant 
+
+git pull <nomrepodistant> <nombranche>
+récupère l'état actuel de nombranche dans le repository distant vers la copie locale et tente de le fusionner avec la branche actuelle 
+
+git fetch <nomrepodistant>
+copie tout le contenu du repository distant vers la copie locale 
+(lors d'un git pull, git fetch se produit automatiquement)
+
+git log [--online] [--pretty] [nombranche-ou-commit]
+affiche une liste des commits en ordre chronologique inverse
+--pretty pour personnaliser le résultat
+--online pour le format le plus courant (ID de commit suivi du message de commit sur chaque ligne)
+
+git diff [--stat] [nombranche-ou-commit]
+présentation visuelle des différences entre 2 commits
+--stat produit une vue résumée avec la liste des fichiers et modifiés et le nombre de lignes ajoutées/supprimées dans chacun d'eux
+
+git tag [-a][-m] <nomtag> [<commit>]
+étiqueter un tag avec nomtag
+-a pour créer un tag annoté (inclut la date, l'auteur et un message descriptif -> inclure --message ou -m comme pour un commit)
+autrement un tag léger est créé
+
+git tag -d <nomtag>
+supprimer un tag (en principe, ne devrait pas se faire)
+
+git tag -l
+liste de tous les tags de notre repository
+
+git push --tags <nomrepodistant> 
+sans l'option --tags, git ne pousse aucun tag 
+
+
+references:
+https://githubtraining.github.io/training-manual/book.pdf
+https://git-scm.com/book
