@@ -22,7 +22,7 @@
     - [GitHub cheat sheet](my_readings/day2_github-git-cheat-sheet.pdf)
     - Git course by Daloze and Wilmet (in French) with cheatsheet, slides and exercises ([online](https://eregon.me/git), assembled in [pdf](my_readings/day2_all_eregon.pdf))
     - course from Site du zéro (in French): Gérez vos codes source avec Git ([pdf](http://user.oc-static.com/pdf/254198-gerez-vos-codes-source-avec-git.pdf); personal lecture notes and command summary: [txt](my_readings/day2_siteduzero_cmds.txt), [md](my_readings/day2_siteduzero_cmds.md))
-    - Git par la pratique by Demaree (in French); personal lecture notes and command summary: [txt](my_readings/day2_git_par_la_pratique_cmds.txt), [md](my_readings/day2_git_par_la_pratique_cmds.md)))
+    - Git par la pratique by Demaree (in French); personal lecture notes and command summary: [txt](my_readings/day2_git_par_la_pratique_cmds.txt), [md](my_readings/day2_git_par_la_pratique_cmds.md))
     - [personal reading notes](my_readings/day2_git_web_readings_all.pdf): unordered information retrieved from various web sites about git and GitHub
 
 #### Day 3: IT security
