@@ -30,6 +30,11 @@
 
 - free and open source software licensing ([slides](pdf_lectures/day4_final_FOSS_slides_18.6.2020.pptx)) - NEED TO UPDATE !
 - software documentation: [online tutorial](https://coderefinery.github.io/documentation) ([pdf of main parts](pdf_lectures/day4_coderefinery.pdf))
+    - Motivation and wishlist
+    - Popular tools and solutions: comments in code - README files - Wikis - LaTeX/PDF - Doxygen - reStructuredText and Markdown - HTML static site generators
+    - Sphinx and reStructuredText
+    - Deploying Sphinx documentation to Read the Docs
+    - Hosting websites/homepages on GitHub Pages
 - additional notes on documentation by Dr. Alexander Kashev ([pdf](pdf_lectures/day4_NotesOnDocumentation.pdf), [html](pdf_lectures/day4_NotesOnDocumentation.html), [md](pdf_lectures/day4_NotesOnDocumentation.md))
 
 
