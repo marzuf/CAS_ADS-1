@@ -3,7 +3,6 @@
 [[Back to main page]](../index.md)
 
 ### Lectures
-
 - day 1 - [Machine Learning Trends – Generative Adversarial
 Networks (GANs)](pdf_lectures/day1_talk1_2-GANS-ML-Trends-Generative-Adversarial-Networks.pdf)
     - *Supervised and unsupervised learning - Density estimation - Prescribed models - Latent variable models - Generative Adversarial Networks (GANs)*
@@ -27,55 +26,38 @@ Estimation](pdf_lectures/day1_talk1_2-GANS-Passwords-Implicit-Generative-Modelin
  
 ### Tutorials (juypter notebooks)
 - day 1 - tutorial 1: ([jupyter notebook](tutorials/TutorialI.ipynb), [pdf](tutorials/TutorialI.pdf))
-    -  _mots clés_
+    -  *Introduction to TensorFlow*
 - day 1 - tutorial 2: ([jupyter notebook](tutorials/TutorialII.ipynb), [pdf](tutorials/TutorialII.pdf))
-    -  _mots clés_
+    - *Optimization in TensorFlow - Introduction to neural networks in TensorFlow*
 - day 2 - tutorial 3: ([jupyter notebook](tutorials/TutorialIII.ipynb), [pdf](tutorials/TutorialIII.pdf))
-    -  _mots clés_
+    -  *Handwritten digit recognition*
 - day 2 - tutorial 4: ([jupyter notebook](tutorials/TutorialIV.ipynb), [pdf](tutorials/TutorialIV.pdf))
-    -  _mots clés_
-- day 3 - tutorial 5: ([jupyter notebook](tutorials/TutorialV.ipynb), [pdf](tutorials/TutorialV.pdf))
-    -  _mots clés_
+    -  *Convolutions - Image recognition with Inception*
+- day 3 - tutorial 5: (jupyter notebooks: [v1](tutorials/TutorialV.ipynb), [v2](tutorials/Tutorial V_T-V_split_solution.ipynb), [pdf -  v1](tutorials/TutorialV.pdf), [pdf - v2](tutorials/Tutorial V_T-V_split_solution.pdf))
+    - *Deep models - Image classifier using pretrained Inception model 
 - day 4 - tutorial 6: ([jupyter notebook](tutorials/TutorialVI.ipynb), [pdf](tutorials/TutorialVI.pdf))
-    -  _mots clés_
-    
+    -  *Recurrent neural networks to predict/generate text sequence*
     
 ### Other links
-
 - [LeCun's lectures about deep learning at Collège de France](https://www.college-de-france.fr/site/yann-lecun/_audiovideos.htm)
-
 - [Gdrive repository with pdf of LeCun's talks](https://drive.google.com/drive/folders/0BxKBnD5y2M8NUXhZaXBCNXE4QlE)
-
 - [Pattern Recognition and Machine Learning](http://csis.pace.edu/~ctappert/cs855-18fall) course from PACE University
-
 - [Deep learning](https://cs230.stanford.edu) course from Stanford University
-
 - [personal reading notes](my_readings): unordered information retrieved from various web sites (mostly about CNN, RNN, layer output size calculation, Tensorflow implementation and batches)
-
 - [personal project](mz_cnn): final notebooks for my project (CNN)
 
-
-### Books that helped me
-
+### Some books of interest
 - The Elements of Statistical Learning by Hastie et al. (available [online and as pdf](http://www.web.stanford.edu/~hastie/ElemStatLearn))
-
 - Neural networks and deep learning by Michael Nielsen (available [online](http://neuralnetworksanddeeplearning.com) or as a [compiled version](https://github.com/antonvladyka/neuralnetworksanddeeplearning.com.pdf))
-
 - Neural networks and deep Learning by Aggarwal (pdf available [online](https://rd.springer.com/book/10.1007/978-3-319-94463-0); slides for each chapter also available [here](http://www.charuaggarwal.net/neural.htm))
-
 - Deep learning - a practicioner's approach by Patterson and Gibson (can be found online [here](http://csis.pace.edu/~ctappert/cs855-18fall/DeepLearningPractitionersApproach.pdf) or [here](https://github.com/changwookjun/StudyBook/blob/master/DeepLearningBooks/Deep%20Learning%20-%20Josh%20Patterson%20%26%20Adam%20Gibson.pdf)
-
 - Deep learning by Goodfellow et al. (available [online](http://www.deeplearningbook.org) or as a [compiled version](https://github.com/janishar/mit-deep-learning-book-pdf))
-
+- Pattern recognition and machine learning by Bishop (can be found online [here](http://users.isr.ist.utl.pt/~wurmd/Livros/school/Bishop%20-%20Pattern%20Recognition%20And%20Machine%20Learning%20-%20Springer%20%202006.pdf))
 - Tensorflow RIP Tutorial (available as [ebook](https://riptutorial.com/ebook/tensorflow))
 
-
-
 ### Contact
-
 Questions, comments or suggestions ? Don't hesitate to [contact me](zufferey.marie@bluewin.ch) !
 
 ### Varia
-
 Last but most importantly, support the [GRAAL](http://graal-defenseanimale.org) !
 
