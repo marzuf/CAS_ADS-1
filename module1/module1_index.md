@@ -9,14 +9,18 @@
     - *About data management - Getting used to Jupyter lab - Import datasets into a Python dataframe - Indexing on a dataframe - Sorting - Filtering - Exporting -Missing and bad data - Metadata - Working on the filesysteme*
 
 - Data Management Planning ([slides](pdf_lectures/DataManagementPlanning.pdf))
+    - *Open science - Data management - Data sharing and reuse*
 - Databases 1/2: the relational model ([slides](pdf_lectures/Databases_1-relmod.pdf))
+    - *Database Management System - SQLite - Relational Model - SQL - Other Data Models*
 - Databases 2/2: SQL ([slides](pdf_lectures/Databases_2-sql.pdf))
+    - *Data definition language - Data manipulation language*
 - Databases: [exercises](pdf_lectures/Databases_exercises.pdf) and [solutions to exercises (python script)](pdf_lectures/Databases_access-sql.py)
 
 
 
 ### Visualisation of Data
 - [slides](pdf_lectures/Data_Acquisition_and_Management_2.pdf)
+Line charts histograms scatter plots pie charts
 - [jupyter notebook](nb_lectures/M1-D2-DV.ipynb) ([html version](nb_lectures/M1-D2-DV.html))
 
 ### Data acquisition on the world wide web¶
