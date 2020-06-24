@@ -31,7 +31,7 @@
 #### Day 4: software licensing and documentation
 
 - free and open source software licensing ([slides](pdf_lectures/day4_final_FOSS_slides_18.6.2020.pptx)) - NEED TO UPDATE !
-    - Computer programs: source code and object code - Free and Open Source Software (FOSS): definition(s) - Licensing - FOSS licenses - Allowed uses of FOSS - Price of FOSS - Obligations of FOSS Licenses - Permissive and copyleft licenses - Compatibility of FOSSLicenses
+    - Computer programs: source code and object code - Free and Open Source Software (FOSS): definition(s) - Licensing - FOSS licenses - Allowed uses of FOSS - Price of FOSS - Obligations of FOSS Licenses - Permissive and copyleft licenses - Compatibility of FOSS licenses
 - software documentation: [online tutorial](https://coderefinery.github.io/documentation) ([pdf of main parts](pdf_lectures/day4_coderefinery.pdf))
     - Motivation and wishlist
     - Popular tools and solutions: comments in code - README files - Wikis - LaTeX/PDF - Doxygen - reStructuredText and Markdown - HTML static site generators
@@ -42,12 +42,9 @@
 
 
 ### Contact
-
 Questions, comments or suggestions ? Don't hesitate to [contact me](mailto:zufferey.marie@bluewin.ch) !
 
 
-
 ### Varia
-
 Last but most importantly, support the [GRAAL](http://graal-defenseanimale.org) !
 
