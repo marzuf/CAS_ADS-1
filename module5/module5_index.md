@@ -15,7 +15,7 @@
 ##### Data science with Python and Pandas
 
 - [pdf](pdf_lectures/e2_Python_Pandas/e2_all_pandas.pdf) of all notebooks
-- [notebooks](pdf_lectures/e2_Python_Pandas/notebooks): 
+- [notebooks](https://github.com/mariezufferey/CAS_ADS/tree/master/module5/pdf_lectures/pdf_lectures/e2_Python_Pandas/notebooks): 
     - [Pandas introduction](pdf_lectures/e2_Python_Pandas/notebooks/00-Pandas_introduction.ipynb)
     - [Pandas objects](pdf_lectures/e2_Python_Pandas/notebooks/01-Pandas_structures.ipynb)
     - [Importing excel files](pdf_lectures/e2_Python_Pandas/notebooks/02-Pandas_import.ipynb)
@@ -30,7 +30,7 @@
 ##### Statistics with Python 
 
 - [pdf](pdf_lectures/e3_Python_statistics/e3_python_statistics.pdf) of all notebooks
-- [notebooks](pdf_lectures/e3_Python_statistics/notebooks):
+- [notebooks](https://github.com/mariezufferey/CAS_ADS/tree/master/module5/pdf_lectures/e3_Python_statistics/notebooks):
     - [part 1](pdf_lectures/e3_Python_statistics/notebooks/C-DSF4-NB-1.ipynb): random variables and pdfs, describing data with pdfs, descriptive statistics with Python
     - [part 2](pdf_lectures/e3_Python_statistics/notebooks/C-DSF4-NB-2.ipynb): parameter estimation and regression
     - [part 3](pdf_lectures/e3_Python_statistics/notebooks/C-DSF4-NB-3.ipynb): hypothesis testing
@@ -39,7 +39,7 @@
 
 - [slides](pdf_lectures/e4_Python_DASK/01-Dask_delay.pdf) of the course
 - [pdf](pdf_lectures/e4_Python_DASK/notebooks_pdf/e4_all_DASK.pdf) of all notebooks
-- [notebooks](pdf_lectures/e4_Python_DASK/notebooks):
+- [notebooks](https://github.com/mariezufferey/CAS_ADS/tree/master/module5/pdf_lectures/e4_Python_DASK/notebooks):
     - [Delay and parallel computing](pdf_lectures/e4_Python_DASK/notebooks/01-Dask_delay.ipynb)
     - [Applied problem: Sequence of operations on images](pdf_lectures/e4_Python_DASK/notebooks/02-Applied_delay_images.ipynb)
     - [Creating a cluster and observing it](pdf_lectures/e4_Python_DASK/notebooks/03-Cluster_client.ipynb)
@@ -51,7 +51,7 @@
 ##### Image processing with Python
 
 - [pdf](pdf_lectures/e5_Python_image_processing/e5_all_image_processing.pdf) of all notebooks
-- [notebooks](pdf_lectures/e5_Python_image_processing/notebooks):
+- [notebooks](https://github.com/mariezufferey/CAS_ADS/tree/master/module5/pdf_lectures/e5_Python_image_processing/notebooks):
     - [Introduction](pdf_lectures/e5_Python_image_processing/notebooks/01-Introduction.ipynb)
     - [Numpy with images](pdf_lectures/e5_Python_image_processing/notebooks/02-Numpy_images.ipynb)
     - [Image import/export](pdf_lectures/e5_Python_image_processing/notebooks/03-Image_import.ipynb)
@@ -74,7 +74,7 @@
 ##### Machine Learning with Python 
 
 - [pdf](pdf_lectures/e6_Python_ML/e6_python_ML.pdf) of all notebooks
-- [notebooks](pdf_lectures/e6_Python_ML/notebooks):
+- [notebooks](https://github.com/mariezufferey/CAS_ADS/tree/master/module5/pdf_lectures/e6_Python_ML/notebooks):
     - [part 1](pdf_lectures/e6_Python_ML/notebooks/Course_1.ipynb): introduction, performance measures, regression ([solutions to exercise](pdf_lectures/e6_Python_ML/notebooks/Solutions_1.ipynb))
     - [part 2](pdf_lectures/e6_Python_ML/notebooks/Course_2.ipynb): decision tree, random forest, boosted decision trees, unsupervised learning techniques (PCA), data visualization (t-SNE/UMAP) ([solutions to exercise](pdf_lectures/e6_Python_ML/notebooks/Solutions_2.ipynb))
     - [part 3](pdf_lectures/e6_Python_ML/notebooks/Course_3.ipynb): clustering (k-means), gaussian mixtures, introduction to neural networks ([solutions to exercise](pdf_lectures/e6_Python_ML/notebooks/Solutions_3.ipynb))
