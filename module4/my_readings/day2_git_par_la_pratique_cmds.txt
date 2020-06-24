@@ -537,7 +537,3 @@ git tag -l
 git push --tags <nomrepodistant> 
 # sans l'option --tags, git ne pousse aucun tag 
 
-
-# references:
-https://githubtraining.github.io/training-manual/book.pdf
-https://git-scm.com/book
