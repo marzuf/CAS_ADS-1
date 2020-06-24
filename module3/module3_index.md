@@ -18,7 +18,7 @@ Estimation](pdf_lectures/day1_talk1_2-GANS-Passwords-Implicit-Generative-Modelin
     - *Optimization in feedforward neural networks: batch and mini-batch algorithms - stochastic gradient descent - weight initialization*
     - *CNNs: convolutions (standard, unshared, tiled) - stride - padding - pooling*
 - day 4 - [Deep unsupervised learning / Generative Adversarial Networks (GANs) / Self-supervised learning / Deep Recurrent Neural etworks (RNNs)](pdf_lectures/day4_3-Lecture-4_Deep-Unsupervised-Learning.pdf)
-    -  *Deep unsupervised learning: autoencoders - generative models (variational autoencoders)*
+    - *Deep unsupervised learning: autoencoders - generative models (variational autoencoders)*
     - *GANs: generative modeling - principles of adversarial Learning - issues: vanishing gradient and mode collapse*
     - *Self-supervised learning: principles - overview of the literature - recent developments - transfer learning*
     - *Deep RNNs and sequence Modeling*
@@ -33,7 +33,7 @@ Estimation](pdf_lectures/day1_talk1_2-GANS-Passwords-Implicit-Generative-Modelin
     -  *Handwritten digit recognition*
 - day 2 - tutorial 4: ([jupyter notebook](tutorials/TutorialIV.ipynb), [pdf](tutorials/TutorialIV.pdf))
     -  *Convolutions - Image recognition with Inception*
-- day 3 - tutorial 5: (jupyter notebooks: [v1](tutorials/TutorialV.ipynb), [v2](tutorials/Tutorial V_T-V_split_solution.ipynb), [pdf -  v1](tutorials/TutorialV.pdf), [pdf - v2](tutorials/Tutorial V_T-V_split_solution.pdf))
+- day 3 - tutorial 5: (jupyter notebooks: [v1](tutorials/TutorialV.ipynb), [v2](tutorials/Tutorial_V_T-V_split_solution.ipynb), [pdf -  v1](tutorials/TutorialV.pdf), [pdf - v2](tutorials/Tutorial_V_T-V_split_solution.pdf))
     - *Deep models - Image classifier using pretrained Inception model 
 - day 4 - tutorial 6: ([jupyter notebook](tutorials/TutorialVI.ipynb), [pdf](tutorials/TutorialVI.pdf))
     -  *Recurrent neural networks to predict/generate text sequence*
