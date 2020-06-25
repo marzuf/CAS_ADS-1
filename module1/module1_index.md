@@ -30,8 +30,7 @@
 ### Contact
 Questions, comments or suggestions ? Don't hesitate to [contact me](mailto:zufferey.marie@bluewin.ch) !
 
-
-### Varia
+### Off-topic
 Last but most importantly, support the [GRAAL](http://graal-defenseanimale.org) !
 
 
