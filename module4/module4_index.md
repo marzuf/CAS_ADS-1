@@ -31,7 +31,7 @@
 
 #### Day 4: software licensing and documentation
 
-- free and open source software licensing ([slides](pdf_lectures/day4_final_FOSS_slides_18.6.2020.pptx)) - NEED TO UPDATE !
+- free and open source software licensing ([slides](pdf_lectures/day4_final_FOSS_18.6.2020.pptx) and [exercises](day4_FOSS_Exercise_with_Solutions.pdf))
     - *Computer programs: source code and object code - Free and Open Source Software (FOSS): definition(s) - Licensing - FOSS licenses - Allowed uses of FOSS - Price of FOSS - Obligations of FOSS Licenses - Permissive and copyleft licenses - Compatibility of FOSS licenses*
 - software documentation: [online tutorial](https://coderefinery.github.io/documentation) ([pdf of main parts](pdf_lectures/day4_coderefinery.pdf))
     - Motivation and wishlist
