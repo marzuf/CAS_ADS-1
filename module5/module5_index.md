@@ -109,12 +109,18 @@
 
 ##### Working with containers 
 - [slides](pdf_lectures/e11_containers_course.pdf)
-
-
+- other references:
+    - [Singularity official user guide](https://singularity.lbl.gov/user-guide)
+    - comprehensive [introductory workshop on Singularity](https://singularity-tutorial.github.io) by David Godlove 
+    - tutorials from Bioinformatics Workbook about [introduction](https://bioinformaticsworkbook.org/Appendix/HPC/Containers/Intro_Singularity.html#gsc.tab=0), [creation](https://bioinformaticsworkbook.org/Appendix/HPC/Containers/creatingContainers.html#gsc.tab=0) and [modification](https://bioinformaticsworkbook.org/Appendix/HPC/Containers/modifyingExistingContainers.html#gsc.tab=0) of containers
+    - [short tutorial from Tübingen University](https://uni-tuebingen.de/en/108114)
+    - [short tutorial from Washington State University](https://hpc.wsu.edu/programmers-guide/singularity)
+    - [short tutorial from TechExpert TIPS](https://techexpert.tips/fr/singularity-fr/utilisation-de-commandement-de-base-de-singularity)
+    
 ### Contact
 Questions, comments or suggestions ? Don't hesitate to [contact me](mailto:zufferey.marie@bluewin.ch) !
 
 
-### Varia
+### Off-topic
 Last but most importantly, support the [GRAAL](http://graal-defenseanimale.org) !
 
