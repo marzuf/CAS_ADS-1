@@ -10,10 +10,11 @@ This repository contains some material and additional references related to the 
 - [Module 5](module5/module5_index.md): consolidations and electives
 
 ## Off-topic stuff of particular interest
+- various online tutorials from [Cornell Virtual Workshop](https://cvw.cac.cornell.edu/topics)
 - pdf (in French) of old [Site du zéro](https://openclassrooms.com/fr/old-courses-pdf) courses  (now [openclassrooms](https://openclassrooms.com))
 - offline version of old tutorials from the [Site du zéro](http://sdz.tdct.org)
 - pdf and online tutorials (in French) from [développez.com](https://general.developpez.com/cours/)
-- my other (unformatted) [blog](https://mzuer.github.io/blog/) with a series of posts with tips for R (most of them), python, bash
+- my other (unformatted) [blog](https://mzuer.github.io/blog/) with a series of posts with tips for R (most of them), Python, bash
 
 ## Contact
 Questions, comments or suggestions ? Don't hesitate to [contact me](mailto:zufferey.marie@bluewin.ch) !
