@@ -5,13 +5,14 @@
 ### Electives
 
 ##### Python for programmers
-- slides ([html](pdf_lectures/e1_Python_for_programmers/Python_3_for_programmers.html), unformatted [pdf](pdf_lectures/e1_Python_for_programmers/Python_3_for_programmers.pdf))
+- slides ([html](pdf_lectures/e1_Python_for_programmers/Python_3_for_programmers.html), unformatted [pdf](pdf_lectures/e1_Python_for_programmers/Python_3_for_programmers.pdf), [GitHub repository](https://github.com/escodebar/pfp) used during the course)
 - [official tutorial](https://docs.python.org/3.7/tutorial)
 - [official documentation](https://docs.python.org/3)
 - other references:
     - old courses from "Site du zéro": [Apprenez à programmer en Python](http://user.oc-static.com/pdf/223267-apprenez-a-programmer-en-python.pdf), [Pratiques avancées et méconnues en Python](http://user.oc-static.com/pdf/33509-pratiques-avancees-et-meconnues-en-python.pdf), [Utilisation avancée des listes en Python](http://user.oc-static.com/pdf/213097-utilisation-avancee-des-listes-en-python.pdf), [Le pattern Decorator en Python](http://user.oc-static.com/pdf/368501-le-pattern-decorator-en-python.pdf), [La programmation scientifique avec Python](http://user.oc-static.com/pdf/547399-la-programmation-scientifique-avec-python.pdf)
 
 ##### Data science with Python and Pandas
+- [GitHub repository](https://github.com/guiwitz/NumpyPandas_course) of the course <!-- Numpy and Pandas -->
 - [pdf](pdf_lectures/e2_Python_Pandas/e2_all_pandas.pdf) of all notebooks
 - [notebooks](https://github.com/mariezufferey/CAS_ADS/tree/master/module5/pdf_lectures/e2_Python_Pandas/notebooks): 
     - [Pandas introduction](pdf_lectures/e2_Python_Pandas/notebooks/00-Pandas_introduction.ipynb)
@@ -33,6 +34,7 @@
     - [part 3](pdf_lectures/e3_Python_statistics/notebooks/C-DSF4-NB-3.ipynb): hypothesis testing
 
 ##### Scalable analytics with Python (DASK)
+- [GitHub repository](https://github.com/guiwitz/DaskCourse) of the course
 - [pdf](pdf_lectures/e4_Python_DASK/notebooks_pdf/e4_all_DASK.pdf) of all notebooks
 - [notebooks](https://github.com/mariezufferey/CAS_ADS/tree/master/module5/pdf_lectures/e4_Python_DASK/notebooks):
     - [Delay and parallel computing](pdf_lectures/e4_Python_DASK/notebooks/01-Dask_delay.ipynb)
@@ -44,6 +46,7 @@
     - [Running dask on a cluster](pdf_lectures/e4_Python_DASK/notebooks/08-dask_on_cluster.ipynb)
 
 ##### Image processing with Python
+- [GitHub repository](https://github.com/guiwitz/Python_image_processing) of the course
 - [pdf](pdf_lectures/e5_Python_image_processing/e5_all_image_processing.pdf) of all notebooks
 - [notebooks](https://github.com/mariezufferey/CAS_ADS/tree/master/module5/pdf_lectures/e5_Python_image_processing/notebooks):
     - [Introduction](pdf_lectures/e5_Python_image_processing/notebooks/01-Introduction.ipynb)
@@ -66,6 +69,7 @@
     - [Application: DICOM](pdf_lectures/e5_Python_image_processing/notebooks/18-Application_DICOM.ipynb)
 
 ##### Machine Learning with Python 
+- [GitHub repository](https://github.com/neworldemancer/DSF5) of the course
 - [pdf](pdf_lectures/e6_Python_ML/e6_python_ML.pdf) of all notebooks
 - [notebooks](https://github.com/mariezufferey/CAS_ADS/tree/master/module5/pdf_lectures/e6_Python_ML/notebooks):
     - [part 1](pdf_lectures/e6_Python_ML/notebooks/Course_1.ipynb): introduction, performance measures, regression ([solutions to exercise](pdf_lectures/e6_Python_ML/notebooks/Solutions_1.ipynb))
@@ -89,6 +93,10 @@
 ##### Deep learning: a practical approach in MATLAB 
 - [slides](pdf_lectures/e9_Deep_Learning_Matlab/DeepLearningWorkshopSlides.pdf)
 - [course material](https://github.com/mariezufferey/CAS_ADS/tree/master/module5/pdf_lectures/e9_Deep_Learning_Matlab/Matlab_drive): deep learning in 6 lines, pretrained model exercise, MNIST exercise, transfer learning exercise, GPU coder, ECG signal classification, improving network accuracy, speech command recognition, reinforcement learning
+
+##### LaTeX - Introduction & further type setting techniques
+- [GitHub repository](https://github.com/KingaS03/latex-course) of the course
+- NEED TO ADD FINAL PDF
 
 ##### Advanced HPC topics 
 - [slides](pdf_lectures/e10_SCITS-UBELIX-Advanced.pdf)
