@@ -24,7 +24,7 @@ Questions, comments or suggestions ? Don't hesitate to [contact me](mailto:zuffe
 I received the permission to put this material online. Some files are under specific licenses (see directly in the files). By respect for the authors, mention their name if you use this material.
 
 
-## Varia
+## Off-topic
 Last but most importantly, support the [GRAAL](http://graal-defenseanimale.org) !
 
 
