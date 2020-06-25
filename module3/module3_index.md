@@ -58,6 +58,6 @@ Estimation](pdf_lectures/day1_talk1_2-GANS-Passwords-Implicit-Generative-Modelin
 ### Contact
 Questions, comments or suggestions ? Don't hesitate to [contact me](mailto:zufferey.marie@bluewin.ch) !
 
-### Varia
+### Off-topic
 Last but most importantly, support the [GRAAL](http://graal-defenseanimale.org) !
 
