@@ -10,6 +10,7 @@
 - [official documentation](https://docs.python.org/3)
 - other references:
     - old courses from "Site du zéro": [Apprenez à programmer en Python](http://user.oc-static.com/pdf/223267-apprenez-a-programmer-en-python.pdf), [Pratiques avancées et méconnues en Python](http://user.oc-static.com/pdf/33509-pratiques-avancees-et-meconnues-en-python.pdf), [Utilisation avancée des listes en Python](http://user.oc-static.com/pdf/213097-utilisation-avancee-des-listes-en-python.pdf), [Le pattern Decorator en Python](http://user.oc-static.com/pdf/368501-le-pattern-decorator-en-python.pdf), [La programmation scientifique avec Python](http://user.oc-static.com/pdf/547399-la-programmation-scientifique-avec-python.pdf)
+    - A whirlwind tour of python by Jake VanderPlas ([pdf](https://www.oreilly.com/programming/free/files/a-whirlwind-tour-of-python.pdf), [jupyter notebooks](https://github.com/jakevdp/WhirlwindTourOfPython), [with plotting notebook](https://github.com/KingaS03/Introduction-to-Python-Course-2020January) by Kinga Sipos)
 
 ##### Data science with Python and Pandas
 - [GitHub repository](https://github.com/guiwitz/NumpyPandas_course) of the course <!-- Numpy and Pandas -->
@@ -95,9 +96,14 @@
 - [course material](https://github.com/mariezufferey/CAS_ADS/tree/master/module5/pdf_lectures/e9_Deep_Learning_Matlab/Matlab_drive): deep learning in 6 lines, pretrained model exercise, MNIST exercise, transfer learning exercise, GPU coder, ECG signal classification, improving network accuracy, speech command recognition, reinforcement learning
 
 ##### LaTeX - Introduction & further type setting techniques
-- [GitHub repository](https://github.com/KingaS03/latex-course) of the course
-- NEED TO ADD FINAL PDF
-
+- [slides](pdf_lectures/e12_LaTeXCourse.pdf)
+- [GitHub repository](https://github.com/KingaS03/latex-course) of the course (based on [this](https://github.com/jdleesmiller/latex-course) GitHub repository)
+- other references:
+    - The not so short introduction to LaTeX by Tobias Oetiker ([pdf](https://tobi.oetiker.ch/lshort/lshort.pdf), [GitHub](https://github.com/oetiker/lshort))
+    - [LaTeX presentation wikibooks](https://en.wikibooks.org/wiki/LaTeX/Presentations)
+    - [Beamer user guide](http://tug.ctan.org/macros/latex/contrib/beamer/doc/beameruserguide.pdf)
+    - [List](https://hackr.io/tutorials/learn-latex) of LaTeX tutorials and courses by hackr.io
+    
 ##### Advanced HPC topics 
 - [slides](pdf_lectures/e10_SCITS-UBELIX-Advanced.pdf)
 
