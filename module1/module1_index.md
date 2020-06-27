@@ -3,16 +3,17 @@
 [[Back to main page]](../index.md)
 
 ### Data acquisition and management
-- Introduction ([slides](pdf_lectures/Data_Acquisition_and_Management_1.pdf))
-- Data management: [jupyter notebook](nb_lectures/M1-D1-DM.ipynb) ([html version](nb_lectures/M1-D1-DM.html))
+- introduction ([slides](pdf_lectures/Data_Acquisition_and_Management_1.pdf))
+- data management: [jupyter notebook](nb_lectures/M1-D1-DM.ipynb) ([html version](nb_lectures/M1-D1-DM.html))
     - *About data management - Getting used to Jupyter lab - Import datasets into a Python dataframe - Indexing on a dataframe - Sorting - Filtering - Exporting -Missing and bad data - Metadata - Working on the filesysteme*
-- Data Management Planning ([slides](pdf_lectures/DataManagementPlanning.pdf))
+- data management planning ([slides](pdf_lectures/DataManagementPlanning.pdf))
     - *Open science - Data management - Data sharing and reuse*
-- Databases 1/2: the relational model ([slides](pdf_lectures/Databases_1-relmod.pdf))
+    - building data management plan with [DMPTool](https://dmptool.org/)
+- databases 1/2: the relational model ([slides](pdf_lectures/Databases_1-relmod.pdf))
     - *Database Management System - SQLite - Relational Model - SQL - Other Data Models*
-- Databases 2/2: SQL ([slides](pdf_lectures/Databases_2-sql.pdf))
+- databases 2/2: SQL ([slides](pdf_lectures/Databases_2-sql.pdf))
     - *Data definition language - Data manipulation language*
-- Databases: [exercises](pdf_lectures/Databases_exercises.pdf) and [solutions to exercises (python script)](pdf_lectures/Databases_access-sql.py)
+- databases: [exercises](pdf_lectures/Databases_exercises.pdf) and [solutions to exercises (python script)](pdf_lectures/Databases_access-sql.py)
 
 ### Visualisation of Data
 - [slides](pdf_lectures/Data_Acquisition_and_Management_2.pdf)
