@@ -104,9 +104,6 @@
     - [Beamer user guide](http://tug.ctan.org/macros/latex/contrib/beamer/doc/beameruserguide.pdf)
     - [List](https://hackr.io/tutorials/learn-latex) of LaTeX tutorials and courses by hackr.io
     
-##### Advanced HPC topics 
-- [slides](pdf_lectures/e10_SCITS-UBELIX-Advanced.pdf)
-
 ##### Working with containers 
 - [slides](pdf_lectures/e11_containers_course.pdf)
 - other references:
@@ -117,9 +114,11 @@
     - [short tutorial from Washington State University](https://hpc.wsu.edu/programmers-guide/singularity)
     - [short tutorial from TechExpert TIPS](https://techexpert.tips/fr/singularity-fr/utilisation-de-commandement-de-base-de-singularity)
     
+##### Advanced HPC topics 
+- [slides](pdf_lectures/e10_SCITS-UBELIX-Advanced.pdf)    
+    
 ### Contact
 Questions, comments or suggestions ? Don't hesitate to [contact me](mailto:zufferey.marie@bluewin.ch) !
-
 
 ### Off-topic
 Last but most importantly, support the [GRAAL](http://graal-defenseanimale.org) !
