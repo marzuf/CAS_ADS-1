@@ -31,7 +31,7 @@
 ### Contact
 Questions, comments or suggestions ? Don't hesitate to [contact me](mailto:zufferey.marie@bluewin.ch) !
 
-### Off-topic
+<!--### Off-topic advertising
 Last but most importantly, support the [GRAAL](http://graal-defenseanimale.org) !
-
+-->
 
