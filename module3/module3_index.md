@@ -50,9 +50,9 @@ Estimation](pdf_lectures/day1_talk1_2-GANS-Passwords-Implicit-Generative-Modelin
 - The Elements of Statistical Learning by Hastie et al. (available [online and as pdf](http://www.web.stanford.edu/~hastie/ElemStatLearn))
 - Neural networks and deep learning by Michael Nielsen (available [online](http://neuralnetworksanddeeplearning.com) or as a [compiled version](https://github.com/antonvladyka/neuralnetworksanddeeplearning.com.pdf))
 - Neural networks and deep Learning by Aggarwal (pdf available [online](https://rd.springer.com/book/10.1007/978-3-319-94463-0); slides for each chapter also available [here](http://www.charuaggarwal.net/neural.htm))
-- Deep learning - a practicioner's approach by Patterson and Gibson (can be found online [here](http://csis.pace.edu/~ctappert/cs855-18fall/DeepLearningPractitionersApproach.pdf) or [here](https://github.com/changwookjun/StudyBook/blob/master/DeepLearningBooks/Deep%20Learning%20-%20Josh%20Patterson%20%26%20Adam%20Gibson.pdf)
+- Deep learning - a practicioner's approach by Patterson and Gibson (can be found online [here](http://csis.pace.edu/~ctappert/cs855-18fall/DeepLearningPractitionersApproach.pdf) or [here](https://github.com/changwookjun/StudyBook/blob/master/DeepLearningBooks/Deep%20Learning%20-%20Josh%20Patterson%20%26%20Adam%20Gibson.pdf))
 - Deep learning by Goodfellow et al. (available [online](http://www.deeplearningbook.org) or as a [compiled version](https://github.com/janishar/mit-deep-learning-book-pdf))
-- Pattern recognition and machine learning by Bishop (can be found online [here](http://users.isr.ist.utl.pt/~wurmd/Livros/school/Bishop%20-%20Pattern%20Recognition%20And%20Machine%20Learning%20-%20Springer%20%202006.pdf))
+- Pattern recognition and machine learning by Bishop (can be found [online](http://users.isr.ist.utl.pt/~wurmd/Livros/school/Bishop%20-%20Pattern%20Recognition%20And%20Machine%20Learning%20-%20Springer%20%202006.pdf))
 - Dive into deep learning by Zhang et al. (available [online](https://d2l.ai/index.html) with pdf and notebooks)
 - Tensorflow RIP Tutorial (available as [ebook](https://riptutorial.com/ebook/tensorflow))
 
