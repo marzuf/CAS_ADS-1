@@ -1,13 +1,3 @@
-/***
-<script>
-    ul {
-        list-style-type:  square;
-}
-</script>
-<li>
-    <ul> 1</ul><li><ul>2</ul></li></li>
-***/        
-
 ## Module 1: data acquisition and management
 
 [[Back to main page]](../index.md)
