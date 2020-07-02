@@ -1,3 +1,9 @@
+<script>
+    ul ul {
+        list-style-type:  square;
+}
+</script>
+
 ## Module 1: data acquisition and management
 
 [[Back to main page]](../index.md)
