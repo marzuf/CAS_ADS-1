@@ -1,5 +1,5 @@
 <script>
-    ul ul {
+    li li {
         list-style-type:  square;
 }
 </script>
