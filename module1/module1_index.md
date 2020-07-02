@@ -5,7 +5,7 @@
 ### Data acquisition and management
 - introduction ([slides](pdf_lectures/Data_Acquisition_and_Management_1.pdf))
 - data management: [jupyter notebook](nb_lectures/M1-D1-DM.ipynb) ([html version](nb_lectures/M1-D1-DM.html))
-<ul style="list-style-type:disc">
+<ul style="list-style-type:square">
     <li> *About data management - Getting used to Jupyter lab - Import datasets into a Python dataframe - Indexing on a dataframe - Sorting - Filtering - Exporting -Missing and bad data - Metadata - Working on the filesysteme*
     </li>
     </ul>
