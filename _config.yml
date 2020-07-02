@@ -1,1 +1,5 @@
 theme: jekyll-theme-dinky
+
+ul ul {
+        list-style-type:  square;
+}
