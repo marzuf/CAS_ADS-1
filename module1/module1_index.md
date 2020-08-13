@@ -20,7 +20,7 @@
     - Line charts - Histograms - Scatter plots - Pie charts
 - [jupyter notebook](nb_lectures/M1-D2-DV.ipynb) ([html version](nb_lectures/M1-D2-DV.html))
 
-### Data acquisition on the world wide web¶
+### Data acquisition on the world wide web
 - [slides](pdf_lectures/Data_Acquisition_and_Management_3.pdf)
 - [jupyter notebook](nb_lectures/M1-D3-WWW.ipynb) ([html version](nb_lectures/M1-D3-WWW.html))
 
