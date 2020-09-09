@@ -12,8 +12,8 @@
     - old courses from "Site du zéro": [Apprenez à programmer en Python](http://user.oc-static.com/pdf/223267-apprenez-a-programmer-en-python.pdf), [Pratiques avancées et méconnues en Python](http://user.oc-static.com/pdf/33509-pratiques-avancees-et-meconnues-en-python.pdf), [Utilisation avancée des listes en Python](http://user.oc-static.com/pdf/213097-utilisation-avancee-des-listes-en-python.pdf), [Le pattern Decorator en Python](http://user.oc-static.com/pdf/368501-le-pattern-decorator-en-python.pdf), [La programmation scientifique avec Python](http://user.oc-static.com/pdf/547399-la-programmation-scientifique-avec-python.pdf)
     - A whirlwind tour of python by Jake VanderPlas ([pdf](https://www.oreilly.com/programming/free/files/a-whirlwind-tour-of-python.pdf), [jupyter notebooks](https://github.com/jakevdp/WhirlwindTourOfPython), [with plotting notebook](https://github.com/KingaS03/Introduction-to-Python-Course-2020January) by Kinga Sipos)
 
-##### Data science with Python and Pandas
-- [GitHub repository](https://github.com/guiwitz/NumpyPandas_course) of the course <!-- Numpy and Pandas -->
+##### Data science with Python and Pandas !!! NEED TO CONVERT HTML AND PDF !!!
+- [GitHub repository](https://github.com/guiwitz/Pandas_course) of the course
 - [pdf](pdf_lectures/e2_Python_Pandas/e2_all_pandas.pdf) of all notebooks
 - [notebooks](https://github.com/mariezufferey/CAS_ADS/tree/master/module5/pdf_lectures/e2_Python_Pandas/notebooks): 
     - [Pandas introduction](pdf_lectures/e2_Python_Pandas/notebooks/00-Pandas_introduction.ipynb)
@@ -26,6 +26,35 @@
     - [Insight into Machine Learning](pdf_lectures/e2_Python_Pandas/notebooks/07-Pandas_ML.ipynb)
     - [Exercises](pdf_lectures/e2_Python_Pandas/notebooks/99-Exercise.ipynb)
     - [Solutions to exercises](pdf_lectures/e2_Python_Pandas/notebooks/99-Solutions.ipynb)
+    
+    
+##### Data analytics with NumPy and Pandas !!! TO UPDATE !!!
+- [GitHub repository](https://github.com/guiwitz/NumpyPandas_course) of the course <!-- Numpy and Pandas -->
+
+- [Numpy array creation](01-DA_Numpy_arrays_creation.ipynb)
+- [Numpy array and maths]02-DA_Numpy_array_maths.ipynb
+- [Numpy and matplotlib]03-DA_Numpy_matplotlib.ipynb
+- [Numpy indexing](04-DA_Numpy_indexing.ipynb
+- [Numpy combining arrays](05-DA_Numpy_combining_arrays.ipynb
+- [Pandas introduction](06-DA_Pandas_introduction.ipynb
+- [Pandas structures](07-DA_Pandas_structures.ipynb
+- [Pandas import plotting](08-DA_Pandas_import_plotting.ipynb
+- [Pandas operation](09-DA_Pandas_operations.ipynb
+- [Pandas combine](10-DA_Pandas_combine.ipynb
+- [Pandas splitting](11-DA_Pandas_splitting.ipynb
+- [Pandas realword](12-DA_Pandas_realworld.ipynb
+
+Exercises
+- [Numpy](98-DA_Numpy_Exercises.ipynb) ([solutions](98-DA_Numpy_Solutions.ipynb))
+- [Pandas](99-DA_Pandas_Exercises.ipynb) ([solutions](99-DA_Pandas_Solutions.ipynb))
+
+
+
+    
+##### Deeper dive into Python !!! TO UPDATE !!!
+-[slides](DeeperDive/Courses_slides.pdf)
+exercise [repository](https://github.com/mariezufferey/CAS_ADS/tree/master/module5/DeeperDive/CoursesExercises)
+
 
 ##### Statistics with Python 
 - [pdf](pdf_lectures/e3_Python_statistics/e3_python_statistics.pdf) of all notebooks
@@ -84,6 +113,49 @@
 - image classification model (deep learning) ([slides](pdf_lectures/e7_Dataiku/e7_3_Hands-On_Deep_Learning_Session_Simpsons.pdf))
 - how to get a certificate ([slides](pdf_lectures/e7_Dataiku/e7_2_U0Bern_Slidedeck_Certifiable.pdf))
 - personal reading notes from internet about Dataiku concepts ([v1](pdf_lectures/e7_Dataiku/e7_dataiku_info.pdf), [v2](pdf_lectures/e7_Dataiku/e7_wwww_concepts.pdf))
+
+
+##### Mathematical methods for data Science and machine Learning !!! TO UPDATE !!!
+
+- [GitHub repository](https://github.com/KingaS03/Mathematics-for-Machine-Learning-and-Data-Science) of the course <!-- Numpy and Pandas -->
+
+1. Introduction
+    - notebook: [pdf](Mathematics-for-ML/Introduction.ipynb), [html](Mathematics-for-ML/Introduction.html), [jupyter](Mathematics-for-ML/Introduction.ipynb)
+    - notebook: [pdf](Mathematics-for-ML/MM_Day1.ipynb), [html](Mathematics-for-ML/MM_Day1.html), [jupyter](Mathematics-for-ML/MM_Day1.ipynb)
+2. Linear algebra  
+    - notebook: [pdf](Mathematics-for-ML/LinearAlgebra.pdf), [html](Mathematics-for-ML/LinearAlgebra.html), [jupyter](Mathematics-for-ML/LinearAlgebra.ipynb)
+3. Calculus
+    - notebook: [pdf](Mathematics-for-ML/Calculus.pdf), [html](Mathematics-for-ML/Calculus.html), [jupyter](Mathematics-for-ML/Calculus.ipynb)
+
+##### Machine Learning review !!! TO UPDATE !!!
+
+- day1 
+    - [slides](Machine_Learning_Review/M1_D1_student.pdf)
+    - notebooks: [pdf](Machine_Learning_Review/notebook_M1D1.pdf), [html](Machine_Learning_Review/notebook_M1D1.html), [jupyter](Machine_Learning_Review/notebook_M1D1.ipynb)
+- day2 
+    - [slides](Machine_Learning_Review/M1_D2_student.pdf)
+    - notebooks: [pdf](Machine_Learning_Review/notebook_M1D2.pdf), [html](Machine_Learning_Review/notebook_M1D2.html), [jupyter](Machine_Learning_Review/notebook_M1D2.ipynb)
+- day3 
+    - [slides](Machine_Learning_Review/M1_D3_student.pdf)
+    - notebooks: [pdf](Machine_Learning_Review/notebook_M1D3.pdf), [html](Machine_Learning_Review/notebook_M1D3.html), [jupyter](Machine_Learning_Review/notebook_M1D3.ipynb)
+- day4
+    - [slides](Machine_Learning_Review/M1_D4_student.pdf)
+    - notebooks: [pdf](Machine_Learning_Review/notebook_M1D4.pdf), [html](Machine_Learning_Review/notebook_M1D4.html), [jupyter](Machine_Learning_Review/notebook_M1D4.ipynb)
+
+
+##### Deep networks !!! TO UPDATE !!!
+day1 
+- [slides](pdf_lectures/e8_intro_Matlab/e8_WorkshopSlides.pdf)
+- [notebooks](pdf_lectures/e8_intro_Matlab/e8_WorkshopSlides.pdf)
+day2 
+- [slides](pdf_lectures/e8_intro_Matlab/e8_WorkshopSlides.pdf)
+- [notebooks](pdf_lectures/e8_intro_Matlab/e8_WorkshopSlides.pdf)
+day3 
+- [slides](pdf_lectures/e8_intro_Matlab/e8_WorkshopSlides.pdf)
+- [notebooks](pdf_lectures/e8_intro_Matlab/e8_WorkshopSlides.pdf)
+day4
+- [slides](pdf_lectures/e8_intro_Matlab/e8_WorkshopSlides.pdf)
+- [notebooks](pdf_lectures/e8_intro_Matlab/e8_WorkshopSlides.pdf)
 
 
 ##### Introduction to MATLAB 
