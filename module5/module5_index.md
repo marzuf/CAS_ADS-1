@@ -117,9 +117,9 @@
 - [notebooks](https://github.com/mariezufferey/CAS_ADS/tree/master/module5/Mathematics-for-ML/notebooks):
     - [introduction](Mathematics-for-ML/notebooks/Introduction.ipynb) ([pdf](Mathematics-for-ML/notebooks_pdf/1_Introduction.pdf), [html](https://raw.githack.com/mariezufferey/CAS_ADS/master/module5/Mathematics-for-ML/notebooks_html/Introduction.html)) / [day 1](Mathematics-for-ML/notebooks/MM_Day1.ipynb) ([pdf](Mathematics-for-ML/notebooks_pdf/z_MM_Day1.pdf), [html](https://raw.githack.com/mariezufferey/CAS_ADS/master/module5/Mathematics-for-ML/notebooks_html/MM_Day1.html))
     - [linear algebra](Mathematics-for-ML/notebooks/LinearAlgebra.ipynb) ([pdf](Mathematics-for-ML/notebooks_pdf/2_LinearAlgebra.pdf), [html](https://raw.githack.com/mariezufferey/CAS_ADS/master/module5/Mathematics-for-ML/notebooks_html/LinearAlgebra.html))
-            - *vector operations - matrix operations - projection and the dot product - orthogonal matrices - change of basis - eigenvalues and eigenvectors of matrices*
+        - *vector operations - matrix operations - projection and the dot product - orthogonal matrices - change of basis - eigenvalues and eigenvectors of matrices*
     - [calculus](Mathematics-for-ML/notebooks/Calculus.ipynb) ([pdf](Mathematics-for-ML/notebooks_pdf/3_Calculus.pdf), [html](https://raw.githack.com/mariezufferey/CAS_ADS/master/module5/Mathematics-for-ML/notebooks_html/Calculus.html))
-    - *differentiation of univariate functions - rules of differentiation - differentiation of multivariate functions (the Jacobian, the Hessian) - chain rule for univariate and multivariate functions - the Taylor approximation - the Newton-Raphson method - gradient descent method - backpropagation*
+        - *differentiation of univariate functions - rules of differentiation - differentiation of multivariate functions (the Jacobian, the Hessian) - chain rule for univariate and multivariate functions - the Taylor approximation - the Newton-Raphson method - gradient descent method - backpropagation*
 
 ##### Machine Learning review !!! TO UPDATE !!!
 - [folder](https://github.com/mariezufferey/CAS_ADS/tree/master/module5/Machine_Learning_Review/notebooks) with all notebooks
@@ -127,44 +127,51 @@
 - day 1 
     - [slides](Machine_Learning_Review/M1_D1_student.pdf)
     - [notebook](Machine_Learning_Review/notebooks/notebook_M1D1.ipynb) ([pdf](Machine_Learning_Review/notebooks_pdf/notebook_M1D1.pdf), [html](https://raw.githack.com/mariezufferey/CAS_ADS/master/module5/Machine_Learning_Review/notebooks_html/notebook_M1D1.html)): 
-            - *chapter 2: end-to-end machine learning project*
+        - *chapter 2: end-to-end machine learning project*
 - day 2 
     - [slides](Machine_Learning_Review/M1_D2_student.pdf):
-            - *Regression (linear, polynomial; ridge, LASSO, elastic net; performance evaluation) - Classification (logistic regression; naïve Bayes; k-nearest neighbors; performance evaluation) - Support Vector Machines (SVM; regression/classification) (SVC; SVR) - Ensemble methods (regression/classification) (decision trees; random forests; bagging, boosting)*
+        - *Regression (linear, polynomial; ridge, LASSO, elastic net; performance evaluation) - Classification (logistic regression; naïve Bayes; k-nearest neighbors; performance evaluation) - Support Vector Machines (SVM; regression/classification) (SVC; SVR) - Ensemble methods (regression/classification) (decision trees; random forests; bagging, boosting)*
     - [notebook](Machine_Learning_Review/notebooks/notebook_M1D2.ipynb) ([pdf](Machine_Learning_Review/notebooks_pdf/notebook_M1D2.pdf), [html](https://raw.githack.com/mariezufferey/CAS_ADS/master/module5/Machine_Learning_Review/notebooks_html/notebook_M1D2.html))
-            - *chapter 2: end-to-end machine learning project*
+        - *chapter 2: end-to-end machine learning project*
 - day 3 
     - [slides](Machine_Learning_Review/M1_D3_student.pdf)
-            - *Clustering (k-means; hierarchical clustering) - density estimation (Gaussian Mixture Model (GMM)) - Sequence Prediction (HMM; RNN; LSTM) - Feature Extraction (PCA; kernel PCA; manifold Learning)*
+        - *Clustering (k-means; hierarchical clustering) - density estimation (Gaussian Mixture Model (GMM)) - Sequence Prediction (HMM; RNN; LSTM) - Feature Extraction (PCA; kernel PCA; manifold Learning)*
     - part 1: [notebook](Machine_Learning_Review/notebooks/notebook_M1D3_1.ipynb) ([pdf](Machine_Learning_Review/notebooks_pdf/notebook_M1D3_1.pdf), [html](https://raw.githack.com/mariezufferey/CAS_ADS/master/module5/Machine_Learning_Review/notebooks_html/notebook_M1D3_1.html))
-            - *Chapter 8: dimensionality reduction*
+        - *Chapter 8: dimensionality reduction*
     - part 2: [notebook](Machine_Learning_Review/notebooks/notebook_M1D3_2.ipynb) ([pdf](Machine_Learning_Review/notebooks_pdf/notebook_M1D3_2.pdf), [html](https://raw.githack.com/mariezufferey/CAS_ADS/master/module5/Machine_Learning_Review/notebooks_html/notebook_M1D3_2.html))
-            - *Chapter 9: unsupervised learning*    
+        - *Chapter 9: unsupervised learning*    
 - day 4
     - [slides](Machine_Learning_Review/M1_D4_student.pdf)
-            - *Neural Networks - Training the NN - Activation functions - Loss functions - Faster optimizers than gradient descent (momentum optimization; RMSprop; adaptative moment (Adam)) - NN as an alternative to other ML algorithms* 
+        - *Neural Networks - Training the NN - Activation functions - Loss functions - Faster optimizers than gradient descent (momentum optimization; RMSprop; adaptative moment (Adam)) - NN as an alternative to other ML algorithms* 
     - [notebook](Machine_Learning_Review/notebooks/notebook_M1D4.ipynb) ([pdf](Machine_Learning_Review/notebooks_pdf/notebook_M1D4.pdf), [html](https://raw.githack.com/mariezufferey/CAS_ADS/master/module5/Machine_Learning_Review/notebooks_html/notebook_M1D4.html))
-            - *Chapter 10: introduction to artificial NN with Keras* 
+        - *Chapter 10: introduction to artificial NN with Keras* 
 
 ##### Deep networks !!! TO UPDATE !!!
 - [folder](https://github.com/mariezufferey/CAS_ADS/tree/master/module5/DeepNetworks/notebooks) with all notebooks
 - [pdf](DeepNetworks/all_DeepNetworks.pdf) of all notebooks
-- day 1 
+- day 1: deep forward networks 
     - [slides](DeepNetworks/M2_D1_student.pdf)
+        - *What are Deep Forward Networks ? - Regularization for deep learning - Training and optimization for deep models*
     - [notebook](DeepNetworks/notebooks/notebook_M2D1.ipynb) ([pdf](DeepNetworks/notebooks_pdf/notebook_M2D1.pdf), [html](https://raw.githack.com/mariezufferey/CAS_ADS/master/module5/DeepNetworks/notebooks_html/notebook_M2D1.html))
-- day 2 
+        - *Chapter 11: training deep NN*
+- day 2: convolutional neural networks
     - [slides](DeepNetworks/M2_D2_student.pdf)
+        - *CNN components  - Most important architectures - Object detection - Face detection
     - [notebook](DeepNetworks/notebooks/notebook_M2D2_1.ipynb) - part 1 ([pdf](DeepNetworks/notebooks_pdf/notebook_M2D2_1.pdf), [html](https://raw.githack.com/mariezufferey/CAS_ADS/master/module5/DeepNetworks/notebooks_html/notebook_M2D2_1.html))
-        - *Chapter 11: training Deep Neural Networks*
-
+        - *Chapter 14: deep computer vision using convolutional NN*
     - [notebook](DeepNetworks/notebooks/notebook_M2D2_2.ipynb) - part 2 ([pdf](DeepNetworks/notebooks_pdf/notebook_M2D2_2.pdf), [html](https://raw.githack.com/mariezufferey/CAS_ADS/master/module5/DeepNetworks/notebooks_html/notebook_M2D2_2.html))
-- day 3 
+        - *Data augmentation*
+- day 3: recurrent NN
     - [slides](DeepNetworks/M2_D3_student.pdf)
+        - *recurrent NN components - Training RNNs - Optimization techniques - Examples - Natural Language Processing (NLP)*
     - [notebook](DeepNetworks/notebooks/notebook_M2D3_1.ipynb) - part 1 ([pdf](DeepNetworks/notebooks_pdf/notebook_M2D3_1.pdf), [html](https://raw.githack.com/mariezufferey/CAS_ADS/master/module5/DeepNetworks/notebooks_html/notebook_M2D3_1.html))
+        - *Text generation with an RNN*
     - [notebook](DeepNetworks/notebooks/notebook_M2D3_2.ipynb) - part 2 ([pdf](DeepNetworks/notebooks_pdf/notebook_M2D3_2.pdf), [html](https://raw.githack.com/mariezufferey/CAS_ADS/master/module5/DeepNetworks/notebooks_html/notebook_M2D3_2.html))
-- day 4
+        - *Time series forecasting*
+- day 4: state-of-the-art machine learning
     - [slides](DeepNetworks/M2_D4_student.pdf)
 - summary video: [pdf](DeepNetworks/Summary_Video.pdf), [pptx](DeepNetworks/Summary_Video.pptx)
+        - *BERT Applications - AdaNet: AutoML with Ensembles - AutoAugment -Synthetic Data - Polygon-RNN++ - DAWNBench - Video-to-video synthesis - Semantic segmentation - Symmetric semantic segmentation - AlphaGo - ALPHA ZERO - OpenAI vs. Humans on Dota 2 - Deep Learning Frameworks*
 - surveys: [1](DeepNetworks/Survey_5.pdf), [2](DeepNetworks/Survey_6.pdf), [3](DeepNetworks/Survey_7.pdf)
 
 ##### Introduction to MATLAB 
