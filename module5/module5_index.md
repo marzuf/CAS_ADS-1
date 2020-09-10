@@ -59,9 +59,9 @@ exercise [repository](https://github.com/mariezufferey/CAS_ADS/tree/master/modul
 ##### Statistics with Python 
 - [pdf](pdf_lectures/e3_Python_statistics/e3_python_statistics.pdf) of all notebooks
 - [notebooks](https://github.com/mariezufferey/CAS_ADS/tree/master/module5/pdf_lectures/e3_Python_statistics/notebooks):
-    - [part 1](pdf_lectures/e3_Python_statistics/notebooks/C-DSF4-NB-1.ipynb): random variables and pdfs, describing data with pdfs, descriptive statistics with Python
-    - [part 2](pdf_lectures/e3_Python_statistics/notebooks/C-DSF4-NB-2.ipynb): parameter estimation and regression
-    - [part 3](pdf_lectures/e3_Python_statistics/notebooks/C-DSF4-NB-3.ipynb): hypothesis testing
+    - part 1: random variables and pdfs, describing data with pdfs, descriptive statistics with Python ([pdf](pdf_lectures/e3_Python_statistics/notebooks_pdf/C-DSF4-NB-1.pdf), [html](pdf_lectures/e3_Python_statistics/notebooks_html/C-DSF4-NB-1.html), [ipynb](pdf_lectures/e3_Python_statistics/notebooks/C-DSF4-NB-1.ipynb))
+    - part 2: parameter estimation and regression ([pdf](pdf_lectures/e3_Python_statistics/notebooks_pdf/C-DSF4-NB-2.pdf), [html](pdf_lectures/e3_Python_statistics/notebooks_html/C-DSF4-NB-2.html), [ipynb](pdf_lectures/e3_Python_statistics/notebooks/C-DSF4-NB-2.ipynb))
+    - part 3 : hypothesis testing ([pdf](pdf_lectures/e3_Python_statistics/notebooks/C-DSF4-NB-3.pdf), [html](pdf_lectures/e3_Python_statistics/notebooks_html/C-DSF4-NB-3.html), [ipynb](pdf_lectures/e3_Python_statistics/notebooks_pdf/C-DSF4-NB-3.ipynb))
 
 ##### Scalable analytics with Python (DASK)
 - [GitHub repository](https://github.com/guiwitz/DaskCourse) of the course
@@ -144,19 +144,29 @@ exercise [repository](https://github.com/mariezufferey/CAS_ADS/tree/master/modul
 
 
 ##### Deep networks !!! TO UPDATE !!!
-day1 
-- [slides](pdf_lectures/e8_intro_Matlab/e8_WorkshopSlides.pdf)
-- [notebooks](pdf_lectures/e8_intro_Matlab/e8_WorkshopSlides.pdf)
-day2 
-- [slides](pdf_lectures/e8_intro_Matlab/e8_WorkshopSlides.pdf)
-- [notebooks](pdf_lectures/e8_intro_Matlab/e8_WorkshopSlides.pdf)
-day3 
-- [slides](pdf_lectures/e8_intro_Matlab/e8_WorkshopSlides.pdf)
-- [notebooks](pdf_lectures/e8_intro_Matlab/e8_WorkshopSlides.pdf)
-day4
-- [slides](pdf_lectures/e8_intro_Matlab/e8_WorkshopSlides.pdf)
-- [notebooks](pdf_lectures/e8_intro_Matlab/e8_WorkshopSlides.pdf)
 
+Folder with all notebooks [here]()
+
+Day 1 
+- [slides](DeepNetworks/M2_D1_student.pdf)
+- notebook: [pdf](DeepNetworks/notebook_M2D1.pdf), [html](DeepNetworks/notebook_M2D1.html), [ipynb](DeepNetworks/notebooks/notebook_M2D1.ipynb)
+
+Day 2 
+- [slides](DeepNetworks/M2_D2_student.pdf)
+- notebook - part 1: [pdf](DeepNetworks/notebook_M2D2_1.pdf), [html](DeepNetworks/notebook_M2D2_1.html), [ipynb](DeepNetworks/notebooks/notebook_M2D2_1.ipynb)
+- notebook - part 2: [pdf](DeepNetworks/notebook_M2D2_2.pdf), [html](DeepNetworks/notebook_M2D2_2.html), [ipynb](DeepNetworks/notebooks/notebook_M2D2_2.ipynb)
+
+Day 3 
+- [slides](DeepNetworks/M2_D3_student.pdf)
+- notebook - part 1: [pdf](DeepNetworks/notebook_M2D3_1.pdf), [html](DeepNetworks/notebook_M2D3_1.html), [ipynb](DeepNetworks/notebooks/notebook_M2D3_1.ipynb)
+- notebook - part 2: [pdf](DeepNetworks/notebook_M2D3_2.pdf), [html](DeepNetworks/notebook_M2D3_2.html), [ipynb](DeepNetworks/notebooks/notebook_M2D3_2.ipynb)
+
+Day 4
+- [slides](DeepNetworks/M2_D4_student.pdf)
+
+Summary video: [pdf](DeepNetworks/Summary_Video.pdf), [pptx](DeepNetworks/Summary_Video.pptx)
+
+Surveys: [1](DeepNetworks/Survey_5.pdf), [2](DeepNetworks/Survey_6.pdf), [3](DeepNetworks/Survey_7.pdf)
 
 ##### Introduction to MATLAB 
 - [slides](pdf_lectures/e8_intro_Matlab/e8_WorkshopSlides.pdf)
