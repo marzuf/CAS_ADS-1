@@ -20,7 +20,7 @@
     - [Pandas objects](Python_Pandas/notebooks/01-Pandas_structures.ipynb) ([pdf](Python_Pandas/notebooks_pdf/01-Pandas_structures.pdf), [html](Python_Pandas/notebooks_html/01-Pandas_structures.html))
     - [Importing excel files](Python_Pandas/notebooks/02-Pandas_import.ipynb) ([pdf](Python_Pandas/notebooks_pdf/02-Pandas_import.pdf), [html](Python_Pandas/notebooks_html/02-Pandas_import.html))
     - [Operations with Pandas objects](Python_Pandas/notebooks/03-Pandas_operations.ipynb) ([pdf](Python_Pandas/notebooks_pdf/03-Pandas_operations.pdf), [html](Python_Pandas/notebooks_html/03-Pandas_operations.html))
-    - [Combining information in Pandas](Python_Pandas/notebooks/04-Pandas_combine.ipynb) ([pdf](Python_Pandas/notebooks_pdf/04-Pandas_combine.pdf), [html](Python_Pandas/notebooks/04-Pandas_combine.html))
+    - [Combining information in Pandas](Python_Pandas/notebooks/04-Pandas_combine.ipynb) ([pdf](Python_Pandas/notebooks_pdf/04-Pandas_combine.pdf), [html](Python_Pandas/notebooks_html/04-Pandas_combine.html))
     - [Splitting data](Python_Pandas/notebooks/05-Pandas_splitting.ipynb) ([pdf](Python_Pandas/notebooks_pdf/05-Pandas_splitting.pdf), [html](Python_Pandas/notebooks_html/05-Pandas_splitting.html))
     - [Advanced plotting](Python_Pandas/notebooks/06-Pandas_plotting.ipynb) ([pdf](Python_Pandas/notebooks_pdf/06-Pandas_plotting.pdf), [html](Python_Pandas/notebooks_html/06-Pandas_plotting.html))
     - [Insight into Machine Learning](Python_Pandas/notebooks/07-Pandas_ML.ipynb) ([pdf](Python_Pandas/notebooks_pdf/07-Pandas_ML.pdf), [html](Python_Pandas/notebooks_html/07-Pandas_ML.html))
@@ -35,14 +35,14 @@
     - [Numpy array creation](NumpyPandas/notebooks/01-DA_Numpy_arrays_creation.ipynb) ([pdf](NumpyPandas/notebooks_pdf/01-DA_Numpy_arrays_creation.pdf), [html](NumpyPandas/notebooks_html/01-DA_Numpy_arrays_creation.html))
     - [Numpy array and maths](NumpyPandas/notebooks/02-DA_Numpy_array_maths.ipynb) ([pdf](NumpyPandas/notebooks_pdf/02-DA_Numpy_array_maths.pdf), [html](NumpyPandas/notebooks_html/02-DA_Numpy_array_maths.html))
     - [Numpy and matplotlib](NumpyPandas/notebooks/03-DA_Numpy_matplotlib.ipynb) ([pdf](NumpyPandas/notebooks_pdf/03-DA_Numpy_matplotlib.pdf), [html](NumpyPandas/notebooks_html/03-DA_Numpy_matplotlib.html))
-    - [Numpy indexing](NumpyPandas/notebooks/04-DA_Numpy_indexing.ipynb) ([pdf](NumpyPandas/notebooks_pdf/04-DA_Numpy_indexing.pdf), [html](NumpyPandas/notebooks_pdf/04-DA_Numpy_indexing.html))
+    - [Numpy indexing](NumpyPandas/notebooks/04-DA_Numpy_indexing.ipynb) ([pdf](NumpyPandas/notebooks_pdf/04-DA_Numpy_indexing.pdf), [html](NumpyPandas/notebooks_html/04-DA_Numpy_indexing.html))
     - [Numpy combining arrays](NumpyPandas/notebooks/05-DA_Numpy_combining_arrays.ipynb) ([pdf](NumpyPandas/notebooks_pdf/05-DA_Numpy_combining_arrays.pdf), [html](NumpyPandas/notebooks_html/05-DA_Numpy_combining_arrays.html))
     - [Pandas introduction](NumpyPandas/notebooks/06-DA_Pandas_introduction.ipynb) ([pdf](NumpyPandas/notebooks_pdf/06-DA_Pandas_introduction.pdf), [html](NumpyPandas/notebooks_html/06-DA_Pandas_introduction.html))
     - [Pandas structures](NumpyPandas/notebooks/07-DA_Pandas_structures.ipynb) ([pdf](NumpyPandas/notebooks_pdf/07-DA_Pandas_structures.pdf), [html](NumpyPandas/notebooks_html/07-DA_Pandas_structures.html))
     - [Pandas import plotting](NumpyPandas/notebooks/08-DA_Pandas_import_plotting.ipynb) ([pdf](NumpyPandas/notebooks_pdf/08-DA_Pandas_import_plotting.pdf), [html](NumpyPandas/notebooks_html/08-DA_Pandas_import_plotting.ipynb))
     - [Pandas operation](NumpyPandas/notebooks/09-DA_Pandas_operations.ipynb) ([pdf](NumpyPandas/notebooks_pdf/09-DA_Pandas_operations.pdf), [html](NumpyPandas/notebooks_html/09-DA_Pandas_operations.html))
     - [Pandas combine](NumpyPandas/notebooks/10-DA_Pandas_combine.ipynb) ([pdf](NumpyPandas/notebooks_pdf/10-DA_Pandas_combine.pdf), [html](NumpyPandas/notebooks_html/10-DA_Pandas_combine.html))
-    - [Pandas splitting](NumpyPandas/notebooks/11-DA_Pandas_splitting.ipynb) ([pdf](NumpyPandas/notebooks_pdf/11-DA_Pandas_splitting.pdf), [html](NumpyPandas/notebooks/11-DA_Pandas_splitting.html))
+    - [Pandas splitting](NumpyPandas/notebooks/11-DA_Pandas_splitting.ipynb) ([pdf](NumpyPandas/notebooks_pdf/11-DA_Pandas_splitting.pdf), [html](NumpyPandas/notebooks_html/11-DA_Pandas_splitting.html))
     - [Pandas realword](NumpyPandas/notebooks/12-DA_Pandas_realworld.ipynb) ([pdf](NumpyPandas/notebooks_pdf/12-DA_Pandas_realworld.pdf), [html](NumpyPandas/notebooks_html/12-DA_Pandas_realworld.html))
 - Exercises
     - [Numpy](NumpyPandas/notebooks/98-DA_Numpy_Exercises.ipynb) ([pdf](NumpyPandas/notebooks_pdf/98-DA_Numpy_Exercises.pdf), [html](NumpyPandas/notebooks_html/98-DA_Numpy_Exercises.html)) - [solutions](NumpyPandas/notebooks/98-DA_Numpy_Solutions.ipynb) ([pdf](NumpyPandas/notebooks_pdf/98-DA_Numpy_Solutions.pdf), [html](NumpyPandas/notebooks_html/98-DA_Numpy_Solutions.html))
@@ -57,9 +57,9 @@ exercise [repository](https://github.com/mariezufferey/CAS_ADS/tree/master/modul
 ##### Statistics with Python 
 - [pdf](Python_statistics/e3_python_statistics.pdf) of all notebooks
 - [notebooks](https://github.com/mariezufferey/CAS_ADS/tree/master/module5/Python_statistics/notebooks):
-    - part 1: random variables and pdfs, describing data with pdfs, descriptive statistics with Python ([pdf](Python_statistics/notebooks_pdf/C-DSF4-NB-1.pdf), [html](Python_statistics/notebooks_html/C-DSF4-NB-1.html), [ipynb](Python_statistics/notebooks/C-DSF4-NB-1.ipynb))
-    - part 2: parameter estimation and regression ([pdf](Python_statistics/notebooks_pdf/C-DSF4-NB-2.pdf), [html](Python_statistics/notebooks_html/C-DSF4-NB-2.html), [ipynb](Python_statistics/notebooks/C-DSF4-NB-2.ipynb))
-    - part 3 : hypothesis testing ([pdf](Python_statistics/notebooks/C-DSF4-NB-3.pdf), [html](Python_statistics/notebooks_html/C-DSF4-NB-3.html), [ipynb](Python_statistics/notebooks_pdf/C-DSF4-NB-3.ipynb))
+    - [part 1](Python_statistics/notebooks/C-DSF4-NB-1.ipynb): random variables and pdfs, describing data with pdfs, descriptive statistics with Python ([pdf](Python_statistics/notebooks_pdf/C-DSF4-NB-1.pdf), [html](Python_statistics/notebooks_html/C-DSF4-NB-1.html))
+    - [part 2](Python_statistics/notebooks/C-DSF4-NB-2.ipynb): parameter estimation and regression ([pdf](Python_statistics/notebooks_pdf/C-DSF4-NB-2.pdf), [html](Python_statistics/notebooks_html/C-DSF4-NB-2.html))
+    - [part 3](Python_statistics/notebooks_pdf/C-DSF4-NB-3.ipynb): hypothesis testing ([pdf](Python_statistics/notebooks/C-DSF4-NB-3.pdf), [html](Python_statistics/notebooks_html/C-DSF4-NB-3.html))
 
 ##### Scalable analytics with Python (DASK)
 - [GitHub repository](https://github.com/guiwitz/DaskCourse) of the course
@@ -77,7 +77,7 @@ exercise [repository](https://github.com/mariezufferey/CAS_ADS/tree/master/modul
 - [GitHub repository](https://github.com/guiwitz/Python_image_processing) of the course
 - [pdf](Python_image_processing/e5_all_image_processing.pdf) of all notebooks
 - [notebooks](https://github.com/mariezufferey/CAS_ADS/tree/master/module5/Python_image_processing/notebooks):
-    - [Introduction](Python_image_processing/notebooks/01-Introduction.ipynb) ([pdf](), [html]())
+    - [Introduction](Python_image_processing/notebooks/01-Introduction.ipynb) ([pdf](Python_image_processing/notebooks_pdf/01-Introduction.pdf), [html](Python_image_processing/notebooks_html/01-Introduction.html))
     - [Numpy with images](Python_image_processing/notebooks/02-Numpy_images.ipynb) ([pdf](Python_image_processing/notebooks_pdf/02-Numpy_images.pdf), [html](Python_image_processing/notebooks_html/02-Numpy_images.html))
     - [Image import/export](Python_image_processing/notebooks/03-Image_import.ipynb) ([pdf](Python_image_processing/notebooks_pdf/03-Image_import.pdf), [html](Python_image_processing/notebooks_html/03-Image_import.html))
     - [Basic Image processing: Filtering, scaling, thresholding](Python_image_processing/notebooks/04-Filtering_thresholding.ipynb) ([pdf](Python_image_processing/notebooks_pdf/04-Filtering_thresholding.pdf), [html](Python_image_processing/notebooks_html/04-Filtering_thresholding.html))
@@ -91,8 +91,8 @@ exercise [repository](https://github.com/mariezufferey/CAS_ADS/tree/master/modul
     - [Image registration](Python_image_processing/notebooks/12-Registration.ipynb) ([pdf](Python_image_processing/notebooks_pdf/12-Registration.pdf), [html](Python_image_processing/notebooks_html/12-Registration.html))
     - [Pixel classification](Python_image_processing/notebooks/13-Pixel_classification.ipynb) ([pdf](Python_image_processing/notebooks_pdf/13-Pixel_classification.pdf), [html](Python_image_processing/notebooks_html/13-Pixel_classification.html))
     - [Image classification by machine learning: Optical text recognition](Python_image_processing/notebooks/14-OCR.ipynb) ([pdf](Python_image_processing/notebooks_pdf/14-OCR.pdf), [html](Python_image_processing/notebooks_html/14-OCR.html))
-    - [Deep learning](Python_image_processing/notebooks/15-DeepLearning.ipynb) ([pdf](), [html]())
-    - [Image classification using deep learning](Python_image_processing/notebooks/16-Image_classification.ipynb) ([pdf](), [html]())
+    - [Deep learning](Python_image_processing/notebooks/15-DeepLearning.ipynb) ([pdf](Python_image_processing/notebooks_pdf/15-DeepLearning.pdf), [html](Python_image_processing/notebooks_html/15-DeepLearning.html))
+    - [Image classification using deep learning](Python_image_processing/notebooks/16-Image_classification.ipynb) ([pdf](Python_image_processing/notebooks_pdf/16-Image_classification.pdf), [html](Python_image_processing/notebooks_html/16-Image_classification.html))
     - [Semantic segmentation: Github resources](Python_image_processing/notebooks/17-Semantic_segmentation.ipynb) ([pdf](Python_image_processing/notebooks_pdf/17-Semantic_segmentation.pdf), [html](Python_image_processing/notebooks_html/17-Semantic_segmentation.html))
     - [Application: DICOM](Python_image_processing/notebooks/18-Application_DICOM.ipynb) ([pdf](Python_image_processing/notebooks_pdf/18-Application_DICOM.pdf), [html](Python_image_processing/notebooks_html/18-Application_DICOM.html))
 
@@ -100,10 +100,10 @@ exercise [repository](https://github.com/mariezufferey/CAS_ADS/tree/master/modul
 - [GitHub repository](https://github.com/neworldemancer/DSF5) of the course
 - [pdf](Python_ML/e6_python_ML.pdf) of all notebooks
 - [notebooks](https://github.com/mariezufferey/CAS_ADS/tree/master/module5/Python_ML/notebooks):
-    - [part 1](Python_ML/notebooks/Course_1.ipynb): introduction, performance measures, regression ([solutions to exercise](Python_ML/notebooks/Solutions_1.ipynb))
-    - [part 2](Python_ML/notebooks/Course_2.ipynb): decision tree, random forest, boosted decision trees, unsupervised learning techniques (PCA), data visualization (t-SNE/UMAP) ([solutions to exercise](Python_ML/notebooks/Solutions_2.ipynb))
-    - [part 3](Python_ML/notebooks/Course_3.ipynb): clustering (k-means), gaussian mixtures, introduction to neural networks ([solutions to exercise](Python_ML/notebooks/Solutions_3.ipynb))
-    - [part 4](Python_ML/notebooks/Course_4.ipynb): classification with neural network ([solutions to exercise](Python_ML/notebooks/Solutions_4.ipynb))
+    - [part 1](Python_ML/notebooks/Course_1.ipynb) ([pdf](Python_ML/notebooks_pdf/Course_1.pdf), [html](Python_ML/notebooks_html/Course_1.html)): introduction, performance measures, regression  - [solutions to exercise](Python_ML/notebooks/Solutions_1.ipynb) ([pdf](Python_ML/notebooks_pdf/Solutions_1.pdf), [html](Python_ML/notebooks_html/Solutions_1.html))
+    - [part 2](Python_ML/notebooks/Course_2.ipynb) ([pdf](Python_ML/notebooks_pdf/Course_2.pdf), [html](Python_ML/notebooks_html/Course_2.html)): decision tree, random forest, boosted decision trees, unsupervised learning techniques (PCA), data visualization (t-SNE/UMAP) - [solutions to exercise](Python_ML/notebooks/Solutions_2.ipynb) ([pdf](Python_ML/notebooks_pdf/Solutions_2.pdf), [html](Python_ML/notebooks_html/Solutions_2.html))
+    - [part 3](Python_ML/notebooks/Course_3.ipynb) ([pdf](Python_ML/notebooks_pdf/Course_3.pdf), [html](Python_ML/notebooks_html/Course_3.html)): clustering (k-means), gaussian mixtures, introduction to neural networks - [solutions to exercise](Python_ML/notebooks/Solutions_3.ipynb) ([pdf](Python_ML/notebooks_pdf/Solutions_3.pdf), [html](Python_ML/notebooks_html/Solutions_3.html))
+    - [part 4](Python_ML/notebooks/Course_4.ipynb) ([pdf](Python_ML/notebooks_pdf/Course_4.pdf), [html](Python_ML/notebooks_html/Course_4.html)): classification with neural network  - [solutions to exercise](Python_ML/notebooks/Solutions_4.ipynb)) ([pdf](Python_ML/notebooks_pdf/Solutions_4.pdf), [html](Python_ML/notebooks_html/Solutions_4.html))
 
 ##### Machine learning with Dataiku 
 - introduction to Dataiku ([slides](Dataiku/e7_0_U0Bern_Slidedeck_Intro.pdf))
