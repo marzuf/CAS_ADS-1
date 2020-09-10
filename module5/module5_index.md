@@ -117,16 +117,15 @@ exercise [repository](https://github.com/mariezufferey/CAS_ADS/tree/master/modul
 
 - [pdf](Mathematics-for-ML/all_MathsForML.pdf) of all notebooks
 - [notebooks](https://github.com/mariezufferey/CAS_ADS/tree/master/module5/Mathematics-for-ML/notebooks):
-    - [introduction](Mathematics-for-ML/notebooks/Introduction.ipynb) ([pdf](Mathematics-for-ML/notebooks_pdf/Introduction.pdf), [html](Mathematics-for-ML/notebooks_html/Introduction.html))
-    - [linear algebra](Mathematics-for-ML/notebooks/LinearAlgebra.ipynb) ([pdf](Mathematics-for-ML/notebooks_pdf/LinearAlgebra.pdf), [html](Mathematics-for-ML/notebooks_html/LinearAlgebra.html))
-    - [calculus](Mathematics-for-ML/notebooks/Calculus.ipynb) ([pdf](Mathematics-for-ML/notebooks_pdf/Calculus.pdf), [html](Mathematics-for-ML/notebooks_html/Calculus.html))
-    - [day 1](Mathematics-for-ML/notebooks/MM_Day1.ipynb) ([pdf](Mathematics-for-ML/notebooks_pdf/MM_Day1.pdf), [html](Mathematics-for-ML/notebooks_html/MM_Day1.html))
+    - [introduction](Mathematics-for-ML/notebooks/Introduction.ipynb) ([pdf](Mathematics-for-ML/notebooks_pdf/1_Introduction.pdf), [html](Mathematics-for-ML/notebooks_html/Introduction.html))
+    - [linear algebra](Mathematics-for-ML/notebooks/LinearAlgebra.ipynb) ([pdf](Mathematics-for-ML/notebooks_pdf/2_LinearAlgebra.pdf), [html](Mathematics-for-ML/notebooks_html/LinearAlgebra.html))
+    - [calculus](Mathematics-for-ML/notebooks/Calculus.ipynb) ([pdf](Mathematics-for-ML/notebooks_pdf/3_Calculus.pdf), [html](Mathematics-for-ML/notebooks_html/Calculus.html))
+    - [day 1](Mathematics-for-ML/notebooks/MM_Day1.ipynb) ([pdf](Mathematics-for-ML/notebooks_pdf/z_MM_Day1.pdf), [html](Mathematics-for-ML/notebooks_html/MM_Day1.html))
 
 ##### Machine Learning review !!! TO UPDATE !!!
 
 - [folder](https://github.com/mariezufferey/CAS_ADS/tree/master/module5/Machine_Learning_Review/notebooks) with all notebooks
 - [pdf](Machine_Learning_Review/all_ML_review.pdf) of all notebooks
-
 - day1 
     - [slides](Machine_Learning_Review/M1_D1_student.pdf)
     - [notebook](Machine_Learning_Review/notebooks/notebook_M1D1.ipynb) ([pdf](Machine_Learning_Review/notebooks_pdf/notebook_M1D1.pdf), [html](Machine_Learning_Review/notebooks_html/notebook_M1D1.html))
@@ -135,7 +134,8 @@ exercise [repository](https://github.com/mariezufferey/CAS_ADS/tree/master/modul
     - [notebook](Machine_Learning_Review/notebooks/notebook_M1D2.ipynb) ([pdf](Machine_Learning_Review/notebooks_pdf/notebook_M1D2.pdf), [html](Machine_Learning_Review/notebooks_html/notebook_M1D2.html))
 - day3 
     - [slides](Machine_Learning_Review/M1_D3_student.pdf)
-    - [notebook](Machine_Learning_Review/notebooks/notebook_M1D3.ipynb) ([pdf](Machine_Learning_Review/notebooks_pdf/notebook_M1D3.pdf), [html](Machine_Learning_Review/notebooks_html/notebook_M1D3.html))
+    - part 1: [notebook](Machine_Learning_Review/notebooks/notebook_M1D3_1.ipynb) ([pdf](Machine_Learning_Review/notebooks_pdf/notebook_M1D3_1.pdf), [html](Machine_Learning_Review/notebooks_html/notebook_M1D3_1.html))
+    - part 2: [notebook](Machine_Learning_Review/notebooks/notebook_M1D3_2.ipynb) ([pdf](Machine_Learning_Review/notebooks_pdf/notebook_M1D3_2.pdf), [html](Machine_Learning_Review/notebooks_html/notebook_M1D3_2.html))
 - day4
     - [slides](Machine_Learning_Review/M1_D4_student.pdf)
     - [notebook](Machine_Learning_Review/notebooks/notebook_M1D4.ipynb) ([pdf](Machine_Learning_Review/notebooks_pdf/notebook_M1D4.pdf), [html](Machine_Learning_Review/notebooks_html/notebook_M1D4.html))
@@ -145,26 +145,21 @@ exercise [repository](https://github.com/mariezufferey/CAS_ADS/tree/master/modul
 
 - [folder](https://github.com/mariezufferey/CAS_ADS/tree/master/module5/DeepNetworks/notebooks) with all notebooks
 - [pdf](DeepNetworks/all_DeepNetworks.pdf) of all notebooks
-
-Day 1 
-- [slides](DeepNetworks/M2_D1_student.pdf)
-- [notebook](DeepNetworks/notebooks/notebook_M2D1.ipynb) ([pdf](DeepNetworks/notebooks_pdf/notebook_M2D1.pdf), [html](DeepNetworks/notebooks_html/notebook_M2D1.html))
-
-Day 2 
-- [slides](DeepNetworks/M2_D2_student.pdf)
-- [notebook](DeepNetworks/notebooks/notebook_M2D2_1.ipynb)) - part 1 ([pdf](DeepNetworks/notebooks_pdf/notebook_M2D2_1.pdf), [html](DeepNetworks/notebooks_html/notebook_M2D2_1.html))
-- [notebook](DeepNetworks/notebooks/notebook_M2D2_2.ipynb) - part 2 ([pdf](DeepNetworks/notebooks_pdf/notebook_M2D2_2.pdf), [html](DeepNetworks/notebooks_html/notebook_M2D2_2.html))
-Day 3 
+- Day 1 
+    - [slides](DeepNetworks/M2_D1_student.pdf)
+    - [notebook](DeepNetworks/notebooks/notebook_M2D1.ipynb) ([pdf](DeepNetworks/notebooks_pdf/notebook_M2D1.pdf), [html](DeepNetworks/notebooks_html/notebook_M2D1.html))
+- Day 2 
+    - [slides](DeepNetworks/M2_D2_student.pdf)
+    - [notebook](DeepNetworks/notebooks/notebook_M2D2_1.ipynb)) - part 1 ([pdf](DeepNetworks/notebooks_pdf/notebook_M2D2_1.pdf), [html](DeepNetworks/notebooks_html/notebook_M2D2_1.html))
+    - [notebook](DeepNetworks/notebooks/notebook_M2D2_2.ipynb) - part 2 ([pdf](DeepNetworks/notebooks_pdf/notebook_M2D2_2.pdf), [html](DeepNetworks/notebooks_html/notebook_M2D2_2.html))
+- Day 3 
 - [slides](DeepNetworks/M2_D3_student.pdf)
 - [notebook](DeepNetworks/notebooks/notebook_M2D3_1.ipynb) - part 1 ([pdf](DeepNetworks/notebooks_pdf/notebook_M2D3_1.pdf), [html](DeepNetworks/notebooks_html/notebook_M2D3_1.html))
 - [notebook](DeepNetworks/notebooks/notebook_M2D3_2.ipynb) - part 2 ([pdf](DeepNetworks/notebooks_pdf/notebook_M2D3_2.pdf), [html](DeepNetworks/notebooks_html/notebook_M2D3_2.html))
-
-Day 4
-- [slides](DeepNetworks/M2_D4_student.pdf)
-
-Summary video: [pdf](DeepNetworks/Summary_Video.pdf), [pptx](DeepNetworks/Summary_Video.pptx)
-
-Surveys: [1](DeepNetworks/Survey_5.pdf), [2](DeepNetworks/Survey_6.pdf), [3](DeepNetworks/Survey_7.pdf)
+- Day 4
+    - [slides](DeepNetworks/M2_D4_student.pdf)
+- Summary video: [pdf](DeepNetworks/Summary_Video.pdf), [pptx](DeepNetworks/Summary_Video.pptx)
+- Surveys: [1](DeepNetworks/Survey_5.pdf), [2](DeepNetworks/Survey_6.pdf), [3](DeepNetworks/Survey_7.pdf)
 
 ##### Introduction to MATLAB 
 - [slides](intro_Matlab/e8_WorkshopSlides.pdf)
