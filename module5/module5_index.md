@@ -155,8 +155,8 @@ exercise [repository](https://github.com/mariezufferey/CAS_ADS/tree/master/modul
     - [notebook](DeepNetworks/notebooks/notebook_M2D3_2.ipynb) - part 2 ([pdf](DeepNetworks/notebooks_pdf/notebook_M2D3_2.pdf), [html](DeepNetworks/notebooks_html/notebook_M2D3_2.html))
 - day 4
     - [slides](DeepNetworks/M2_D4_student.pdf)
-- Summary video: [pdf](DeepNetworks/Summary_Video.pdf), [pptx](DeepNetworks/Summary_Video.pptx)
-- Surveys: [1](DeepNetworks/Survey_5.pdf), [2](DeepNetworks/Survey_6.pdf), [3](DeepNetworks/Survey_7.pdf)
+- summary video: [pdf](DeepNetworks/Summary_Video.pdf), [pptx](DeepNetworks/Summary_Video.pptx)
+- surveys: [1](DeepNetworks/Survey_5.pdf), [2](DeepNetworks/Survey_6.pdf), [3](DeepNetworks/Survey_7.pdf)
 
 ##### Introduction to MATLAB 
 - [slides](intro_Matlab/e8_WorkshopSlides.pdf)
