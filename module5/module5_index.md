@@ -39,7 +39,7 @@
     - [Numpy combining arrays](NumpyPandas/notebooks/05-DA_Numpy_combining_arrays.ipynb) ([pdf](NumpyPandas/notebooks_pdf/05-DA_Numpy_combining_arrays.pdf), [html](NumpyPandas/notebooks_html/05-DA_Numpy_combining_arrays.html))
     - [Pandas introduction](NumpyPandas/notebooks/06-DA_Pandas_introduction.ipynb) ([pdf](NumpyPandas/notebooks_pdf/06-DA_Pandas_introduction.pdf), [html](NumpyPandas/notebooks_html/06-DA_Pandas_introduction.html))
     - [Pandas structures](NumpyPandas/notebooks/07-DA_Pandas_structures.ipynb) ([pdf](NumpyPandas/notebooks_pdf/07-DA_Pandas_structures.pdf), [html](NumpyPandas/notebooks_html/07-DA_Pandas_structures.html))
-    - [Pandas import plotting](NumpyPandas/notebooks/08-DA_Pandas_import_plotting.ipynb) ([pdf](NumpyPandas/notebooks_pdf/08-DA_Pandas_import_plotting.pdf), [html](NumpyPandas/notebooks_html/08-DA_Pandas_import_plotting.ipynb))
+    - [Pandas import plotting](NumpyPandas/notebooks/08-DA_Pandas_import_plotting.ipynb) ([pdf](NumpyPandas/notebooks_pdf/08-DA_Pandas_import_plotting.pdf), [html](NumpyPandas/notebooks_html/08-DA_Pandas_import_plotting.html))
     - [Pandas operation](NumpyPandas/notebooks/09-DA_Pandas_operations.ipynb) ([pdf](NumpyPandas/notebooks_pdf/09-DA_Pandas_operations.pdf), [html](NumpyPandas/notebooks_html/09-DA_Pandas_operations.html))
     - [Pandas combine](NumpyPandas/notebooks/10-DA_Pandas_combine.ipynb) ([pdf](NumpyPandas/notebooks_pdf/10-DA_Pandas_combine.pdf), [html](NumpyPandas/notebooks_html/10-DA_Pandas_combine.html))
     - [Pandas splitting](NumpyPandas/notebooks/11-DA_Pandas_splitting.ipynb) ([pdf](NumpyPandas/notebooks_pdf/11-DA_Pandas_splitting.pdf), [html](NumpyPandas/notebooks_html/11-DA_Pandas_splitting.html))
