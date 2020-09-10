@@ -154,7 +154,9 @@
     - [notebook](DeepNetworks/notebooks/notebook_M2D1.ipynb) ([pdf](DeepNetworks/notebooks_pdf/notebook_M2D1.pdf), [html](https://raw.githack.com/mariezufferey/CAS_ADS/master/module5/DeepNetworks/notebooks_html/notebook_M2D1.html))
 - day 2 
     - [slides](DeepNetworks/M2_D2_student.pdf)
-    - [notebook](DeepNetworks/notebooks/notebook_M2D2_1.ipynb)) - part 1 ([pdf](DeepNetworks/notebooks_pdf/notebook_M2D2_1.pdf), [html](https://raw.githack.com/mariezufferey/CAS_ADS/master/module5/DeepNetworks/notebooks_html/notebook_M2D2_1.html))
+    - [notebook](DeepNetworks/notebooks/notebook_M2D2_1.ipynb) - part 1 ([pdf](DeepNetworks/notebooks_pdf/notebook_M2D2_1.pdf), [html](https://raw.githack.com/mariezufferey/CAS_ADS/master/module5/DeepNetworks/notebooks_html/notebook_M2D2_1.html))
+        - *Chapter 11: training Deep Neural Networks*
+
     - [notebook](DeepNetworks/notebooks/notebook_M2D2_2.ipynb) - part 2 ([pdf](DeepNetworks/notebooks_pdf/notebook_M2D2_2.pdf), [html](https://raw.githack.com/mariezufferey/CAS_ADS/master/module5/DeepNetworks/notebooks_html/notebook_M2D2_2.html))
 - day 3 
     - [slides](DeepNetworks/M2_D3_student.pdf)
