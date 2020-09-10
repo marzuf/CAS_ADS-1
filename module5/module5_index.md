@@ -50,8 +50,8 @@
 
 
 ##### Deeper dive into Python !!! TO UPDATE !!!
--[slides](DeeperDive/Course_slides.pdf)
-exercise [repository](https://github.com/mariezufferey/CAS_ADS/tree/master/module5/DeeperDive/CourseExercises)
+- [slides](DeeperDive/Course_slides.pdf)
+- [exercise repository](https://github.com/mariezufferey/CAS_ADS/tree/master/module5/DeeperDive/CourseExercises)
 
 
 ##### Statistics with Python 
@@ -112,32 +112,39 @@ exercise [repository](https://github.com/mariezufferey/CAS_ADS/tree/master/modul
 - how to get a certificate ([slides](Dataiku/e7_2_U0Bern_Slidedeck_Certifiable.pdf))
 - personal reading notes from internet about Dataiku concepts ([v1](Dataiku/e7_dataiku_info.pdf), [v2](Dataiku/e7_wwww_concepts.pdf))
 
-
 ##### Mathematical methods for data Science and machine Learning !!! TO UPDATE !!!
 - [pdf](Mathematics-for-ML/all_MathsForML.pdf) of all notebooks
 - [notebooks](https://github.com/mariezufferey/CAS_ADS/tree/master/module5/Mathematics-for-ML/notebooks):
-    - [introduction](Mathematics-for-ML/notebooks/Introduction.ipynb) ([pdf](Mathematics-for-ML/notebooks_pdf/1_Introduction.pdf), [html](https://raw.githack.com/mariezufferey/CAS_ADS/master/module5/Mathematics-for-ML/notebooks_html/Introduction.html))
+    - [introduction](Mathematics-for-ML/notebooks/Introduction.ipynb) ([pdf](Mathematics-for-ML/notebooks_pdf/1_Introduction.pdf), [html](https://raw.githack.com/mariezufferey/CAS_ADS/master/module5/Mathematics-for-ML/notebooks_html/Introduction.html)) / [day 1](Mathematics-for-ML/notebooks/MM_Day1.ipynb) ([pdf](Mathematics-for-ML/notebooks_pdf/z_MM_Day1.pdf), [html](https://raw.githack.com/mariezufferey/CAS_ADS/master/module5/Mathematics-for-ML/notebooks_html/MM_Day1.html))
     - [linear algebra](Mathematics-for-ML/notebooks/LinearAlgebra.ipynb) ([pdf](Mathematics-for-ML/notebooks_pdf/2_LinearAlgebra.pdf), [html](https://raw.githack.com/mariezufferey/CAS_ADS/master/module5/Mathematics-for-ML/notebooks_html/LinearAlgebra.html))
+            - *vector operations - matrix operations - projection and the dot product - orthogonal matrices - change of basis - eigenvalues and eigenvectors of matrices*
     - [calculus](Mathematics-for-ML/notebooks/Calculus.ipynb) ([pdf](Mathematics-for-ML/notebooks_pdf/3_Calculus.pdf), [html](https://raw.githack.com/mariezufferey/CAS_ADS/master/module5/Mathematics-for-ML/notebooks_html/Calculus.html))
-    - [day 1](Mathematics-for-ML/notebooks/MM_Day1.ipynb) ([pdf](Mathematics-for-ML/notebooks_pdf/z_MM_Day1.pdf), [html](https://raw.githack.com/mariezufferey/CAS_ADS/master/module5/Mathematics-for-ML/notebooks_html/MM_Day1.html))
+    - *differentiation of univariate functions - rules of differentiation - differentiation of multivariate functions (the Jacobian, the Hessian) - chain rule for univariate and multivariate functions - the Taylor approximation - the Newton-Raphson method - gradient descent method - backpropagation*
 
 ##### Machine Learning review !!! TO UPDATE !!!
 - [folder](https://github.com/mariezufferey/CAS_ADS/tree/master/module5/Machine_Learning_Review/notebooks) with all notebooks
 - [pdf](Machine_Learning_Review/all_ML_review.pdf) of all notebooks
 - day 1 
     - [slides](Machine_Learning_Review/M1_D1_student.pdf)
-    - [notebook](Machine_Learning_Review/notebooks/notebook_M1D1.ipynb) ([pdf](Machine_Learning_Review/notebooks_pdf/notebook_M1D1.pdf), [html](https://raw.githack.com/mariezufferey/CAS_ADS/master/module5/Machine_Learning_Review/notebooks_html/notebook_M1D1.html))
+    - [notebook](Machine_Learning_Review/notebooks/notebook_M1D1.ipynb) ([pdf](Machine_Learning_Review/notebooks_pdf/notebook_M1D1.pdf), [html](https://raw.githack.com/mariezufferey/CAS_ADS/master/module5/Machine_Learning_Review/notebooks_html/notebook_M1D1.html)): 
+            - *chapter 2: end-to-end machine learning project*
 - day 2 
-    - [slides](Machine_Learning_Review/M1_D2_student.pdf)
+    - [slides](Machine_Learning_Review/M1_D2_student.pdf):
+            - *Regression (linear, polynomial; ridge, LASSO, elastic net; performance evaluation) - Classification (logistic regression; naïve Bayes; k-nearest neighbors; performance evaluation) - Support Vector Machines (SVM; regression/classification) (SVC; SVR) - Ensemble methods (regression/classification) (decision trees; random forests; bagging, boosting)*
     - [notebook](Machine_Learning_Review/notebooks/notebook_M1D2.ipynb) ([pdf](Machine_Learning_Review/notebooks_pdf/notebook_M1D2.pdf), [html](https://raw.githack.com/mariezufferey/CAS_ADS/master/module5/Machine_Learning_Review/notebooks_html/notebook_M1D2.html))
+            - *chapter 2: end-to-end machine learning project*
 - day 3 
     - [slides](Machine_Learning_Review/M1_D3_student.pdf)
+            - *Clustering (k-means; hierarchical clustering) - density estimation (Gaussian Mixture Model (GMM)) - Sequence Prediction (HMM; RNN; LSTM) - Feature Extraction (PCA; kernel PCA; manifold Learning)*
     - part 1: [notebook](Machine_Learning_Review/notebooks/notebook_M1D3_1.ipynb) ([pdf](Machine_Learning_Review/notebooks_pdf/notebook_M1D3_1.pdf), [html](https://raw.githack.com/mariezufferey/CAS_ADS/master/module5/Machine_Learning_Review/notebooks_html/notebook_M1D3_1.html))
+            - *Chapter 8: dimensionality reduction*
     - part 2: [notebook](Machine_Learning_Review/notebooks/notebook_M1D3_2.ipynb) ([pdf](Machine_Learning_Review/notebooks_pdf/notebook_M1D3_2.pdf), [html](https://raw.githack.com/mariezufferey/CAS_ADS/master/module5/Machine_Learning_Review/notebooks_html/notebook_M1D3_2.html))
+            - *Chapter 9: unsupervised learning*    
 - day 4
     - [slides](Machine_Learning_Review/M1_D4_student.pdf)
+            - *Neural Networks - Training the NN - Activation functions - Loss functions - Faster optimizers than gradient descent (momentum optimization; RMSprop; adaptative moment (Adam)) - NN as an alternative to other ML algorithms* 
     - [notebook](Machine_Learning_Review/notebooks/notebook_M1D4.ipynb) ([pdf](Machine_Learning_Review/notebooks_pdf/notebook_M1D4.pdf), [html](https://raw.githack.com/mariezufferey/CAS_ADS/master/module5/Machine_Learning_Review/notebooks_html/notebook_M1D4.html))
-
+            - *Chapter 10: introduction to artificial NN with Keras* 
 
 ##### Deep networks !!! TO UPDATE !!!
 - [folder](https://github.com/mariezufferey/CAS_ADS/tree/master/module5/DeepNetworks/notebooks) with all notebooks
