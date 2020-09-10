@@ -5,7 +5,7 @@
 ### Electives
 
 ##### Python for programmers
-- slides ([html](Python_for_programmers/Python_3_for_programmers.html), unformatted [pdf](pdf_lectures/e1_Python_for_programmers/Python_3_for_programmers.pdf), [GitHub repository](https://github.com/escodebar/pfp) used during the course)
+- slides ([html](Python_for_programmers/Python_3_for_programmers.html), unformatted [pdf](Python_for_programmers/Python_3_for_programmers.pdf), [GitHub repository](https://github.com/escodebar/pfp) used during the course)
 - [official tutorial](https://docs.python.org/3.7/tutorial)
 - [official documentation](https://docs.python.org/3)
 - other references:
@@ -56,31 +56,31 @@ exercise [repository](https://github.com/mariezufferey/CAS_ADS/tree/master/modul
 
 ##### Statistics with Python 
 - [pdf](Python_statistics/e3_python_statistics.pdf) of all notebooks
-- [notebooks](https://github.com/mariezufferey/CAS_ADS/tree/master/module5/pdf_lectures/e3_Python_statistics/notebooks):
-    - part 1: random variables and pdfs, describing data with pdfs, descriptive statistics with Python ([pdf](pdf_lectures/e3_Python_statistics/notebooks_pdf/C-DSF4-NB-1.pdf), [html](pdf_lectures/e3_Python_statistics/notebooks_html/C-DSF4-NB-1.html), [ipynb](pdf_lectures/e3_Python_statistics/notebooks/C-DSF4-NB-1.ipynb))
-    - part 2: parameter estimation and regression ([pdf](pdf_lectures/e3_Python_statistics/notebooks_pdf/C-DSF4-NB-2.pdf), [html](pdf_lectures/e3_Python_statistics/notebooks_html/C-DSF4-NB-2.html), [ipynb](pdf_lectures/e3_Python_statistics/notebooks/C-DSF4-NB-2.ipynb))
-    - part 3 : hypothesis testing ([pdf](pdf_lectures/e3_Python_statistics/notebooks/C-DSF4-NB-3.pdf), [html](pdf_lectures/e3_Python_statistics/notebooks_html/C-DSF4-NB-3.html), [ipynb](pdf_lectures/e3_Python_statistics/notebooks_pdf/C-DSF4-NB-3.ipynb))
+- [notebooks](https://github.com/mariezufferey/CAS_ADS/tree/master/module5/Python_statistics/notebooks):
+    - part 1: random variables and pdfs, describing data with pdfs, descriptive statistics with Python ([pdf](Python_statistics/notebooks_pdf/C-DSF4-NB-1.pdf), [html](Python_statistics/notebooks_html/C-DSF4-NB-1.html), [ipynb](Python_statistics/notebooks/C-DSF4-NB-1.ipynb))
+    - part 2: parameter estimation and regression ([pdf](Python_statistics/notebooks_pdf/C-DSF4-NB-2.pdf), [html](Python_statistics/notebooks_html/C-DSF4-NB-2.html), [ipynb](Python_statistics/notebooks/C-DSF4-NB-2.ipynb))
+    - part 3 : hypothesis testing ([pdf](Python_statistics/notebooks/C-DSF4-NB-3.pdf), [html](Python_statistics/notebooks_html/C-DSF4-NB-3.html), [ipynb](Python_statistics/notebooks_pdf/C-DSF4-NB-3.ipynb))
 
 ##### Scalable analytics with Python (DASK)
 - [GitHub repository](https://github.com/guiwitz/DaskCourse) of the course
-- [pdf](pdf_lectures/e4_Python_DASK/notebooks_pdf/e4_all_DASK.pdf) of all notebooks
-- [notebooks](https://github.com/mariezufferey/CAS_ADS/tree/master/module5/pdf_lectures/e4_Python_DASK/notebooks):
-    - [Delay and parallel computing](pdf_lectures/e4_Python_DASK/notebooks/01-Dask_delay.ipynb)
-    - [Applied problem: Sequence of operations on images](pdf_lectures/e4_Python_DASK/notebooks/02-Applied_delay_images.ipynb)
-    - [Creating a cluster and observing it](pdf_lectures/e4_Python_DASK/notebooks/03-Cluster_client.ipynb)
-    - [Dask (numpy) arrays](pdf_lectures/e4_Python_DASK/notebooks/04-Dask_arrays.ipynb)
-    - [Dask dataframes](pdf_lectures/e4_Python_DASK/notebooks/05-Dask_dataframes.ipynb)
-    - [Some more features](pdf_lectures/e4_Python_DASK/notebooks/07-Specialized_dask.ipynb)
-    - [Running dask on a cluster](pdf_lectures/e4_Python_DASK/notebooks/08-dask_on_cluster.ipynb)
+- [pdf](Python_DASK/notebooks_pdf/e4_all_DASK.pdf) of all notebooks
+- [notebooks](https://github.com/mariezufferey/CAS_ADS/tree/master/module5/Python_DASK/notebooks):
+    - [Delay and parallel computing](Python_DASK/notebooks/01-Dask_delay.ipynb)
+    - [Applied problem: Sequence of operations on images](Python_DASK/notebooks/02-Applied_delay_images.ipynb)
+    - [Creating a cluster and observing it](Python_DASK/notebooks/03-Cluster_client.ipynb)
+    - [Dask (numpy) arrays](Python_DASK/notebooks/04-Dask_arrays.ipynb)
+    - [Dask dataframes](Python_DASK/notebooks/05-Dask_dataframes.ipynb)
+    - [Some more features](Python_DASK/notebooks/07-Specialized_dask.ipynb)
+    - [Running dask on a cluster](Python_DASK/notebooks/08-dask_on_cluster.ipynb)
 
 ##### Image processing with Python
 - [GitHub repository](https://github.com/guiwitz/Python_image_processing) of the course
 - [pdf](Python_image_processing/e5_all_image_processing.pdf) of all notebooks
-- [notebooks](https://github.com/mariezufferey/CAS_ADS/tree/master/module5/pdf_lectures/e5_Python_image_processing/notebooks):
-    - [Introduction](pdf_lectures/e5_Python_image_processing/notebooks/01-Introduction.ipynb) ([pdf](), [html]())
+- [notebooks](https://github.com/mariezufferey/CAS_ADS/tree/master/module5/Python_image_processing/notebooks):
+    - [Introduction](Python_image_processing/notebooks/01-Introduction.ipynb) ([pdf](), [html]())
     - [Numpy with images](Python_image_processing/notebooks/02-Numpy_images.ipynb) ([pdf](Python_image_processing/notebooks_pdf/02-Numpy_images.pdf), [html](Python_image_processing/notebooks_html/02-Numpy_images.html))
     - [Image import/export](Python_image_processing/notebooks/03-Image_import.ipynb) ([pdf](Python_image_processing/notebooks_pdf/03-Image_import.pdf), [html](Python_image_processing/notebooks_html/03-Image_import.html))
-    - [Basic Image processing: Filtering, scaling, thresholding](pdf_lectures/e5_Python_image_processing/notebooks/04-Filtering_thresholding.ipynb) ([pdf](Python_image_processing/notebooks_pdf/04-Filtering_thresholding.pdf), [html](Python_image_processing/notebooks_html/04-Filtering_thresholding.html))
+    - [Basic Image processing: Filtering, scaling, thresholding](Python_image_processing/notebooks/04-Filtering_thresholding.ipynb) ([pdf](Python_image_processing/notebooks_pdf/04-Filtering_thresholding.pdf), [html](Python_image_processing/notebooks_html/04-Filtering_thresholding.html))
     - [Binary operations, regions](Python_image_processing/notebooks/05-Binary_operations.ipynb) ([pdf](Python_image_processing/notebooks_pdf/05-Binary_operations.pdf), [html](Python_image_processing/notebooks_html/05-Binary_operations.html))
     - [Applications: Satellite image](Python_image_processing/notebooks/06-Applicatio_satellite_image.ipynb) ([pdf](Python_image_processing/notebooks_pdf/06-Applicatio_satellite_image.pdf), [html](Python_image_processing/notebooks_html/06-Applicatio_satellite_image.html))
     - [Functions](Python_image_processing/notebooks/07-Functions.ipynb) ([pdf](Python_image_processing/notebooks_pdf/07-Functions.pdf), [html](Python_image_processing/notebooks_html/07-Functions.html))
@@ -101,8 +101,8 @@ exercise [repository](https://github.com/mariezufferey/CAS_ADS/tree/master/modul
 - [pdf](Python_ML/e6_python_ML.pdf) of all notebooks
 - [notebooks](https://github.com/mariezufferey/CAS_ADS/tree/master/module5/Python_ML/notebooks):
     - [part 1](Python_ML/notebooks/Course_1.ipynb): introduction, performance measures, regression ([solutions to exercise](Python_ML/notebooks/Solutions_1.ipynb))
-    - [part 2](Python_ML/notebooks/Course_2.ipynb): decision tree, random forest, boosted decision trees, unsupervised learning techniques (PCA), data visualization (t-SNE/UMAP) ([solutions to exercise](pdf_lectures/e6_Python_ML/notebooks/Solutions_2.ipynb))
-    - [part 3](pdf_lectures/e6_Python_ML/notebooks/Course_3.ipynb): clustering (k-means), gaussian mixtures, introduction to neural networks ([solutions to exercise](Python_ML/notebooks/Solutions_3.ipynb))
+    - [part 2](Python_ML/notebooks/Course_2.ipynb): decision tree, random forest, boosted decision trees, unsupervised learning techniques (PCA), data visualization (t-SNE/UMAP) ([solutions to exercise](Python_ML/notebooks/Solutions_2.ipynb))
+    - [part 3](Python_ML/notebooks/Course_3.ipynb): clustering (k-means), gaussian mixtures, introduction to neural networks ([solutions to exercise](Python_ML/notebooks/Solutions_3.ipynb))
     - [part 4](Python_ML/notebooks/Course_4.ipynb): classification with neural network ([solutions to exercise](Python_ML/notebooks/Solutions_4.ipynb))
 
 ##### Machine learning with Dataiku 
@@ -167,8 +167,8 @@ Summary video: [pdf](DeepNetworks/Summary_Video.pdf), [pptx](DeepNetworks/Summar
 Surveys: [1](DeepNetworks/Survey_5.pdf), [2](DeepNetworks/Survey_6.pdf), [3](DeepNetworks/Survey_7.pdf)
 
 ##### Introduction to MATLAB 
-- [slides](pdf_lectures/e8_intro_Matlab/e8_WorkshopSlides.pdf)
-- [course material](https://github.com/mariezufferey/CAS_ADS/tree/master/module5/pdf_lectures/e8_intro_Matlab/Matlab_drive): plottings, scripts, data analysis, programming  
+- [slides](intro_Matlab/e8_WorkshopSlides.pdf)
+- [course material](https://github.com/mariezufferey/CAS_ADS/tree/master/module5/intro_Matlab/Matlab_drive): plottings, scripts, data analysis, programming  
 
 
 ##### Deep learning: a practical approach in MATLAB 
