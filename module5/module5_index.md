@@ -57,9 +57,9 @@ exercise [repository](https://github.com/mariezufferey/CAS_ADS/tree/master/modul
 ##### Statistics with Python 
 - [pdf](Python_statistics/e3_python_statistics.pdf) of all notebooks
 - [notebooks](https://github.com/mariezufferey/CAS_ADS/tree/master/module5/Python_statistics/notebooks):
-    - [part 1](Python_statistics/notebooks/C-DSF4-NB-1.ipynb): random variables and pdfs, describing data with pdfs, descriptive statistics with Python ([pdf](Python_statistics/notebooks_pdf/C-DSF4-NB-1.pdf), [html](Python_statistics/notebooks_html/C-DSF4-NB-1.html))
-    - [part 2](Python_statistics/notebooks/C-DSF4-NB-2.ipynb): parameter estimation and regression ([pdf](Python_statistics/notebooks_pdf/C-DSF4-NB-2.pdf), [html](Python_statistics/notebooks_html/C-DSF4-NB-2.html))
-    - [part 3](Python_statistics/notebooks_pdf/C-DSF4-NB-3.ipynb): hypothesis testing ([pdf](Python_statistics/notebooks/C-DSF4-NB-3.pdf), [html](Python_statistics/notebooks_html/C-DSF4-NB-3.html))
+    - [part 1](Python_statistics/notebooks/C-DSF4-NB-1.ipynb) ([pdf](Python_statistics/notebooks_pdf/C-DSF4-NB-1.pdf), [html](Python_statistics/notebooks_html/C-DSF4-NB-1.html)): random variables and pdfs, describing data with pdfs, descriptive statistics with Python 
+    - [part 2](Python_statistics/notebooks/C-DSF4-NB-2.ipynb) ([pdf](Python_statistics/notebooks_pdf/C-DSF4-NB-2.pdf), [html](Python_statistics/notebooks_html/C-DSF4-NB-2.html)): parameter estimation and regression
+    - [part 3](Python_statistics/notebooks_pdf/C-DSF4-NB-3.ipynb) ([pdf](Python_statistics/notebooks/C-DSF4-NB-3.pdf), [html](Python_statistics/notebooks_html/C-DSF4-NB-3.html)): hypothesis testing
 
 ##### Scalable analytics with Python (DASK)
 - [GitHub repository](https://github.com/guiwitz/DaskCourse) of the course
