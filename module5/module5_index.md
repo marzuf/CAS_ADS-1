@@ -18,14 +18,14 @@
 - [notebooks](https://github.com/mariezufferey/CAS_ADS/tree/master/module5/Python_Pandas/notebooks): 
     - [Pandas introduction](Python_Pandas/notebooks/00-Pandas_introduction.ipynb) ([pdf](Python_Pandas/notebooks_pdf/00-Pandas_introduction.pdf), [html](Python_Pandas/notebooks_html/00-Pandas_introduction.html))
     - [Pandas objects](Python_Pandas/notebooks/01-Pandas_structures.ipynb) ([pdf](Python_Pandas/notebooks_pdf/01-Pandas_structures.pdf), [html](Python_Pandas/notebooks_html/01-Pandas_structures.html))
-    - [Importing excel files](Python_Pandas/notebooks/02-Pandas_import.ipynb) ([pdf](Python_Pandas/notebooks_pdf/02-Pandas_import.pdf), [html](Python_Pandas/notebooks_html/02-Pandas_import.html))
-    - [Operations with Pandas objects](Python_Pandas/notebooks/03-Pandas_operations.ipynb) ([pdf](Python_Pandas/notebooks_pdf/03-Pandas_operations.pdf), [html](Python_Pandas/notebooks_html/03-Pandas_operations.html))
-    - [Combining information in Pandas](Python_Pandas/notebooks/04-Pandas_combine.ipynb) ([pdf](Python_Pandas/notebooks_pdf/04-Pandas_combine.pdf), [html](Python_Pandas/notebooks_html/04-Pandas_combine.html))
-    - [Splitting data](Python_Pandas/notebooks/05-Pandas_splitting.ipynb) ([pdf](Python_Pandas/notebooks_pdf/05-Pandas_splitting.pdf), [html](Python_Pandas/notebooks_html/05-Pandas_splitting.html))
-    - [Advanced plotting](Python_Pandas/notebooks/06-Pandas_plotting.ipynb) ([pdf](Python_Pandas/notebooks_pdf/06-Pandas_plotting.pdf), [html](Python_Pandas/notebooks_html/06-Pandas_plotting.html))
-    - [Insight into Machine Learning](Python_Pandas/notebooks/07-Pandas_ML.ipynb) ([pdf](Python_Pandas/notebooks_pdf/07-Pandas_ML.pdf), [html](Python_Pandas/notebooks_html/07-Pandas_ML.html))
-    - [Exercises](Python_Pandas/notebooks/99-Exercise.ipynb) ([pdf](Python_Pandas/notebooks_pdf/99-Exercise.pdf), [html](Python_Pandas/notebooks_html/99-Exercise.html))
-    - [Solutions to exercises](Python_Pandas/notebooks/99-Solutions.ipynb) ([pdf](Python_Pandas/notebooks_pdf/99-Solutions.pdf), [html](Python_Pandas/notebooks_html/99-Solutions.html))
+    - [importing excel files](Python_Pandas/notebooks/02-Pandas_import.ipynb) ([pdf](Python_Pandas/notebooks_pdf/02-Pandas_import.pdf), [html](Python_Pandas/notebooks_html/02-Pandas_import.html))
+    - [operations with Pandas objects](Python_Pandas/notebooks/03-Pandas_operations.ipynb) ([pdf](Python_Pandas/notebooks_pdf/03-Pandas_operations.pdf), [html](Python_Pandas/notebooks_html/03-Pandas_operations.html))
+    - [combining information in Pandas](Python_Pandas/notebooks/04-Pandas_combine.ipynb) ([pdf](Python_Pandas/notebooks_pdf/04-Pandas_combine.pdf), [html](Python_Pandas/notebooks_html/04-Pandas_combine.html))
+    - [splitting data](Python_Pandas/notebooks/05-Pandas_splitting.ipynb) ([pdf](Python_Pandas/notebooks_pdf/05-Pandas_splitting.pdf), [html](Python_Pandas/notebooks_html/05-Pandas_splitting.html))
+    - [advanced plotting](Python_Pandas/notebooks/06-Pandas_plotting.ipynb) ([pdf](Python_Pandas/notebooks_pdf/06-Pandas_plotting.pdf), [html](Python_Pandas/notebooks_html/06-Pandas_plotting.html))
+    - [insight into Machine Learning](Python_Pandas/notebooks/07-Pandas_ML.ipynb) ([pdf](Python_Pandas/notebooks_pdf/07-Pandas_ML.pdf), [html](Python_Pandas/notebooks_html/07-Pandas_ML.html))
+    - [exercises](Python_Pandas/notebooks/99-Exercise.ipynb) ([pdf](Python_Pandas/notebooks_pdf/99-Exercise.pdf), [html](Python_Pandas/notebooks_html/99-Exercise.html))
+    - [solutions to exercises](Python_Pandas/notebooks/99-Solutions.ipynb) ([pdf](Python_Pandas/notebooks_pdf/99-Solutions.pdf), [html](Python_Pandas/notebooks_html/99-Solutions.html))
     
     
 ##### Data analytics with NumPy and Pandas !!! TO UPDATE !!!
@@ -65,36 +65,36 @@ exercise [repository](https://github.com/mariezufferey/CAS_ADS/tree/master/modul
 - [GitHub repository](https://github.com/guiwitz/DaskCourse) of the course
 - [pdf](Python_DASK/e4_all_DASK.pdf) of all notebooks
 - [notebooks](https://github.com/mariezufferey/CAS_ADS/tree/master/module5/Python_DASK/notebooks):
-    - [Delay and parallel computing](Python_DASK/notebooks/01-Dask_delay.ipynb) ([pdf](Python_DASK/notebooks_pdf/01-Dask_delay.pdf), [html](Python_DASK/notebooks_html/01-Dask_delay.html))
-    - [Applied problem: Sequence of operations on images](Python_DASK/notebooks/02-Applied_delay_images.ipynb) ([pdf](Python_DASK/notebooks_pdf/02-Applied_delay_images.pdf), [html](Python_DASK/notebooks_html/02-Applied_delay_images.html))
-    - [Creating a cluster and observing it](Python_DASK/notebooks/03-Cluster_client.ipynb) ([pdf](Python_DASK/notebooks_pdf/03-Cluster_client.pdf), [html](Python_DASK/notebooks_html/03-Cluster_client.html))
-    - [Dask (numpy) arrays](Python_DASK/notebooks/04-Dask_arrays.ipynb) ([pdf](Python_DASK/notebooks_pdf/04-Dask_arrays.pdf), [html](Python_DASK/notebooks_html/04-Dask_arrays.html))
-    - [Dask dataframes](Python_DASK/notebooks/05-Dask_dataframes.ipynb) ([pdf](Python_DASK/notebooks_pdf/05-Dask_dataframes.pdf), [html](Python_DASK/notebooks_html/05-Dask_dataframes.html))
-    - [Some more features](Python_DASK/notebooks/07-Specialized_dask.ipynb) ([pdf](Python_DASK/notebooks_pdf/07-Specialized_dask.pdf), [html](Python_DASK/notebooks_html/07-Specialized_dask.html))
-    - [Running dask on a cluster](Python_DASK/notebooks/08-dask_on_cluster.ipynb) ([pdf](Python_DASK/notebooks_pdf/08-dask_on_cluster.pdf), [html](Python_DASK/notebooks_html/08-dask_on_cluster.html))
+    - [delay and parallel computing](Python_DASK/notebooks/01-Dask_delay.ipynb) ([pdf](Python_DASK/notebooks_pdf/01-Dask_delay.pdf), [html](Python_DASK/notebooks_html/01-Dask_delay.html))
+    - [applied problem: Sequence of operations on images](Python_DASK/notebooks/02-Applied_delay_images.ipynb) ([pdf](Python_DASK/notebooks_pdf/02-Applied_delay_images.pdf), [html](Python_DASK/notebooks_html/02-Applied_delay_images.html))
+    - [creating a cluster and observing it](Python_DASK/notebooks/03-Cluster_client.ipynb) ([pdf](Python_DASK/notebooks_pdf/03-Cluster_client.pdf), [html](Python_ASK/notebooks_html/03-Cluster_client.html))
+    - [dask (numpy) arrays](Python_DASK/notebooks/04-Dask_arrays.ipynb) ([pdf](Python_DASK/notebooks_pdf/04-Dask_arrays.pdf), [html](Python_DASK/notebooks_html/04-Dask_arrays.html))
+    - [dask dataframes](Python_DASK/notebooks/05-Dask_dataframes.ipynb) ([pdf](Python_DASK/notebooks_pdf/05-Dask_dataframes.pdf), [html](Python_DASK/notebooks_html/05-Dask_dataframes.html))
+    - [some more features](Python_DASK/notebooks/07-Specialized_dask.ipynb) ([pdf](Python_DASK/notebooks_pdf/07-Specialized_dask.pdf), [html](Python_DASK/notebooks_html/07-Specialized_dask.html))
+    - [running dask on a cluster](Python_DASK/notebooks/08-dask_on_cluster.ipynb) ([pdf](Python_DASK/notebooks_pdf/08-dask_on_cluster.pdf), [html](Python_DASK/notebooks_html/08-dask_on_cluster.html))
 
 ##### Image processing with Python
 - [GitHub repository](https://github.com/guiwitz/Python_image_processing) of the course
 - [pdf](Python_image_processing/e5_all_image_processing.pdf) of all notebooks
 - [notebooks](https://github.com/mariezufferey/CAS_ADS/tree/master/module5/Python_image_processing/notebooks):
-    - [Introduction](Python_image_processing/notebooks/01-Introduction.ipynb) ([pdf](Python_image_processing/notebooks_pdf/01-Introduction.pdf), [html](Python_image_processing/notebooks_html/01-Introduction.html))
+    - [introduction](Python_image_processing/notebooks/01-Introduction.ipynb) ([pdf](Python_image_processing/notebooks_pdf/01-Introduction.pdf), [html](Python_image_processing/notebooks_html/01-Introduction.html))
     - [Numpy with images](Python_image_processing/notebooks/02-Numpy_images.ipynb) ([pdf](Python_image_processing/notebooks_pdf/02-Numpy_images.pdf), [html](Python_image_processing/notebooks_html/02-Numpy_images.html))
-    - [Image import/export](Python_image_processing/notebooks/03-Image_import.ipynb) ([pdf](Python_image_processing/notebooks_pdf/03-Image_import.pdf), [html](Python_image_processing/notebooks_html/03-Image_import.html))
-    - [Basic Image processing: Filtering, scaling, thresholding](Python_image_processing/notebooks/04-Filtering_thresholding.ipynb) ([pdf](Python_image_processing/notebooks_pdf/04-Filtering_thresholding.pdf), [html](Python_image_processing/notebooks_html/04-Filtering_thresholding.html))
-    - [Binary operations, regions](Python_image_processing/notebooks/05-Binary_operations.ipynb) ([pdf](Python_image_processing/notebooks_pdf/05-Binary_operations.pdf), [html](Python_image_processing/notebooks_html/05-Binary_operations.html))
-    - [Applications: Satellite image](Python_image_processing/notebooks/06-Applicatio_satellite_image.ipynb) ([pdf](Python_image_processing/notebooks_pdf/06-Applicatio_satellite_image.pdf), [html](Python_image_processing/notebooks_html/06-Applicatio_satellite_image.html))
-    - [Functions](Python_image_processing/notebooks/07-Functions.ipynb) ([pdf](Python_image_processing/notebooks_pdf/07-Functions.pdf), [html](Python_image_processing/notebooks_html/07-Functions.html))
-    - [Pattern matching, local maxima](Python_image_processing/notebooks/08-Pattern_matching.ipynb) ([pdf](Python_image_processing/notebooks_pdf/08-Pattern_matching.pdf), [html](Python_image_processing/notebooks_html/08-Pattern_matching.html))
-    - [Watershed algorithm](Python_image_processing/notebooks/09-Watershed.ipynb) ([pdf](Python_image_processing/notebooks_pdf/09-Watershed.pdf), [html](Python_image_processing/notebooks_html/09-Watershed.html))
+    - [image import/export](Python_image_processing/notebooks/03-Image_import.ipynb) ([pdf](Python_image_processing/notebooks_pdf/03-Image_import.pdf), [html](Python_image_processing/notebooks_html/03-Image_import.html))
+    - [basic Image processing: Filtering, scaling, thresholding](Python_image_processing/notebooks/04-Filtering_thresholding.ipynb) ([pdf](Python_image_processing/notebooks_pdf/04-Filtering_thresholding.pdf), [html](Python_image_processing/notebooks_html/04-Filtering_thresholding.html))
+    - [binary operations, regions](Python_image_processing/notebooks/05-Binary_operations.ipynb) ([pdf](Python_image_processing/notebooks_pdf/05-Binary_operations.pdf), [html](Python_image_processing/notebooks_html/05-Binary_operations.html))
+    - [applications: Satellite image](Python_image_processing/notebooks/06-Applicatio_satellite_image.ipynb) ([pdf](Python_image_processing/notebooks_pdf/06-Applicatio_satellite_image.pdf), [html](Python_image_processing/notebooks_html/06-Applicatio_satellite_image.html))
+    - [functions](Python_image_processing/notebooks/07-Functions.ipynb) ([pdf](Python_image_processing/notebooks_pdf/07-Functions.pdf), [html](Python_image_processing/notebooks_html/07-Functions.html))
+    - [pattern matching, local maxima](Python_image_processing/notebooks/08-Pattern_matching.ipynb) ([pdf](Python_image_processing/notebooks_pdf/08-Pattern_matching.pdf), [html](Python_image_processing/notebooks_html/08-Pattern_matching.html))
+    - [watershed algorithm](Python_image_processing/notebooks/09-Watershed.ipynb) ([pdf](Python_image_processing/notebooks_pdf/09-Watershed.pdf), [html](Python_image_processing/notebooks_html/09-Watershed.html))
     - [3D case](Python_image_processing/notebooks/10-3D_case.ipynb) ([pdf](Python_image_processing/notebooks_pdf/10-3D_case.pdf), [html](Python_image_processing/notebooks_html/10-3D_case.html))
-    - [Create a short complete analysis](Python_image_processing/notebooks/11-Complete_analysis.ipynb) ([pdf](Python_image_processing/notebooks_pdf/11-Complete_analysis.pdf), [html](Python_image_processing/notebooks_html/11-Complete_analysis.html))
-    - [Image registration](Python_image_processing/notebooks/12-Registration.ipynb) ([pdf](Python_image_processing/notebooks_pdf/12-Registration.pdf), [html](Python_image_processing/notebooks_html/12-Registration.html))
-    - [Pixel classification](Python_image_processing/notebooks/13-Pixel_classification.ipynb) ([pdf](Python_image_processing/notebooks_pdf/13-Pixel_classification.pdf), [html](Python_image_processing/notebooks_html/13-Pixel_classification.html))
-    - [Image classification by machine learning: Optical text recognition](Python_image_processing/notebooks/14-OCR.ipynb) ([pdf](Python_image_processing/notebooks_pdf/14-OCR.pdf), [html](Python_image_processing/notebooks_html/14-OCR.html))
-    - [Deep learning](Python_image_processing/notebooks/15-DeepLearning.ipynb) ([pdf](Python_image_processing/notebooks_pdf/15-DeepLearning.pdf), [html](Python_image_processing/notebooks_html/15-DeepLearning.html))
-    - [Image classification using deep learning](Python_image_processing/notebooks/16-Image_classification.ipynb) ([pdf](Python_image_processing/notebooks_pdf/16-Image_classification.pdf), [html](Python_image_processing/notebooks_html/16-Image_classification.html))
-    - [Semantic segmentation: Github resources](Python_image_processing/notebooks/17-Semantic_segmentation.ipynb) ([pdf](Python_image_processing/notebooks_pdf/17-Semantic_segmentation.pdf), [html](Python_image_processing/notebooks_html/17-Semantic_segmentation.html))
-    - [Application: DICOM](Python_image_processing/notebooks/18-Application_DICOM.ipynb) ([pdf](Python_image_processing/notebooks_pdf/18-Application_DICOM.pdf), [html](Python_image_processing/notebooks_html/18-Application_DICOM.html))
+    - [create a short complete analysis](Python_image_processing/notebooks/11-Complete_analysis.ipynb) ([pdf](Python_image_processing/notebooks_pdf/11-Complete_analysis.pdf), [html](Python_image_processing/notebooks_html/11-Complete_analysis.html))
+    - [image registration](Python_image_processing/notebooks/12-Registration.ipynb) ([pdf](Python_image_processing/notebooks_pdf/12-Registration.pdf), [html](Python_image_processing/notebooks_html/12-Registration.html))
+    - [pixel classification](Python_image_processing/notebooks/13-Pixel_classification.ipynb) ([pdf](Python_image_processing/notebooks_pdf/13-Pixel_classification.pdf), [html](Python_image_processing/notebooks_html/13-Pixel_classification.html))
+    - [image classification by machine learning: Optical text recognition](Python_image_processing/notebooks/14-OCR.ipynb) ([pdf](Python_image_processing/notebooks_pdf/14-OCR.pdf), [html](Python_image_processing/notebooks_html/14-OCR.html))
+    - [deep learning](Python_image_processing/notebooks/15-DeepLearning.ipynb) ([pdf](Python_image_processing/notebooks_pdf/15-DeepLearning.pdf), [html](Python_image_processing/notebooks_html/15-DeepLearning.html))
+    - [image classification using deep learning](Python_image_processing/notebooks/16-Image_classification.ipynb) ([pdf](Python_image_processing/notebooks_pdf/16-Image_classification.pdf), [html](Python_image_processing/notebooks_html/16-Image_classification.html))
+    - [semantic segmentation: Github resources](Python_image_processing/notebooks/17-Semantic_segmentation.ipynb) ([pdf](Python_image_processing/notebooks_pdf/17-Semantic_segmentation.pdf), [html](Python_image_processing/notebooks_html/17-Semantic_segmentation.html))
+    - [application: DICOM](Python_image_processing/notebooks/18-Application_DICOM.ipynb) ([pdf](Python_image_processing/notebooks_pdf/18-Application_DICOM.pdf), [html](Python_image_processing/notebooks_html/18-Application_DICOM.html))
 
 ##### Machine Learning with Python 
 - [GitHub repository](https://github.com/neworldemancer/DSF5) of the course
@@ -114,7 +114,6 @@ exercise [repository](https://github.com/mariezufferey/CAS_ADS/tree/master/modul
 
 
 ##### Mathematical methods for data Science and machine Learning !!! TO UPDATE !!!
-
 - [pdf](Mathematics-for-ML/all_MathsForML.pdf) of all notebooks
 - [notebooks](https://github.com/mariezufferey/CAS_ADS/tree/master/module5/Mathematics-for-ML/notebooks):
     - [introduction](Mathematics-for-ML/notebooks/Introduction.ipynb) ([pdf](Mathematics-for-ML/notebooks_pdf/1_Introduction.pdf), [html](Mathematics-for-ML/notebooks_html/Introduction.html))
@@ -123,40 +122,38 @@ exercise [repository](https://github.com/mariezufferey/CAS_ADS/tree/master/modul
     - [day 1](Mathematics-for-ML/notebooks/MM_Day1.ipynb) ([pdf](Mathematics-for-ML/notebooks_pdf/z_MM_Day1.pdf), [html](Mathematics-for-ML/notebooks_html/MM_Day1.html))
 
 ##### Machine Learning review !!! TO UPDATE !!!
-
 - [folder](https://github.com/mariezufferey/CAS_ADS/tree/master/module5/Machine_Learning_Review/notebooks) with all notebooks
 - [pdf](Machine_Learning_Review/all_ML_review.pdf) of all notebooks
-- day1 
+- day 1 
     - [slides](Machine_Learning_Review/M1_D1_student.pdf)
     - [notebook](Machine_Learning_Review/notebooks/notebook_M1D1.ipynb) ([pdf](Machine_Learning_Review/notebooks_pdf/notebook_M1D1.pdf), [html](Machine_Learning_Review/notebooks_html/notebook_M1D1.html))
-- day2 
+- day 2 
     - [slides](Machine_Learning_Review/M1_D2_student.pdf)
     - [notebook](Machine_Learning_Review/notebooks/notebook_M1D2.ipynb) ([pdf](Machine_Learning_Review/notebooks_pdf/notebook_M1D2.pdf), [html](Machine_Learning_Review/notebooks_html/notebook_M1D2.html))
-- day3 
+- day 3 
     - [slides](Machine_Learning_Review/M1_D3_student.pdf)
     - part 1: [notebook](Machine_Learning_Review/notebooks/notebook_M1D3_1.ipynb) ([pdf](Machine_Learning_Review/notebooks_pdf/notebook_M1D3_1.pdf), [html](Machine_Learning_Review/notebooks_html/notebook_M1D3_1.html))
     - part 2: [notebook](Machine_Learning_Review/notebooks/notebook_M1D3_2.ipynb) ([pdf](Machine_Learning_Review/notebooks_pdf/notebook_M1D3_2.pdf), [html](Machine_Learning_Review/notebooks_html/notebook_M1D3_2.html))
-- day4
+- day 4
     - [slides](Machine_Learning_Review/M1_D4_student.pdf)
     - [notebook](Machine_Learning_Review/notebooks/notebook_M1D4.ipynb) ([pdf](Machine_Learning_Review/notebooks_pdf/notebook_M1D4.pdf), [html](Machine_Learning_Review/notebooks_html/notebook_M1D4.html))
 
 
 ##### Deep networks !!! TO UPDATE !!!
-
 - [folder](https://github.com/mariezufferey/CAS_ADS/tree/master/module5/DeepNetworks/notebooks) with all notebooks
 - [pdf](DeepNetworks/all_DeepNetworks.pdf) of all notebooks
-- Day 1 
+- day 1 
     - [slides](DeepNetworks/M2_D1_student.pdf)
     - [notebook](DeepNetworks/notebooks/notebook_M2D1.ipynb) ([pdf](DeepNetworks/notebooks_pdf/notebook_M2D1.pdf), [html](DeepNetworks/notebooks_html/notebook_M2D1.html))
-- Day 2 
+- day 2 
     - [slides](DeepNetworks/M2_D2_student.pdf)
     - [notebook](DeepNetworks/notebooks/notebook_M2D2_1.ipynb)) - part 1 ([pdf](DeepNetworks/notebooks_pdf/notebook_M2D2_1.pdf), [html](DeepNetworks/notebooks_html/notebook_M2D2_1.html))
     - [notebook](DeepNetworks/notebooks/notebook_M2D2_2.ipynb) - part 2 ([pdf](DeepNetworks/notebooks_pdf/notebook_M2D2_2.pdf), [html](DeepNetworks/notebooks_html/notebook_M2D2_2.html))
-- Day 3 
-- [slides](DeepNetworks/M2_D3_student.pdf)
-- [notebook](DeepNetworks/notebooks/notebook_M2D3_1.ipynb) - part 1 ([pdf](DeepNetworks/notebooks_pdf/notebook_M2D3_1.pdf), [html](DeepNetworks/notebooks_html/notebook_M2D3_1.html))
-- [notebook](DeepNetworks/notebooks/notebook_M2D3_2.ipynb) - part 2 ([pdf](DeepNetworks/notebooks_pdf/notebook_M2D3_2.pdf), [html](DeepNetworks/notebooks_html/notebook_M2D3_2.html))
-- Day 4
+- day 3 
+    - [slides](DeepNetworks/M2_D3_student.pdf)
+    - [notebook](DeepNetworks/notebooks/notebook_M2D3_1.ipynb) - part 1 ([pdf](DeepNetworks/notebooks_pdf/notebook_M2D3_1.pdf), [html](DeepNetworks/notebooks_html/notebook_M2D3_1.html))
+    - [notebook](DeepNetworks/notebooks/notebook_M2D3_2.ipynb) - part 2 ([pdf](DeepNetworks/notebooks_pdf/notebook_M2D3_2.pdf), [html](DeepNetworks/notebooks_html/notebook_M2D3_2.html))
+- day 4
     - [slides](DeepNetworks/M2_D4_student.pdf)
 - Summary video: [pdf](DeepNetworks/Summary_Video.pdf), [pptx](DeepNetworks/Summary_Video.pptx)
 - Surveys: [1](DeepNetworks/Survey_5.pdf), [2](DeepNetworks/Survey_6.pdf), [3](DeepNetworks/Survey_7.pdf)
@@ -164,7 +161,6 @@ exercise [repository](https://github.com/mariezufferey/CAS_ADS/tree/master/modul
 ##### Introduction to MATLAB 
 - [slides](intro_Matlab/e8_WorkshopSlides.pdf)
 - [course material](https://github.com/mariezufferey/CAS_ADS/tree/master/module5/intro_Matlab/Matlab_drive): plottings, scripts, data analysis, programming  
-
 
 ##### Deep learning: a practical approach in MATLAB 
 - [slides](Deep_Learning_Matlab/DeepLearningWorkshopSlides.pdf)
