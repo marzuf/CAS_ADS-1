@@ -50,8 +50,8 @@
 
 
 ##### Deeper dive into Python !!! TO UPDATE !!!
--[slides](DeeperDive/Courses_slides.pdf)
-exercise [repository](https://github.com/mariezufferey/CAS_ADS/tree/master/module5/DeeperDive/CoursesExercises)
+-[slides](DeeperDive/Course_slides.pdf)
+exercise [repository](https://github.com/mariezufferey/CAS_ADS/tree/master/module5/DeeperDive/CourseExercises)
 
 
 ##### Statistics with Python 
@@ -59,19 +59,19 @@ exercise [repository](https://github.com/mariezufferey/CAS_ADS/tree/master/modul
 - [notebooks](https://github.com/mariezufferey/CAS_ADS/tree/master/module5/Python_statistics/notebooks):
     - [part 1](Python_statistics/notebooks/C-DSF4-NB-1.ipynb) ([pdf](Python_statistics/notebooks_pdf/C-DSF4-NB-1.pdf), [html](Python_statistics/notebooks_html/C-DSF4-NB-1.html)): random variables and pdfs, describing data with pdfs, descriptive statistics with Python 
     - [part 2](Python_statistics/notebooks/C-DSF4-NB-2.ipynb) ([pdf](Python_statistics/notebooks_pdf/C-DSF4-NB-2.pdf), [html](Python_statistics/notebooks_html/C-DSF4-NB-2.html)): parameter estimation and regression
-    - [part 3](Python_statistics/notebooks_pdf/C-DSF4-NB-3.ipynb) ([pdf](Python_statistics/notebooks/C-DSF4-NB-3.pdf), [html](Python_statistics/notebooks_html/C-DSF4-NB-3.html)): hypothesis testing
+    - [part 3](Python_statistics/notebooks/C-DSF4-NB-3.ipynb) ([pdf](Python_statistics/notebooks_pdf/C-DSF4-NB-3.pdf), [html](Python_statistics/notebooks_html/C-DSF4-NB-3.html)): hypothesis testing
 
 ##### Scalable analytics with Python (DASK)
 - [GitHub repository](https://github.com/guiwitz/DaskCourse) of the course
-- [pdf](Python_DASK/notebooks_pdf/e4_all_DASK.pdf) of all notebooks
+- [pdf](Python_DASK/e4_all_DASK.pdf) of all notebooks
 - [notebooks](https://github.com/mariezufferey/CAS_ADS/tree/master/module5/Python_DASK/notebooks):
-    - [Delay and parallel computing](Python_DASK/notebooks/01-Dask_delay.ipynb)
-    - [Applied problem: Sequence of operations on images](Python_DASK/notebooks/02-Applied_delay_images.ipynb)
-    - [Creating a cluster and observing it](Python_DASK/notebooks/03-Cluster_client.ipynb)
-    - [Dask (numpy) arrays](Python_DASK/notebooks/04-Dask_arrays.ipynb)
-    - [Dask dataframes](Python_DASK/notebooks/05-Dask_dataframes.ipynb)
-    - [Some more features](Python_DASK/notebooks/07-Specialized_dask.ipynb)
-    - [Running dask on a cluster](Python_DASK/notebooks/08-dask_on_cluster.ipynb)
+    - [Delay and parallel computing](Python_DASK/notebooks/01-Dask_delay.ipynb) ([pdf](Python_DASK/notebooks_pdf/01-Dask_delay.pdf), [html](Python_DASK/notebooks_html/01-Dask_delay.html))
+    - [Applied problem: Sequence of operations on images](Python_DASK/notebooks/02-Applied_delay_images.ipynb) ([pdf](Python_DASK/notebooks_pdf/02-Applied_delay_images.ipynb), [html](Python_DASK/notebooks_html/02-Applied_delay_images.html))
+    - [Creating a cluster and observing it](Python_DASK/notebooks/03-Cluster_client.ipynb) ([pdf](Python_DASK/notebooks_pdf/03-Cluster_client.pdf), [html](Python_DASK/notebooks_html/03-Cluster_client.html))
+    - [Dask (numpy) arrays](Python_DASK/notebooks/04-Dask_arrays.ipynb) ([pdf](Python_DASK/notebooks_pdf/04-Dask_arrays.pdf), [html](Python_DASK/notebooks_html/04-Dask_arrays.html))
+    - [Dask dataframes](Python_DASK/notebooks/05-Dask_dataframes.ipynb) ([pdf](Python_DASK/notebooks_pdf/05-Dask_dataframes.pdf), [html](Python_DASK/notebooks_html/05-Dask_dataframes.html))
+    - [Some more features](Python_DASK/notebooks/07-Specialized_dask.ipynb) ([pdf](Python_DASK/notebooks_pdf/07-Specialized_dask.pdf), [html](Python_DASK/notebooks_html/07-Specialized_dask.html))
+    - [Running dask on a cluster](Python_DASK/notebooks/08-dask_on_cluster.ipynb) ([pdf](Python_DASK/notebooks_pdf/08-dask_on_cluster.pdf), [html](Python_DASK/notebooks_html/08-dask_on_cluster.html))
 
 ##### Image processing with Python
 - [GitHub repository](https://github.com/guiwitz/Python_image_processing) of the course
