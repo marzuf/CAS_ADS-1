@@ -16,7 +16,7 @@
 - [GitHub repository](https://github.com/guiwitz/Pandas_course) of the course
 - [pdf](Python_Pandas/e2_all_pandas.pdf) of all notebooks
 - [notebooks](https://github.com/mariezufferey/CAS_ADS/tree/master/module5/Python_Pandas/notebooks): 
-    - [Pandas introduction](Python_Pandas/notebooks/00-Pandas_introduction.ipynb) ([pdf](Python_Pandas/notebooks_pdf/00-Pandas_introduction.pdf), [html](Python_Pandas/notebooks_html/00-Pandas_introduction.html))
+    - [Pandas introduction](Python_Pandas/notebooks/00-Pandas_introduction.ipynb) ([pdf](Python_Pandas/notebooks_pdf/00-Pandas_introduction.pdf), [html](https://raw.githack.com/mariezufferey/CAS_ADS/master/module5/Python_Pandas/notebooks_html/00-Pandas_introduction.html))
     - [Pandas objects](Python_Pandas/notebooks/01-Pandas_structures.ipynb) ([pdf](Python_Pandas/notebooks_pdf/01-Pandas_structures.pdf), [html](Python_Pandas/notebooks_html/01-Pandas_structures.html))
     - [importing excel files](Python_Pandas/notebooks/02-Pandas_import.ipynb) ([pdf](Python_Pandas/notebooks_pdf/02-Pandas_import.pdf), [html](Python_Pandas/notebooks_html/02-Pandas_import.html))
     - [operations with Pandas objects](Python_Pandas/notebooks/03-Pandas_operations.ipynb) ([pdf](Python_Pandas/notebooks_pdf/03-Pandas_operations.pdf), [html](Python_Pandas/notebooks_html/03-Pandas_operations.html))
