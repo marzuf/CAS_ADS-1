@@ -100,10 +100,18 @@
 - [GitHub repository](https://github.com/neworldemancer/DSF5) of the course
 - [pdf](Python_ML/e6_python_ML.pdf) of all notebooks
 - [notebooks](https://github.com/mariezufferey/CAS_ADS/tree/master/module5/Python_ML/notebooks):
-    - [part 1](Python_ML/notebooks/Course_1.ipynb) ([pdf](Python_ML/notebooks_pdf/Course_1.pdf), [html](https://raw.githack.com/mariezufferey/CAS_ADS/master/module5/Python_ML/notebooks_html/Course_1.html)): introduction, performance measures, regression  - [solutions to exercise](Python_ML/notebooks/Solutions_1.ipynb) ([pdf](Python_ML/notebooks_pdf/Solutions_1.pdf), [html](https://raw.githack.com/mariezufferey/CAS_ADS/master/module5/Python_ML/notebooks_html/Solutions_1.html))
-    - [part 2](Python_ML/notebooks/Course_2.ipynb) ([pdf](Python_ML/notebooks_pdf/Course_2.pdf), [html](https://raw.githack.com/mariezufferey/CAS_ADS/master/module5/Python_ML/notebooks_html/Course_2.html)): decision tree, random forest, boosted decision trees, unsupervised learning techniques (PCA), data visualization (t-SNE/UMAP) - [solutions to exercise](Python_ML/notebooks/Solutions_2.ipynb) ([pdf](Python_ML/notebooks_pdf/Solutions_2.pdf), [html](https://raw.githack.com/mariezufferey/CAS_ADS/master/module5/Python_ML/notebooks_html/Solutions_2.html))
-    - [part 3](Python_ML/notebooks/Course_3.ipynb) ([pdf](Python_ML/notebooks_pdf/Course_3.pdf), [html](https://raw.githack.com/mariezufferey/CAS_ADS/master/module5/Python_ML/notebooks_html/Course_3.html)): clustering (k-means), gaussian mixtures, introduction to neural networks - [solutions to exercise](Python_ML/notebooks/Solutions_3.ipynb) ([pdf](Python_ML/notebooks_pdf/Solutions_3.pdf), [html](https://raw.githack.com/mariezufferey/CAS_ADS/master/module5/Python_ML/notebooks_html/Solutions_3.html))
-    - [part 4](Python_ML/notebooks/Course_4.ipynb) ([pdf](Python_ML/notebooks_pdf/Course_4.pdf), [html](https://raw.githack.com/mariezufferey/CAS_ADS/master/module5/Python_ML/notebooks_html/Course_4.html)): classification with neural network  - [solutions to exercise](Python_ML/notebooks/Solutions_4.ipynb) ([pdf](Python_ML/notebooks_pdf/Solutions_4.pdf), [html](https://raw.githack.com/mariezufferey/CAS_ADS/master/module5/Python_ML/notebooks_html/Solutions_4.html))
+    - [part 1](Python_ML/notebooks/Course_1.ipynb) ([pdf](Python_ML/notebooks_pdf/Course_1.pdf), [html](https://raw.githack.com/mariezufferey/CAS_ADS/master/module5/Python_ML/notebooks_html/Course_1.html))
+        - *introduction - performance measures - regression*
+        - [solutions to exercise](Python_ML/notebooks/Solutions_1.ipynb) ([pdf](Python_ML/notebooks_pdf/Solutions_1.pdf), [html](https://raw.githack.com/mariezufferey/CAS_ADS/master/module5/Python_ML/notebooks_html/Solutions_1.html))
+    - [part 2](Python_ML/notebooks/Course_2.ipynb) ([pdf](Python_ML/notebooks_pdf/Course_2.pdf), [html](https://raw.githack.com/mariezufferey/CAS_ADS/master/module5/Python_ML/notebooks_html/Course_2.html))
+        - *decision tree, random forest - boosted decision trees - unsupervised learning techniques (PCA) - data visualization (t-SNE/UMAP)*
+        - [solutions to exercise](Python_ML/notebooks/Solutions_2.ipynb) ([pdf](Python_ML/notebooks_pdf/Solutions_2.pdf), [html](https://raw.githack.com/mariezufferey/CAS_ADS/master/module5/Python_ML/notebooks_html/Solutions_2.html))
+    - [part 3](Python_ML/notebooks/Course_3.ipynb) ([pdf](Python_ML/notebooks_pdf/Course_3.pdf), [html](https://raw.githack.com/mariezufferey/CAS_ADS/master/module5/Python_ML/notebooks_html/Course_3.html))
+        - *clustering (k-means), gaussian mixtures, introduction to neural networks*
+        - [solutions to exercise](Python_ML/notebooks/Solutions_3.ipynb) ([pdf](Python_ML/notebooks_pdf/Solutions_3.pdf), [html](https://raw.githack.com/mariezufferey/CAS_ADS/master/module5/Python_ML/notebooks_html/Solutions_3.html))
+    - [part 4](Python_ML/notebooks/Course_4.ipynb) ([pdf](Python_ML/notebooks_pdf/Course_4.pdf), [html](https://raw.githack.com/mariezufferey/CAS_ADS/master/module5/Python_ML/notebooks_html/Course_4.html))
+        - *classification with neural network*
+        - [solutions to exercise](Python_ML/notebooks/Solutions_4.ipynb) ([pdf](Python_ML/notebooks_pdf/Solutions_4.pdf), [html](https://raw.githack.com/mariezufferey/CAS_ADS/master/module5/Python_ML/notebooks_html/Solutions_4.html))
 
 ##### Machine learning with Dataiku 
 - introduction to Dataiku ([slides](Dataiku/e7_0_U0Bern_Slidedeck_Intro.pdf))
@@ -156,7 +164,7 @@
         - *Chapter 11: training deep NN*
 - day 2: convolutional neural networks
     - [slides](DeepNetworks/M2_D2_student.pdf)
-        - *CNN components  - Most important architectures - Object detection - Face detection
+        - *CNN components  - Most important architectures - Object detection - Face detection*
     - [notebook](DeepNetworks/notebooks/notebook_M2D2_1.ipynb) - part 1 ([pdf](DeepNetworks/notebooks_pdf/notebook_M2D2_1.pdf), [html](https://raw.githack.com/mariezufferey/CAS_ADS/master/module5/DeepNetworks/notebooks_html/notebook_M2D2_1.html))
         - *Chapter 14: deep computer vision using convolutional NN*
     - [notebook](DeepNetworks/notebooks/notebook_M2D2_2.ipynb) - part 2 ([pdf](DeepNetworks/notebooks_pdf/notebook_M2D2_2.pdf), [html](https://raw.githack.com/mariezufferey/CAS_ADS/master/module5/DeepNetworks/notebooks_html/notebook_M2D2_2.html))
@@ -171,7 +179,7 @@
 - day 4: state-of-the-art machine learning
     - [slides](DeepNetworks/M2_D4_student.pdf)
 - summary video: [pdf](DeepNetworks/Summary_Video.pdf), [pptx](DeepNetworks/Summary_Video.pptx)
-        - *BERT Applications - AdaNet: AutoML with Ensembles - AutoAugment -Synthetic Data - Polygon-RNN++ - DAWNBench - Video-to-video synthesis - Semantic segmentation - Symmetric semantic segmentation - AlphaGo - ALPHA ZERO - OpenAI vs. Humans on Dota 2 - Deep Learning Frameworks*
+    - *BERT Applications - AdaNet: AutoML with Ensembles - AutoAugment -Synthetic Data - Polygon-RNN++ - DAWNBench - Video-to-video synthesis - Semantic segmentation - Symmetric semantic segmentation - AlphaGo - ALPHA ZERO - OpenAI vs. Humans on Dota 2 - Deep Learning Frameworks*
 - surveys: [1](DeepNetworks/Survey_5.pdf), [2](DeepNetworks/Survey_6.pdf), [3](DeepNetworks/Survey_7.pdf)
 
 ##### Introduction to MATLAB 
