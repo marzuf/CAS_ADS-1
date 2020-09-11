@@ -12,7 +12,7 @@
     - old courses from "Site du zéro": [Apprenez à programmer en Python](http://user.oc-static.com/pdf/223267-apprenez-a-programmer-en-python.pdf), [Pratiques avancées et méconnues en Python](http://user.oc-static.com/pdf/33509-pratiques-avancees-et-meconnues-en-python.pdf), [Utilisation avancée des listes en Python](http://user.oc-static.com/pdf/213097-utilisation-avancee-des-listes-en-python.pdf), [Le pattern Decorator en Python](http://user.oc-static.com/pdf/368501-le-pattern-decorator-en-python.pdf), [La programmation scientifique avec Python](http://user.oc-static.com/pdf/547399-la-programmation-scientifique-avec-python.pdf)
     - A whirlwind tour of python by Jake VanderPlas ([pdf](https://www.oreilly.com/programming/free/files/a-whirlwind-tour-of-python.pdf), [jupyter notebooks](https://github.com/jakevdp/WhirlwindTourOfPython), [with plotting notebook](https://github.com/KingaS03/Introduction-to-Python-Course-2020January) by Kinga Sipos)
 
-##### Data science with Python and Pandas !!! NEED TO CONVERT HTML AND PDF !!!
+##### Data science with Python and Pandas 
 - [GitHub repository](https://github.com/guiwitz/Pandas_course) of the course
 - [pdf](Python_Pandas/e2_all_pandas.pdf) of all notebooks
 - [notebooks](https://github.com/mariezufferey/CAS_ADS/tree/master/module5/Python_Pandas/notebooks): 
@@ -28,7 +28,7 @@
     - [solutions to exercises](Python_Pandas/notebooks/99-Solutions.ipynb) ([pdf](Python_Pandas/notebooks_pdf/99-Solutions.pdf), [html](https://raw.githack.com/mariezufferey/CAS_ADS/master/module5/Python_Pandas/notebooks_html/99-Solutions.html))
     
     
-##### Data analytics with NumPy and Pandas !!! TO UPDATE !!!
+##### Data analytics with NumPy and Pandas
 - [GitHub repository](https://github.com/guiwitz/NumpyPandas_course) of the course <!-- Numpy and Pandas -->
 - [pdf](NumpyPandas/all_NumpyPandas.pdf) of all notebooks
 - [notebooks](https://github.com/mariezufferey/CAS_ADS/tree/master/module5/NumpyPandas/notebooks): 
@@ -49,7 +49,7 @@
     - [Pandas](NumpyPandas/notebooks/99-DA_Pandas_Exercises.ipynb) ([pdf](NumpyPandas/notebooks_pdf/99-DA_Pandas_Exercises.pdf), [html](https://raw.githack.com/mariezufferey/CAS_ADS/master/module5/NumpyPandas/notebooks_html/99-DA_Pandas_Exercises.html)) - [solutions](NumpyPandas/notebooks/99-DA_Pandas_Solutions.ipynb) ([pdf](NumpyPandas/notebooks_pdf/99-DA_Pandas_Solutions.pdf), [html](https://raw.githack.com/mariezufferey/CAS_ADS/master/module5/NumpyPandas/notebooks_html/99-DA_Pandas_Solutions.html))
 
 
-##### Deeper dive into Python !!! TO UPDATE !!!
+##### Deeper dive into Python 
 - [slides](DeeperDive/Course_slides.pdf)
 - [exercise repository](https://github.com/mariezufferey/CAS_ADS/tree/master/module5/DeeperDive/CourseExercises)
 
@@ -120,7 +120,7 @@
 - how to get a certificate ([slides](Dataiku/e7_2_U0Bern_Slidedeck_Certifiable.pdf))
 - personal reading notes from internet about Dataiku concepts ([v1](Dataiku/e7_dataiku_info.pdf), [v2](Dataiku/e7_wwww_concepts.pdf))
 
-##### Mathematical methods for data Science and machine Learning !!! TO UPDATE !!!
+##### Mathematical methods for data Science and machine Learning 
 - [pdf](Mathematics-for-ML/all_MathsForML.pdf) of all notebooks
 - [notebooks](https://github.com/mariezufferey/CAS_ADS/tree/master/module5/Mathematics-for-ML/notebooks):
     - [introduction](Mathematics-for-ML/notebooks/Introduction.ipynb) ([pdf](Mathematics-for-ML/notebooks_pdf/1_Introduction.pdf), [html](https://raw.githack.com/mariezufferey/CAS_ADS/master/module5/Mathematics-for-ML/notebooks_html/Introduction.html)) / [day 1](Mathematics-for-ML/notebooks/MM_Day1.ipynb) ([pdf](Mathematics-for-ML/notebooks_pdf/z_MM_Day1.pdf), [html](https://raw.githack.com/mariezufferey/CAS_ADS/master/module5/Mathematics-for-ML/notebooks_html/MM_Day1.html))
@@ -129,7 +129,7 @@
     - [calculus](Mathematics-for-ML/notebooks/Calculus.ipynb) ([pdf](Mathematics-for-ML/notebooks_pdf/3_Calculus.pdf), [html](https://raw.githack.com/mariezufferey/CAS_ADS/master/module5/Mathematics-for-ML/notebooks_html/Calculus.html))
         - *differentiation of univariate functions - rules of differentiation - differentiation of multivariate functions (the Jacobian, the Hessian) - chain rule for univariate and multivariate functions - the Taylor approximation - the Newton-Raphson method - gradient descent method - backpropagation*
 
-##### Machine Learning review !!! TO UPDATE !!!
+##### Machine Learning review 
 - [folder](https://github.com/mariezufferey/CAS_ADS/tree/master/module5/Machine_Learning_Review/notebooks) with all notebooks
 - [pdf](Machine_Learning_Review/all_ML_review.pdf) of all notebooks
 - day 1 
@@ -154,7 +154,7 @@
     - [notebook](Machine_Learning_Review/notebooks/notebook_M1D4.ipynb) ([pdf](Machine_Learning_Review/notebooks_pdf/notebook_M1D4.pdf), [html](https://raw.githack.com/mariezufferey/CAS_ADS/master/module5/Machine_Learning_Review/notebooks_html/notebook_M1D4.html))
         - *Chapter 10: introduction to artificial NN with Keras* 
 
-##### Deep networks !!! TO UPDATE !!!
+##### Deep networks
 - [folder](https://github.com/mariezufferey/CAS_ADS/tree/master/module5/DeepNetworks/notebooks) with all notebooks
 - [pdf](DeepNetworks/all_DeepNetworks.pdf) of all notebooks
 - day 1: deep forward networks 
