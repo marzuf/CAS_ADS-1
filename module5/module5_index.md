@@ -4,7 +4,7 @@
 
 ### Electives
 
-**Python:** [Python for programmers](#python-for-programmers) - [Data science with Python and Pandas](#data-science-with-python-and-pandas) - [Data analytics with NumPy and Pandas](#data-analytics-with-numpy-and-pandas) - [Deeper dive into Python ](#deeper-dive-into-python) - [Statistics with Python](#statistics-with-python) - [Scalable analytics with Python (DASK)](#scalable-analytics-with-python) - [Image processing with Python](#image-processing-with-python) - [Machine Learning with Python](#machine-learning-with-python)  
+**Python:** [Python for programmers](#python-for-programmers) - [Data science with Python and Pandas](#data-science-with-python-and-pandas) - [Data analytics with NumPy and Pandas](#data-analytics-with-numpy-and-pandas) - [Deeper dive into Python ](#deeper-dive-into-python) - [Statistics with Python](#statistics-with-python) - [Scalable analytics with Python (DASK)](#scalable-analytics-with-python-dask) - [Image processing with Python](#image-processing-with-python) - [Machine Learning with Python](#machine-learning-with-python)  
 
 
 **Machine learning:** [Machine Learning with Python](#machine-learning-with-python) - [Machine learning with Dataiku](#machine-learning-with-dataiku) - [Mathematical methods for data Science and machine Learning](#mathematical-methods-for-data-science-and-machine-learning) - [Machine Learning review](#machine-learning-review) - [Deep networks](#deep-networks) - [Deep learning: a practical approach in MATLAB](#deep-learning)  
