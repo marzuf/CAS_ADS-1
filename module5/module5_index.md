@@ -10,7 +10,7 @@
 **Machine learning:** [Machine Learning with Python](#machine-learning-with-python) - [Machine learning with Dataiku](#machine-learning-with-dataiku) - [Mathematical methods for data Science and machine Learning](#mathematical-methods-for-data-science-and-machine-learning) - [Machine Learning review](#machine-learning-review) - [Deep networks](#deep-networks) - [Deep learning: a practical approach in MATLAB](#deep-learning-a-practical-approach-in-matlab)  
 
 
-**Other:** [Introduction to MATLAB](#introduction-to-matlab) - [LaTeX - Introduction & further type setting techniques](#latex-introduction-&-further-type-setting-techniques) - [Working with containers](#working-with-containers) - [Advanced HPC topics](#advanced-hpc-topics)
+**Other:** [Introduction to MATLAB](#introduction-to-matlab) - [LaTeX: introduction and further type setting techniques](#latex-introduction-and-further-type-setting-techniques) - [Working with containers](#working-with-containers) - [Advanced HPC topics](#advanced-hpc-topics)
 
 <hr>
 
@@ -242,7 +242,7 @@
 - [slides](Deep_Learning_Matlab/DeepLearningWorkshopSlides.pdf)
 - [course material](https://github.com/mariezufferey/CAS_ADS/tree/master/module5/Deep_Learning_Matlab/Matlab_drive): deep learning in 6 lines, pretrained model exercise, MNIST exercise, transfer learning exercise, GPU coder, ECG signal classification, improving network accuracy, speech command recognition, reinforcement learning
 
-##### LaTeX - Introduction & further type setting techniques
+##### LaTeX: introduction and further type setting techniques
 
 [[Back to top]](#module-5-consolidations-and-electives)
 
