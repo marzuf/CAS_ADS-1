@@ -4,23 +4,13 @@
 
 ### Electives
 
-###### [Python for programmers](#python-for-programmers)  
-###### [Data science with Python and Pandas](#data-science-with-python-and-pandas)  
-###### [Data analytics with NumPy and Pandas](#data-analytics-with-numpy-and-pandas)  
-###### [Deeper dive into Python ](#deeper-dive-into-python)  
-###### [Statistics with Python](#statistics-with-python)  
-###### [Scalable analytics with Python (DASK)](#scalable-analytics-with-python)  
-###### [Image processing with Python](#image-processing-with-python)  
-###### [Machine Learning with Python](#machine-learning-with-python)  
-###### [Machine learning with Dataiku](#machine-learning-with-dataiku)  
-###### [Mathematical methods for data Science and machine Learning](#mathematical-methods-for-data-science-and-machine-learning)  
-###### [Machine Learning review](#machine-learning-review)  
-###### [Deep networks](#deep-networks)  
-###### [Introduction to MATLAB](#introduction-to-matlab)  
-###### [Deep learning: a practical approach in MATLAB](#deep-learning)  
-###### [LaTeX - Introduction & further type setting techniques](#latex)  
-###### [Working with containers](#working-with-containers)  
-###### [Advanced HPC topics](#advanced-hpc-topics)  
+**Python:** [Python for programmers](#python-for-programmers) - [Data science with Python and Pandas](#data-science-with-python-and-pandas) - [Data analytics with NumPy and Pandas](#data-analytics-with-numpy-and-pandas) - [Deeper dive into Python ](#deeper-dive-into-python) - [Statistics with Python](#statistics-with-python) - [Scalable analytics with Python (DASK)](#scalable-analytics-with-python) - [Image processing with Python](#image-processing-with-python) - [Machine Learning with Python](#machine-learning-with-python)  
+
+
+**Machine learning:** [Machine Learning with Python](#machine-learning-with-python) - [Machine learning with Dataiku](#machine-learning-with-dataiku) - [Mathematical methods for data Science and machine Learning](#mathematical-methods-for-data-science-and-machine-learning) - [Machine Learning review](#machine-learning-review) - [Deep networks](#deep-networks) - [Deep learning: a practical approach in MATLAB](#deep-learning)  
+
+
+**Other:** [Introduction to MATLAB](#introduction-to-matlab) - [LaTeX - Introduction & further type setting techniques](#latex) - [Working with containers](#working-with-containers) - [Advanced HPC topics](#advanced-hpc-topics)
 
 
 
