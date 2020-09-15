@@ -10,9 +10,9 @@
 **Machine learning:** [Machine Learning with Python](#machine-learning-with-python) - [Machine learning with Dataiku](#machine-learning-with-dataiku) - [Mathematical methods for data Science and machine Learning](#mathematical-methods-for-data-science-and-machine-learning) - [Machine Learning review](#machine-learning-review) - [Deep networks](#deep-networks) - [Deep learning: a practical approach in MATLAB](#deep-learning-a-practical-approach-in-matlab)  
 
 
-**Other:** [Introduction to MATLAB](#introduction-to-matlab) - [LaTeX - Introduction & further type setting techniques](#latex) - [Working with containers](#working-with-containers) - [Advanced HPC topics](#advanced-hpc-topics)
+**Other:** [Introduction to MATLAB](#introduction-to-matlab) - [LaTeX - Introduction & further type setting techniques](#latex-introduction-&-further-type-setting-techniques) - [Working with containers](#working-with-containers) - [Advanced HPC topics](#advanced-hpc-topics)
 
-
+<hr>
 
 ##### Python for programmers
 
@@ -26,6 +26,9 @@
     - A whirlwind tour of python by Jake VanderPlas ([pdf](https://www.oreilly.com/programming/free/files/a-whirlwind-tour-of-python.pdf), [jupyter notebooks](https://github.com/jakevdp/WhirlwindTourOfPython), [with plotting notebook](https://github.com/KingaS03/Introduction-to-Python-Course-2020January) by Kinga Sipos)
 
 ##### Data science with Python and Pandas 
+
+[[Back to top]](#module-5-consolidations-and-electives)
+
 - [GitHub repository](https://github.com/guiwitz/Pandas_course) of the course
 - [pdf](Python_Pandas/e2_all_pandas.pdf) of all notebooks
 - [notebooks](https://github.com/mariezufferey/CAS_ADS/tree/master/module5/Python_Pandas/notebooks): 
@@ -42,6 +45,9 @@
     
     
 ##### Data analytics with NumPy and Pandas
+
+[[Back to top]](#module-5-consolidations-and-electives)
+
 - [GitHub repository](https://github.com/guiwitz/NumpyPandas_course) of the course <!-- Numpy and Pandas -->
 - [pdf](NumpyPandas/all_NumpyPandas.pdf) of all notebooks
 - [notebooks](https://github.com/mariezufferey/CAS_ADS/tree/master/module5/NumpyPandas/notebooks): 
@@ -63,11 +69,17 @@
 
 
 ##### Deeper dive into Python 
+
+[[Back to top]](#module-5-consolidations-and-electives)
+
 - [slides](DeeperDive/Course_slides.pdf)
 - [exercise repository](https://github.com/mariezufferey/CAS_ADS/tree/master/module5/DeeperDive/CourseExercises)
 
 
 ##### Statistics with Python 
+
+[[Back to top]](#module-5-consolidations-and-electives)
+
 - [pdf](Python_statistics/e3_python_statistics.pdf) of all notebooks
 - [notebooks](https://github.com/mariezufferey/CAS_ADS/tree/master/module5/Python_statistics/notebooks):
     - [part 1](Python_statistics/notebooks/C-DSF4-NB-1.ipynb) ([pdf](Python_statistics/notebooks_pdf/C-DSF4-NB-1.pdf), [html](https://raw.githack.com/mariezufferey/CAS_ADS/master/module5/Python_statistics/notebooks_html/C-DSF4-NB-1.html)): random variables and pdfs, describing data with pdfs, descriptive statistics with Python 
@@ -75,6 +87,9 @@
     - [part 3](Python_statistics/notebooks/C-DSF4-NB-3.ipynb) ([pdf](Python_statistics/notebooks_pdf/C-DSF4-NB-3.pdf), [html](https://raw.githack.com/mariezufferey/CAS_ADS/master/module5/Python_statistics/notebooks_html/C-DSF4-NB-3.html)): hypothesis testing
 
 ##### Scalable analytics with Python (DASK)
+
+[[Back to top]](#module-5-consolidations-and-electives)
+
 - [GitHub repository](https://github.com/guiwitz/DaskCourse) of the course
 - [pdf](Python_DASK/e4_all_DASK.pdf) of all notebooks
 - [notebooks](https://github.com/mariezufferey/CAS_ADS/tree/master/module5/Python_DASK/notebooks):
@@ -87,6 +102,9 @@
     - [running dask on a cluster](Python_DASK/notebooks/08-dask_on_cluster.ipynb) ([pdf](Python_DASK/notebooks_pdf/08-dask_on_cluster.pdf), [html](https://raw.githack.com/mariezufferey/CAS_ADS/master/module5/Python_DASK/notebooks_html/08-dask_on_cluster.html))
 
 ##### Image processing with Python
+
+[[Back to top]](#module-5-consolidations-and-electives)
+
 - [GitHub repository](https://github.com/guiwitz/Python_image_processing) of the course
 - [pdf](Python_image_processing/e5_all_image_processing.pdf) of all notebooks
 - [notebooks](https://github.com/mariezufferey/CAS_ADS/tree/master/module5/Python_image_processing/notebooks):
@@ -110,6 +128,9 @@
     - [application: DICOM](Python_image_processing/notebooks/18-Application_DICOM.ipynb) ([pdf](Python_image_processing/notebooks_pdf/18-Application_DICOM.pdf), [html](https://raw.githack.com/mariezufferey/CAS_ADS/master/module5/https://raw.githack.com/mariezufferey/CAS_ADS/master/module5/Python_image_processing/notebooks_html/18-Application_DICOM.html))
 
 ##### Machine Learning with Python 
+
+[[Back to top]](#module-5-consolidations-and-electives)
+
 - [GitHub repository](https://github.com/neworldemancer/DSF5) of the course
 - [pdf](Python_ML/e6_python_ML.pdf) of all notebooks
 - [notebooks](https://github.com/mariezufferey/CAS_ADS/tree/master/module5/Python_ML/notebooks):
@@ -127,6 +148,9 @@
         - [solutions to exercise](Python_ML/notebooks/Solutions_4.ipynb) ([pdf](Python_ML/notebooks_pdf/Solutions_4.pdf), [html](https://raw.githack.com/mariezufferey/CAS_ADS/master/module5/Python_ML/notebooks_html/Solutions_4.html))
 
 ##### Machine learning with Dataiku 
+
+[[Back to top]](#module-5-consolidations-and-electives)
+
 - introduction to Dataiku ([slides](Dataiku/e7_0_U0Bern_Slidedeck_Intro.pdf))
 - data preparation and machine learning models ([slides](Dataiku/e7_1_U0Bern_HandsOn_1.pdf))
 - image classification model (deep learning) ([slides](Dataiku/e7_3_Hands-On_Deep_Learning_Session_Simpsons.pdf))
@@ -134,6 +158,9 @@
 - personal reading notes from internet about Dataiku concepts ([v1](Dataiku/e7_dataiku_info.pdf), [v2](Dataiku/e7_wwww_concepts.pdf))
 
 ##### Mathematical methods for data Science and machine Learning 
+
+[[Back to top]](#module-5-consolidations-and-electives)
+
 - [pdf](Mathematics-for-ML/all_MathsForML.pdf) of all notebooks
 - [notebooks](https://github.com/mariezufferey/CAS_ADS/tree/master/module5/Mathematics-for-ML/notebooks):
     - [introduction](Mathematics-for-ML/notebooks/Introduction.ipynb) ([pdf](Mathematics-for-ML/notebooks_pdf/1_Introduction.pdf), [html](https://raw.githack.com/mariezufferey/CAS_ADS/master/module5/Mathematics-for-ML/notebooks_html/Introduction.html)) / [day 1](Mathematics-for-ML/notebooks/MM_Day1.ipynb) ([pdf](Mathematics-for-ML/notebooks_pdf/z_MM_Day1.pdf), [html](https://raw.githack.com/mariezufferey/CAS_ADS/master/module5/Mathematics-for-ML/notebooks_html/MM_Day1.html))
@@ -143,6 +170,9 @@
         - *differentiation of univariate functions - rules of differentiation - differentiation of multivariate functions (the Jacobian, the Hessian) - chain rule for univariate and multivariate functions - the Taylor approximation - the Newton-Raphson method - gradient descent method - backpropagation*
 
 ##### Machine Learning review 
+
+[[Back to top]](#module-5-consolidations-and-electives)
+
 - [folder](https://github.com/mariezufferey/CAS_ADS/tree/master/module5/Machine_Learning_Review/notebooks) with all notebooks
 - [pdf](Machine_Learning_Review/all_ML_review.pdf) of all notebooks
 - day 1 
@@ -168,6 +198,9 @@
         - *Chapter 10: introduction to artificial NN with Keras* 
 
 ##### Deep networks
+
+[[Back to top]](#module-5-consolidations-and-electives)
+
 - [folder](https://github.com/mariezufferey/CAS_ADS/tree/master/module5/DeepNetworks/notebooks) with all notebooks
 - [pdf](DeepNetworks/all_DeepNetworks.pdf) of all notebooks
 - day 1: deep forward networks 
@@ -196,14 +229,23 @@
 - surveys: [1](DeepNetworks/Survey_5.pdf), [2](DeepNetworks/Survey_6.pdf), [3](DeepNetworks/Survey_7.pdf)
 
 ##### Introduction to MATLAB 
+
+[[Back to top]](#module-5-consolidations-and-electives)
+
 - [slides](intro_Matlab/e8_WorkshopSlides.pdf)
 - [course material](https://github.com/mariezufferey/CAS_ADS/tree/master/module5/intro_Matlab/Matlab_drive): plottings, scripts, data analysis, programming  
 
 ##### Deep learning: a practical approach in MATLAB 
+
+[[Back to top]](#module-5-consolidations-and-electives)
+
 - [slides](Deep_Learning_Matlab/DeepLearningWorkshopSlides.pdf)
 - [course material](https://github.com/mariezufferey/CAS_ADS/tree/master/module5/Deep_Learning_Matlab/Matlab_drive): deep learning in 6 lines, pretrained model exercise, MNIST exercise, transfer learning exercise, GPU coder, ECG signal classification, improving network accuracy, speech command recognition, reinforcement learning
 
 ##### LaTeX - Introduction & further type setting techniques
+
+[[Back to top]](#module-5-consolidations-and-electives)
+
 - [slides](e12_LaTeXCourse.pdf)
 - [GitHub repository](https://github.com/KingaS03/latex-course) of the course (based on [this](https://github.com/jdleesmiller/latex-course) GitHub repository)
 - other references:
@@ -213,6 +255,9 @@
     - [List](https://hackr.io/tutorials/learn-latex) of LaTeX tutorials and courses by hackr.io
     
 ##### Working with containers 
+
+[[Back to top]](#module-5-consolidations-and-electives)
+
 - [slides](e11_containers_course.pdf)
 - other references:
     - [Singularity official user guide](https://singularity.lbl.gov/user-guide)
@@ -223,6 +268,9 @@
     - [short tutorial from TechExpert TIPS](https://techexpert.tips/fr/singularity-fr/utilisation-de-commandement-de-base-de-singularity)
     
 ##### Advanced HPC topics 
+
+[[Back to top]](#module-5-consolidations-and-electives)
+
 - [slides](e10_SCITS-UBELIX-Advanced.pdf)    
     
 ### Contact
