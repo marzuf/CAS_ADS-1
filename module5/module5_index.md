@@ -83,11 +83,11 @@
 - What can you do with objects: *attributes (or properties) - method - standard functions and operations*
  3. [Classes](https://mariezufferey.github.io/CAS_ADS/module5/DeeperDive/Course_slides.pdf#page=26) ([doc](https://docs.python.org/3/tutorial/classes.html))
 - *What are classes? (instance) - Class syntax - Simplest class - Non-declared goods*
-- *\__dict\__* property to Store instance properties; * __slots__* to enforce a specific set of properties
+- *\__dict\__* property to Store instance properties; *\__slots\__* to enforce a specific set of properties
 - *Adding a method - Aside: f-strings (python >= 3.6) - Class methods (1st argument automatically receives the reference to the instance itself)*
-- *self* to store data - *hasattr(object, name)* to check for attributes - *__init__* to always have data and meaningful constructor
-- Aside: "dunder" or "magic" methods (fixed names for objects interfacing with specific language functions: surrounded by double underscores; do not create your own new names of this format !)
-- *__str__(self)* used whenever call *print* on the object
+- *self* to store data - *hasattr(object, name)* to check for attributes - *\__init\__* to always have data and meaningful constructor
+<!-- - Aside: "dunder" or "magic" methods (fixed names for objects interfacing with specific language functions: surrounded by double underscores; do not create your own new names of this format !) -->
+- *\__str\__(self)* used whenever call *print* on the object
 - Class variables (property shared by all instances)
 - *Parameter defaults gotchas - Class variables gotchas*
 - *Usage counters - Example: inventory system - Container class - Implementation details*
@@ -115,8 +115,8 @@
 - What are modules and packages? (modules = mechanism for sharing code across multiple Python source files; packages = a way to organize multiple modules together in a tree-like structure of submodules)
 - Importing code (*import* and star-import; this later is discouraged as it modifies the global namespace in an unpredictable way)
 - Module example
-- *What happens on import? - What else happens on import? (*__pycache_* folder)*
-- *__name__*: at runtime, contains the name of the current module; set to *__main__* if executed directly
+- *What happens on import? - What else happens on import? (*\__pycache\__* folder)*
+- *\__name\__*: at runtime, contains the name of the current module; set to *\__main\__* if executed directly
 - Where does Python search for modules? *sys.path* from *sys* module (directory containing the input script or current directory; PYTHONPATH environment variable; the installation-dependent default), can be modified at runtime
 - Packages (organized in subfolder; when published, contain additional metadata)
 7. [Python environments](https://mariezufferey.github.io/CAS_ADS/module5/DeeperDive/Course_slides.pdf#page=91)
