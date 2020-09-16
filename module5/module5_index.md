@@ -75,6 +75,57 @@
 - [slides](DeeperDive/Course_slides.pdf)
 - [exercise repository](https://github.com/mariezufferey/CAS_ADS/tree/master/module5/DeeperDive/CourseExercises)
 
+1. [Beyond notebooks](https://mariezufferey.github.io/CAS_ADS/module5/DeeperDive/Course_slides.pdf#page=6)
+- *Python (Jupyter) notebooks - What are notebooks good at? - What are notebooks bad at? - What is needed to run Python code? - How to run python code? - Setting up VSC Live Share*
+ 2. [Objects and scope](https://mariezufferey.github.io/CAS_ADS/module5/DeeperDive/Course_slides.pdf#page=13)
+ - *Everything is objects - - Object identity - The mystery of small integers - Object type - Object value - Mutable vs. immutable objects - Accessingobjects*
+ - *Scopes (local, non-local, global, builtin) - Scope gotchas
+- What can you do with objects: *attributes (or properties) - method - standard functions and operations*
+ 3. [Classes](https://mariezufferey.github.io/CAS_ADS/module5/DeeperDive/Course_slides.pdf#page=26)
+- *What are classes? (instance) - Class syntax - Simplest class - Non-declared goods*
+- *__dict__* property to Store instance properties; * __slots__* to enforce a specific set of properties
+- *Adding a method - Aside: f-strings (python >= 3.6) - Class methods (1st argument automatically receives the reference to the instance itself)*
+- *self* to store data - *hasattr(object, name)* to check for attributes - *__init__* to always have data and meaningful constructor
+- Aside: "dunder" or "magic" methods (fixed names for objects interfacing with specific language functions: surrounded by double underscores; do not create your own new names of this format !)
+- *__str__(self)* used whenever call *print* on the object
+- Class variables (property shared by all instances)
+- *Parameter defaults gotchas - Class variables gotchas*
+- *Usage counters - Example: inventory system - Container class - Implementation details*
+- Private attributes (convention: *_*)
+- *Implementing the container - Implementing an iterator - Implementing other things*
+- Class inheritance ([super()](https://docs.python.org/3/library/functions.html?highlight=super#super) to access the base class method if overriden
+- Multiple inheritance
+- Aside: getters (functions returning a value as a property; *@property*) and setters (function that receives the value when a property is written to; *@<funcname>.setter*)
+4. [Functional programming](https://mariezufferey.github.io/CAS_ADS/module5/DeeperDive/Course_slides.pdf#page=60)
+- "Pure" functions: do not depend on external or internal state; no "side effects"
+- Functional programming and immutability (best way: use immutable data structures)
+- Aside: shallow and deepcopies (*<object>.copy()*; for potentially mutable objects, a recursive "deep" copy is needed: *deepcopy(<obj>)* from the *copy* module)
+- "Higher-order" functions: functions that accept functions as parameters (in Python, functions are treated as values)
+- Standard primitives for functional programming: some built-in, some in the *functools* module (e.g. *reduce*)
+- Generators and lazy evaluation (e.g. *map* returns a generator (= an iterable which is evaluated one value at a time wheniterating), an example of lazy evaluation)
+5. [Decorators](https://mariezufferey.github.io/CAS_ADS/module5/DeeperDive/Course_slides.pdf#page=70)
+- e.g. *@mydec* on the line before *myfunc()* equivalent to *mydec(myfunc)*
+- *Dealing with arguments and return values - Decorator parameters*
+- A practical example
+- Stacking decorators (the function is wrapped in the inverse order of decorators)
+- Decorators and function identity (after being wrapped by a decorator, the name of the function changes; if not desirable, use *from functools import wraps*)
+- Tracing recursive calls
+- Memoization (optimize the code by caching intermediate results)
+6. [Modules and packages](https://mariezufferey.github.io/CAS_ADS/module5/DeeperDive/Course_slides.pdf#page=82)
+- What are modules and packages? (modules = mechanism for sharing code across multiple Python source files; packages = a way to organize multiple modules together in a tree-like structure of submodules)
+- Importing code (*import* and star-import; this later is discouraged as it modifies the global namespace in an unpredictable way)
+- Module example
+- *What happens on import? - What else happens on import? (*__pycache_* folder)*
+- *__name__*: at runtime, contains the name of the current module; set to *__main__* if executed directly
+- Where does Python search for modules? *sys.path* from *sys* module (directory containing the input script or current directory; PYTHONPATH environment variable; the installation-dependent default), can be modified at runtime
+- Packages (organized in subfolder; when published, contain additional metadata)
+7. [Python environments](https://mariezufferey.github.io/CAS_ADS/module5/DeeperDive/Course_slides.pdf#page=91)
+- a specific Pythonversion plus a collection of extra packages
+- *What problem do environments solve? (working with different package versions) - What's needed for a virtual environment? (a package manager to install packages in the environment (e.g. *pip*);  a virtual environment manager (e.g. *virtualenv*)*
+- *Virtual environment workflow: creating, activating, installing dependencies, running code - Virtual environment example*
+- Tricky parts of Python package management (non-python code and libraries; pip supports a binary format called "wheels")
+- What about (Ana)conda? (*conda*= package / virtual environment manager part of the *Anaconda* distribution; can manage Python packages; has more support for binary packages)
+    
 
 ##### Statistics with Python 
 
