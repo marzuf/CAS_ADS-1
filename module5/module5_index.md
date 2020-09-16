@@ -84,7 +84,7 @@
  3. [Classes](https://mariezufferey.github.io/CAS_ADS/module5/DeeperDive/Course_slides.pdf#page=26) ([doc](https://docs.python.org/3/tutorial/classes.html))
 - *What are classes? (instance) - Class syntax - Simplest class - Non-declared goods*
 - *\_\_dict\_\_* property to Store instance properties; *\_\_slots\_\_* to enforce a specific set of properties
-- *Adding a method - Aside: f-strings (python >= 3.6) - Class methods (1st argument automatically receives the reference to the instance itself)*
+- *Adding a method - Aside: f-strings (python \>= 3.6) - Class methods (1st argument automatically receives the reference to the instance itself)*
 - *self* to store data - *hasattr(object, name)* to check for attributes - *\_\_init\_\_* to always have data and meaningful constructor
 - Aside: "dunder" or "magic" methods (fixed names for objects interfacing with specific language functions: surrounded by double underscores; do not create your own new names of this format !)
 - *\_\_str\_\_(self)* used whenever call *print* on the object
@@ -95,7 +95,7 @@
 - *Implementing the container - Implementing an iterator - Implementing other things*
 - Class inheritance ([super()](https://docs.python.org/3/library/functions.html?highlight=super#super) to access the base class method if overriden)
 - Multiple inheritance
-- Aside: getters (functions returning a value as a property; *@property*) and setters (function that receives the value when a property is written to; *@<funcname>.setter*) 
+- Aside: getters (functions returning a value as a property; *@property*) and setters (function that receives the value when a property is written to; *@\<funcname\>.setter*) 
 4. [Functional programming](https://mariezufferey.github.io/CAS_ADS/module5/DeeperDive/Course_slides.pdf#page=60)
 - "Pure" functions: do not depend on external or internal state; no "side effects"
 - Functional programming and immutability (best way: use immutable data structures)
