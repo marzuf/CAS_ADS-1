@@ -83,9 +83,9 @@
 - What can you do with objects: *attributes (or properties) - method - standard functions and operations*
  3. [Classes](https://mariezufferey.github.io/CAS_ADS/module5/DeeperDive/Course_slides.pdf#page=26) ([doc](https://docs.python.org/3/tutorial/classes.html))
 - *What are classes? (instance) - Class syntax - Simplest class - Non-declared goods*
-- *\_\_dict\_\_* property to Store instance properties; *\__slots\__* to enforce a specific set of properties
+- *\_\_dict\_\_* property to Store instance properties; *\_\_slots\_\_* to enforce a specific set of properties
 - *Adding a method - Aside: f-strings (python >= 3.6) - Class methods (1st argument automatically receives the reference to the instance itself)*
-- *self* to store data - *hasattr(object, name)* to check for attributes - *\__init\__* to always have data and meaningful constructor
+- *self* to store data - *hasattr(object, name)* to check for attributes - *\_\_init\_\_* to always have data and meaningful constructor
 - Aside: "dunder" or "magic" methods (fixed names for objects interfacing with specific language functions: surrounded by double underscores; do not create your own new names of this format !)
 - *\_\_str\_\_(self)* used whenever call *print* on the object
 - Class variables (property shared by all instances)
@@ -99,7 +99,7 @@
 4. [Functional programming](https://mariezufferey.github.io/CAS_ADS/module5/DeeperDive/Course_slides.pdf#page=60)
 - "Pure" functions: do not depend on external or internal state; no "side effects"
 - Functional programming and immutability (best way: use immutable data structures)
-- Aside: shallow and deepcopies (*<object>.copy()*; for potentially mutable objects, a recursive "deep" copy is needed: *deepcopy(<obj>)* from the *copy* module)
+- Aside: shallow and deepcopies (*\<object\>.copy()*; for potentially mutable objects, a recursive "deep" copy is needed: *deepcopy(\<obj\>)* from the *copy* module)
 - "Higher-order" functions: functions that accept functions as parameters (in Python, functions are treated as values)
 - Standard primitives for functional programming: some built-in, some in the *functools* module (e.g. *reduce*)
 - Generators and lazy evaluation (e.g. *map* returns a generator (= an iterable which is evaluated one value at a time wheniterating), an example of lazy evaluation)
@@ -115,8 +115,8 @@
 - What are modules and packages? (modules = mechanism for sharing code across multiple Python source files; packages = a way to organize multiple modules together in a tree-like structure of submodules)
 - Importing code (*import* and star-import; this later is discouraged as it modifies the global namespace in an unpredictable way)
 - Module example
-- *What happens on import? - What else happens on import? (*\__pycache\__ *folder)*
-- *\__name\__*: at runtime, contains the name of the current module; set to *\__main\__* if executed directly
+- *What happens on import? - What else happens on import? (*\_\_pycache\_\_ *folder)*
+- *\_\_name\_\_*: at runtime, contains the name of the current module; set to *\_\_main\_\_* if executed directly
 - Where does Python search for modules? *sys.path* from *sys* module (directory containing the input script or current directory; PYTHONPATH environment variable; the installation-dependent default), can be modified at runtime
 - Packages (organized in subfolder; when published, contain additional metadata)
 7. [Python environments](https://mariezufferey.github.io/CAS_ADS/module5/DeeperDive/Course_slides.pdf#page=91)
@@ -124,7 +124,7 @@
 - *What problem do environments solve? (working with different package versions) - What's needed for a virtual environment? (a package manager to install packages in the environment (e.g. *pip*);  a virtual environment manager (e.g. *virtualenv*)*
 - *Virtual environment workflow: creating, activating, installing dependencies, running code - Virtual environment example*
 - Tricky parts of Python package management (non-python code and libraries; pip supports a binary format called "wheels")
-- What about (Ana)conda? (*conda*= package / virtual environment manager part of the *Anaconda* distribution; can manage Python packages; has more support for binary packages)
+- What about (Ana)conda? (*conda* = package / virtual environment manager part of the *Anaconda* distribution; can manage Python packages; has more support for binary packages)
     
 
 ##### Statistics with Python 
