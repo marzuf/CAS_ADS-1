@@ -123,7 +123,7 @@
 - a specific Pythonversion plus a collection of extra packages
 - *What problem do environments solve? (working with different package versions) - What's needed for a virtual environment? (a package manager to install packages in the environment (e.g.* pip *);  a virtual environment manager (e.g.* virtualenv *)*
 - *Virtual environment workflow: creating, activating, installing dependencies, running code - Virtual environment example*
-- Tricky parts of Python package management (non-python code and libraries; pip supports a binary format called "wheels")
+- Tricky parts of Python package management (non-python code and libraries; *pip* supports a binary format called "wheels")
 - What about (Ana)conda? (*conda* = package / virtual environment manager part of the *Anaconda* distribution; can manage Python packages; has more support for binary packages)
     
 
