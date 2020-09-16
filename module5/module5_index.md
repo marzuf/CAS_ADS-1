@@ -95,7 +95,7 @@
 - *Implementing the container - Implementing an iterator - Implementing other things*
 - Class inheritance ([super()](https://docs.python.org/3/library/functions.html?highlight=super#super) to access the base class method if overriden
 - Multiple inheritance
-- Aside: getters (functions returning a value as a property; *@property*) and setters (function that receives the value when a property is written to; *@<funcname>.setter*)
+<!--- Aside: getters (functions returning a value as a property; *@property*) and setters (function that receives the value when a property is written to; *@<funcname>.setter*) -->
 4. [Functional programming](https://mariezufferey.github.io/CAS_ADS/module5/DeeperDive/Course_slides.pdf#page=60)
 - "Pure" functions: do not depend on external or internal state; no "side effects"
 - Functional programming and immutability (best way: use immutable data structures)
