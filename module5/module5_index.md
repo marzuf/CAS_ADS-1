@@ -83,11 +83,11 @@
 - What can you do with objects: *attributes (or properties) - method - standard functions and operations*
  3. [Classes](https://mariezufferey.github.io/CAS_ADS/module5/DeeperDive/Course_slides.pdf#page=26) ([doc](https://docs.python.org/3/tutorial/classes.html))
 - *What are classes? (instance) - Class syntax - Simplest class - Non-declared goods*
-- *\__dict\__* property to Store instance properties; *\__slots\__* to enforce a specific set of properties
+- *\_\_dict\_\_* property to Store instance properties; *\__slots\__* to enforce a specific set of properties
 - *Adding a method - Aside: f-strings (python >= 3.6) - Class methods (1st argument automatically receives the reference to the instance itself)*
 - *self* to store data - *hasattr(object, name)* to check for attributes - *\__init\__* to always have data and meaningful constructor
 - Aside: "dunder" or "magic" methods (fixed names for objects interfacing with specific language functions: surrounded by double underscores; do not create your own new names of this format !)
-- *\__str\__(self)* used whenever call *print* on the object
+- *\_\_str\_\_(self)* used whenever call *print* on the object
 - Class variables (property shared by all instances)
 - *Parameter defaults gotchas - Class variables gotchas*
 - *Usage counters - Example: inventory system - Container class - Implementation details*
@@ -99,7 +99,7 @@
 4. [Functional programming](https://mariezufferey.github.io/CAS_ADS/module5/DeeperDive/Course_slides.pdf#page=60)
 - "Pure" functions: do not depend on external or internal state; no "side effects"
 - Functional programming and immutability (best way: use immutable data structures)
-<!--- - Aside: shallow and deepcopies (*<object>.copy()*; for potentially mutable objects, a recursive "deep" copy is needed: *deepcopy(<obj>)* from the *copy* module) -->
+- Aside: shallow and deepcopies (*<object>.copy()*; for potentially mutable objects, a recursive "deep" copy is needed: *deepcopy(<obj>)* from the *copy* module)
 - "Higher-order" functions: functions that accept functions as parameters (in Python, functions are treated as values)
 - Standard primitives for functional programming: some built-in, some in the *functools* module (e.g. *reduce*)
 - Generators and lazy evaluation (e.g. *map* returns a generator (= an iterable which is evaluated one value at a time wheniterating), an example of lazy evaluation)
