@@ -79,11 +79,11 @@
 - *Python (Jupyter) notebooks - What are notebooks good at? - What are notebooks bad at? - What is needed to run Python code? - How to run python code? - Setting up VSC Live Share*
  2. [Objects and scope](https://mariezufferey.github.io/CAS_ADS/module5/DeeperDive/Course_slides.pdf#page=13)
  - *Everything is objects - - Object identity - The mystery of small integers - Object type - Object value - Mutable vs. immutable objects - Accessingobjects*
- - *Scopes (local, non-local, global, builtin) - Scope gotchas
+ - *Scopes (local, non-local, global, builtin) - Scope gotchas*
 - What can you do with objects: *attributes (or properties) - method - standard functions and operations*
- 3. [Classes](https://mariezufferey.github.io/CAS_ADS/module5/DeeperDive/Course_slides.pdf#page=26)
+ 3. [Classes](https://mariezufferey.github.io/CAS_ADS/module5/DeeperDive/Course_slides.pdf#page=26) ([doc](https://docs.python.org/3/tutorial/classes.html))
 - *What are classes? (instance) - Class syntax - Simplest class - Non-declared goods*
-- *__dict__* property to Store instance properties; * __slots__* to enforce a specific set of properties
+- *\__dict\__* property to Store instance properties; * __slots__* to enforce a specific set of properties
 - *Adding a method - Aside: f-strings (python >= 3.6) - Class methods (1st argument automatically receives the reference to the instance itself)*
 - *self* to store data - *hasattr(object, name)* to check for attributes - *__init__* to always have data and meaningful constructor
 - Aside: "dunder" or "magic" methods (fixed names for objects interfacing with specific language functions: surrounded by double underscores; do not create your own new names of this format !)
