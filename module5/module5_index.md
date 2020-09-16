@@ -99,7 +99,7 @@
 4. [Functional programming](https://mariezufferey.github.io/CAS_ADS/module5/DeeperDive/Course_slides.pdf#page=60)
 - "Pure" functions: do not depend on external or internal state; no "side effects"
 - Functional programming and immutability (best way: use immutable data structures)
-- Aside: shallow and deepcopies (*<object>.copy()*; for potentially mutable objects, a recursive "deep" copy is needed: *deepcopy(<obj>)* from the *copy* module)
+<!--- - Aside: shallow and deepcopies (*<object>.copy()*; for potentially mutable objects, a recursive "deep" copy is needed: *deepcopy(<obj>)* from the *copy* module) -->
 - "Higher-order" functions: functions that accept functions as parameters (in Python, functions are treated as values)
 - Standard primitives for functional programming: some built-in, some in the *functools* module (e.g. *reduce*)
 - Generators and lazy evaluation (e.g. *map* returns a generator (= an iterable which is evaluated one value at a time wheniterating), an example of lazy evaluation)
