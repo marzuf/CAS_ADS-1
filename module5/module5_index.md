@@ -86,7 +86,7 @@
 - *\__dict\__* property to Store instance properties; *\__slots\__* to enforce a specific set of properties
 - *Adding a method - Aside: f-strings (python >= 3.6) - Class methods (1st argument automatically receives the reference to the instance itself)*
 - *self* to store data - *hasattr(object, name)* to check for attributes - *\__init\__* to always have data and meaningful constructor
-<!-- - Aside: "dunder" or "magic" methods (fixed names for objects interfacing with specific language functions: surrounded by double underscores; do not create your own new names of this format !) -->
+- Aside: "dunder" or "magic" methods (fixed names for objects interfacing with specific language functions: surrounded by double underscores; do not create your own new names of this format !)
 - *\__str\__(self)* used whenever call *print* on the object
 - Class variables (property shared by all instances)
 - *Parameter defaults gotchas - Class variables gotchas*
