@@ -93,9 +93,9 @@
 - *Usage counters - Example: inventory system - Container class - Implementation details*
 - Private attributes (convention: *_*)
 - *Implementing the container - Implementing an iterator - Implementing other things*
-- Class inheritance ([super()](https://docs.python.org/3/library/functions.html?highlight=super#super) to access the base class method if overriden
+- Class inheritance ([super()](https://docs.python.org/3/library/functions.html?highlight=super#super) to access the base class method if overriden)
 - Multiple inheritance
-<!--- Aside: getters (functions returning a value as a property; *@property*) and setters (function that receives the value when a property is written to; *@<funcname>.setter*) -->
+- Aside: getters (functions returning a value as a property; *@property*) and setters (function that receives the value when a property is written to; *@<funcname>.setter*) 
 4. [Functional programming](https://mariezufferey.github.io/CAS_ADS/module5/DeeperDive/Course_slides.pdf#page=60)
 - "Pure" functions: do not depend on external or internal state; no "side effects"
 - Functional programming and immutability (best way: use immutable data structures)
@@ -115,7 +115,7 @@
 - What are modules and packages? (modules = mechanism for sharing code across multiple Python source files; packages = a way to organize multiple modules together in a tree-like structure of submodules)
 - Importing code (*import* and star-import; this later is discouraged as it modifies the global namespace in an unpredictable way)
 - Module example
-- *What happens on import? - What else happens on import? (*\__pycache\__* folder)*
+- *What happens on import? - What else happens on import? (*\__pycache\__ *folder)*
 - *\__name\__*: at runtime, contains the name of the current module; set to *\__main\__* if executed directly
 - Where does Python search for modules? *sys.path* from *sys* module (directory containing the input script or current directory; PYTHONPATH environment variable; the installation-dependent default), can be modified at runtime
 - Packages (organized in subfolder; when published, contain additional metadata)
