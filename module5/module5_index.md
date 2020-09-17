@@ -30,7 +30,7 @@
 [[Back to top]](#module-5-consolidations-and-electives)
 
 - [GitHub repository](https://github.com/guiwitz/Pandas_course) of the course
-- [pdf](Python_Pandas/e2_all_pandas.pdf) of all notebooks
+- [pdf](Python_Pandas/e2_all_pandas.pdf) or [html](https://raw.githack.com/mariezufferey/CAS_ADS/master/module5/Python_Pandas/notebooks_html/all_notebooks.html) of all notebooks
 - [notebooks](https://github.com/mariezufferey/CAS_ADS/tree/master/module5/Python_Pandas/notebooks): 
     - [Pandas introduction](Python_Pandas/notebooks/00-Pandas_introduction.ipynb) ([pdf](Python_Pandas/notebooks_pdf/00-Pandas_introduction.pdf), [html](https://raw.githack.com/mariezufferey/CAS_ADS/master/module5/Python_Pandas/notebooks_html/00-Pandas_introduction.html))
     - [Pandas objects](Python_Pandas/notebooks/01-Pandas_structures.ipynb) ([pdf](Python_Pandas/notebooks_pdf/01-Pandas_structures.pdf), [html](https://raw.githack.com/mariezufferey/CAS_ADS/master/module5/Python_Pandas/notebooks_html/01-Pandas_structures.html))
@@ -49,7 +49,7 @@
 [[Back to top]](#module-5-consolidations-and-electives)
 
 - [GitHub repository](https://github.com/guiwitz/NumpyPandas_course) of the course <!-- Numpy and Pandas -->
-- [pdf](NumpyPandas/all_NumpyPandas.pdf) of all notebooks
+- [pdf](NumpyPandas/all_NumpyPandas.pdf) or [html](https://raw.githack.com/mariezufferey/CAS_ADS/master/module5/NumpyPandas_course/notebooks_html/all_notebooks.html) of all notebooks
 - [notebooks](https://github.com/mariezufferey/CAS_ADS/tree/master/module5/NumpyPandas/notebooks): 
     - [Numpy array creation](NumpyPandas/notebooks/01-DA_Numpy_arrays_creation.ipynb) ([pdf](NumpyPandas/notebooks_pdf/01-DA_Numpy_arrays_creation.pdf), [html](https://raw.githack.com/mariezufferey/CAS_ADS/master/module5/NumpyPandas/notebooks_html/01-DA_Numpy_arrays_creation.html))
     - [Numpy array and maths](NumpyPandas/notebooks/02-DA_Numpy_array_maths.ipynb) ([pdf](NumpyPandas/notebooks_pdf/02-DA_Numpy_array_maths.pdf), [html](https://raw.githack.com/mariezufferey/CAS_ADS/master/module5/NumpyPandas/notebooks_html/02-DA_Numpy_array_maths.html))
@@ -157,7 +157,7 @@
 [[Back to top]](#module-5-consolidations-and-electives)
 
 - [GitHub repository](https://github.com/guiwitz/Python_image_processing) of the course
-- [pdf](Python_image_processing/e5_all_image_processing.pdf) of all notebooks
+- [pdf](Python_image_processing/e5_all_image_processing.pdf) or [html](https://raw.githack.com/mariezufferey/CAS_ADS/master/module5/Python_image_processing/notebooks_html/all_notebooks.html) of all notebooks
 - [notebooks](https://github.com/mariezufferey/CAS_ADS/tree/master/module5/Python_image_processing/notebooks):
     - [introduction](Python_image_processing/notebooks/01-Introduction.ipynb) ([pdf](Python_image_processing/notebooks_pdf/01-Introduction.pdf), [html](https://raw.githack.com/mariezufferey/CAS_ADS/master/module5/Python_image_processing/notebooks_html/01-Introduction.html))
     - [Numpy with images](Python_image_processing/notebooks/02-Numpy_images.ipynb) ([pdf](Python_image_processing/notebooks_pdf/02-Numpy_images.pdf), [html](https://raw.githack.com/mariezufferey/CAS_ADS/master/module5/Python_image_processing/notebooks_html/02-Numpy_images.html))
