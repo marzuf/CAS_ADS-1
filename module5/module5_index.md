@@ -78,7 +78,7 @@
 1. [Beyond notebooks](https://mariezufferey.github.io/CAS_ADS/module5/DeeperDive/Course_slides.pdf#page=6)
 - *Python (Jupyter) notebooks - What are notebooks good at? - What are notebooks bad at? - What is needed to run Python code? - How to run python code? - Setting up VSC Live Share*
  2. [Objects and scope](https://mariezufferey.github.io/CAS_ADS/module5/DeeperDive/Course_slides.pdf#page=13)
- - *Everything is objects - - Object identity - The mystery of small integers - Object type - Object value - Mutable vs. immutable objects - Accessing objects*
+ - *Everything is objects - Object identity - The mystery of small integers - Object type - Object value - Mutable vs. immutable objects - Accessing objects*
  - *Scopes (local, non-local, global, builtin) - [Scope gotchas](https://mariezufferey.github.io/CAS_ADS/module5/DeeperDive/Course_slides.pdf#page=26)*
 - What can you do with objects: *attributes (or properties) - method - standard functions and operations*
  3. [Classes](https://mariezufferey.github.io/CAS_ADS/module5/DeeperDive/Course_slides.pdf#page=30) ([doc](https://docs.python.org/3/tutorial/classes.html))
