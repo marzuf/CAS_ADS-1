@@ -78,10 +78,10 @@
 1. [Beyond notebooks](https://mariezufferey.github.io/CAS_ADS/module5/DeeperDive/Course_slides.pdf#page=6)
 - *Python (Jupyter) notebooks - What are notebooks good at? - What are notebooks bad at? - What is needed to run Python code? - How to run python code? - Setting up VSC Live Share*
  2. [Objects and scope](https://mariezufferey.github.io/CAS_ADS/module5/DeeperDive/Course_slides.pdf#page=13)
- - *Everything is objects - - Object identity - The mystery of small integers - Object type - Object value - Mutable vs. immutable objects - Accessingobjects*
- - *Scopes (local, non-local, global, builtin) - Scope gotchas*
+ - *Everything is objects - - Object identity - The mystery of small integers - Object type - Object value - Mutable vs. immutable objects - Accessing objects*
+ - *Scopes (local, non-local, global, builtin) - [Scope gotchas](https://mariezufferey.github.io/CAS_ADS/module5/DeeperDive/Course_slides.pdf#page=26)*
 - What can you do with objects: *attributes (or properties) - method - standard functions and operations*
- 3. [Classes](https://mariezufferey.github.io/CAS_ADS/module5/DeeperDive/Course_slides.pdf#page=26) ([doc](https://docs.python.org/3/tutorial/classes.html))
+ 3. [Classes](https://mariezufferey.github.io/CAS_ADS/module5/DeeperDive/Course_slides.pdf#page=30) ([doc](https://docs.python.org/3/tutorial/classes.html))
 - *What are classes? (instance) - Class syntax - Simplest class - Non-declared goods*
 - *\_\_dict\_\_* property to Store instance properties; *\_\_slots\_\_* to enforce a specific set of properties
 - *Adding a method - Aside: f-strings (python \>= 3.6) - Class methods (1st argument automatically receives the reference to the instance itself)*
@@ -89,21 +89,21 @@
 - Aside: "dunder" or "magic" methods (fixed names for objects interfacing with specific language functions: surrounded by double underscores; do not create your own new names of this format !)
 - *\_\_str\_\_(self)* used whenever call *print* on the object
 - Class variables (property shared by all instances)
-- *Parameter defaults gotchas - Class variables gotchas*
+- *[Parameter defaults gotchas](https://mariezufferey.github.io/CAS_ADS/module5/DeeperDive/Course_slides.pdf#page=45) - [Class variables gotchas](https://mariezufferey.github.io/CAS_ADS/module5/DeeperDive/Course_slides.pdf#page=47)*
 - *Usage counters - Example: inventory system - Container class - Implementation details*
 - Private attributes (convention: *_*)
 - *Implementing the container - Implementing an iterator - Implementing other things*
 - Class inheritance ([super()](https://docs.python.org/3/library/functions.html?highlight=super#super) to access the base class method if overriden)
 - Multiple inheritance
 - Aside: getters (functions returning a value as a property; *@property*) and setters (function that receives the value when a property is written to; *@\<funcname\>.setter*) 
-4. [Functional programming](https://mariezufferey.github.io/CAS_ADS/module5/DeeperDive/Course_slides.pdf#page=60)
+4. [Functional programming](https://mariezufferey.github.io/CAS_ADS/module5/DeeperDive/Course_slides.pdf#page=64)
 - "Pure" functions: do not depend on external or internal state; no "side effects"
 - Functional programming and immutability (best way: use immutable data structures)
-- Aside: shallow and deepcopies (*\<object\>.copy()*; for potentially mutable objects, a recursive "deep" copy is needed: *deepcopy(\<obj\>)* from the *copy* module)
+- Aside: [shallow and deepcopies](https://mariezufferey.github.io/CAS_ADS/module5/DeeperDive/Course_slides.pdf#page=69) (*\<object\>.copy()*; for potentially mutable objects, a recursive "deep" copy is needed: *deepcopy(\<obj\>)* from the *copy* module)
 - "Higher-order" functions: functions that accept functions as parameters (in Python, functions are treated as values)
 - Standard primitives for functional programming: some built-in, some in the *functools* module (e.g. *reduce*)
 - Generators and lazy evaluation (e.g. *map* returns a generator (= an iterable which is evaluated one value at a time wheniterating), an example of lazy evaluation)
-5. [Decorators](https://mariezufferey.github.io/CAS_ADS/module5/DeeperDive/Course_slides.pdf#page=70)
+5. [Decorators](https://mariezufferey.github.io/CAS_ADS/module5/DeeperDive/Course_slides.pdf#page=74)
 - e.g. *@mydec* on the line before *myfunc()* equivalent to *mydec(myfunc)*
 - *Dealing with arguments and return values - Decorator parameters*
 - A practical example
@@ -111,7 +111,7 @@
 - Decorators and function identity (after being wrapped by a decorator, the name of the function changes; if not desirable, use *from functools import wraps*)
 - Tracing recursive calls
 - Memoization (optimize the code by caching intermediate results)
-6. [Modules and packages](https://mariezufferey.github.io/CAS_ADS/module5/DeeperDive/Course_slides.pdf#page=82)
+6. [Modules and packages](https://mariezufferey.github.io/CAS_ADS/module5/DeeperDive/Course_slides.pdf#page=86)
 - What are modules and packages? (modules = mechanism for sharing code across multiple Python source files; packages = a way to organize multiple modules together in a tree-like structure of submodules)
 - Importing code (*import* and star-import; this later is discouraged as it modifies the global namespace in an unpredictable way)
 - Module example
@@ -119,7 +119,7 @@
 - *\_\_name\_\_*: at runtime, contains the name of the current module; set to *\_\_main\_\_* if executed directly
 - Where does Python search for modules? *sys.path* from *sys* module (directory containing the input script or current directory; PYTHONPATH environment variable; the installation-dependent default), can be modified at runtime
 - Packages (organized in subfolder; when published, contain additional metadata)
-7. [Python environments](https://mariezufferey.github.io/CAS_ADS/module5/DeeperDive/Course_slides.pdf#page=91)
+7. [Python environments](https://mariezufferey.github.io/CAS_ADS/module5/DeeperDive/Course_slides.pdf#page=95)
 - a specific Pythonversion plus a collection of extra packages
 - *What problem do environments solve? (working with different package versions) - What's needed for a virtual environment? (a package manager to install packages in the environment (e.g.* pip *);  a virtual environment manager (e.g.* virtualenv *)*
 - *Virtual environment workflow: creating, activating, installing dependencies, running code - Virtual environment example*
