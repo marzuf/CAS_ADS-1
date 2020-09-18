@@ -22,6 +22,7 @@ This repository contains some material and additional references related to the 
 - [La programmation en C++ moderne](cpp/la-programmation-en-c-moderne.pdf): tutoriel de zestedesavoir.com
 - [Le langage C++](cpp/polyCpp_garreta): tutoriel de H. Garreta
 - [Le langage de programmation C++](cpp/CPP_Cours_smacchia): cours de P. Smacchia
+- [Cours en ligne de C++](http://www.xgarreau.org/aide/devel/cpp) par X. Garreau
 - my other (unformatted) [blog](https://mzuer.github.io/blog/) with a series of posts with tips for R (most of them), Python, bash
 
 ## Contact
