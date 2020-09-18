@@ -14,6 +14,7 @@ This repository contains some material and additional references related to the 
 - pdf (in French) of old [Site du zéro](https://openclassrooms.com/fr/old-courses-pdf) courses  (now [openclassrooms](https://openclassrooms.com))
 - offline version of old tutorials from the [Site du zéro](http://sdz.tdct.org)
 - pdf and online tutorials (in French) from [développez.com](https://general.developpez.com/cours/)
+- R ressources from the [UCLA statistical consulting group](https://stats.idre.ucla.edu/r/)
 - my other (unformatted) [blog](https://mzuer.github.io/blog/) with a series of posts with tips for R (most of them), Python, bash
 
 ## Contact
