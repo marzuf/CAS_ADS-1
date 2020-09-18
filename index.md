@@ -15,7 +15,7 @@ This repository contains some material and additional references related to the 
 - offline version of old tutorials from the [Site du zéro](http://sdz.tdct.org)
 - pdf and online tutorials (in French) from [développez.com](https://general.developpez.com/cours/)
 - R ressources from the [UCLA statistical consulting group](https://stats.idre.ucla.edu/r/)
-- [algorithmic and programming tutorials](https://zestedesavoir.com/bibliotheque/?subcategory=programmation-et-algorithmique) from zestedesavoir.com
+- [algorithmic and programming tutorials](https://zestedesavoir.com/bibliotheque/?subcategory=programmation-et-algorithmique) from [Zeste de savoir](zestedesavoir.com) (in French)
 - [ressources C++](http://www-igm.univ-mlv.fr/~dr/C_CPP_index.html) de l'IGM 
 - [cours en ligne de C/C++](http://casteyde.christian.free.fr/cpp/cours/online/book1.html) de Christian Casteyde
 - [cours en ligne](https://emse.fr/~boissier/enseignement/c/LATEX-WWW/SEMESTER-II/COURS-CPP/) structure de données, alogirthmes et objets (C++ et Java) 
