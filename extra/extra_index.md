@@ -2,6 +2,10 @@
 
 [[Back to main page]](../index.md)
 
+### Notebooks
+- [summary notebook](notebooks/cpp_summary_notebook.ipynb)
+
+
 ### Ressources
 
 - [ressources C++](http://www-igm.univ-mlv.fr/~dr/C_CPP_index.html) de l'IGM 
