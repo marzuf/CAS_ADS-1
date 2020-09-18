@@ -16,7 +16,7 @@ This repository contains some material and additional references related to the 
 - offline version of old tutorials from the [Site du zéro](http://sdz.tdct.org)
 - pdf and online tutorials (in French) from [développez.com](https://general.developpez.com/cours/)
 - R ressources from the [UCLA statistical consulting group](https://stats.idre.ucla.edu/r/)
-- [algorithmic and programming tutorials](https://zestedesavoir.com/bibliotheque/?subcategory=programmation-et-algorithmique) from [Zeste de savoir](www.zestedesavoir.com) (in French)
+- [algorithmic and programming tutorials](https://zestedesavoir.com/bibliotheque/?subcategory=programmation-et-algorithmique) from [Zeste de savoir](http://www.zestedesavoir.com) (in French)
 - my other (unformatted) [blog](https://mzuer.github.io/blog/) with a series of posts with tips for R (most of them), Python, bash
 
 ## Contact
