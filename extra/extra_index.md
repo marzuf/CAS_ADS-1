@@ -28,6 +28,13 @@
   - [Introduction à C++ 2011 (C++0x)](http://user.oc-static.com/pdf/497647-introduction-a-c-2011-c-0x.pdf)
   - [Lecture et écriture dans les fichiers en C++](http://user.oc-static.com/pdf/36367-lecture-et-ecriture-dans-les-fichiers-en-c.pdf)
   - [Les piles et les files en C++](http://user.oc-static.com/pdf/33398-les-piles-et-les-files-en-c.pdf)
+- tutoriels de [Zeste de savoir](http://zestedesavoir.com):
+  - [La programmation en C++ moderne](https://zestedesavoir.com/tutoriels/822/la-programmation-en-c-moderne/)
+  - [Les conversions de types en C++](https://zestedesavoir.com/tutoriels/553/les-conversions-de-types-en-c/)
+  - [Une nouvelle fonctionnalité de C++11 : la sémantique de mouvement](https://zestedesavoir.com/tutoriels/496/une-nouvelle-fonctionnalite-de-c-11-la-semantique-de-mouvement/)
+  - [Simplifier la gestion de la mémoire en C++ avec RAII](https://zestedesavoir.com/tutoriels/460/simplifier-la-gestion-de-la-memoire-en-c-avec-raii/)
+  - [La déduction de type en C++](https://zestedesavoir.com/tutoriels/474/la-deduction-de-type-en-c/)
+
 
 ### Contact
 Questions, comments or suggestions ? Don't hesitate to [contact me](mailto:zufferey.marie@bluewin.ch) !
