@@ -16,7 +16,7 @@
 - [Le langage C++](cpp/polyCpp_garreta): tutoriel de H. Garreta
 - [Le langage de programmation C++](cpp/CPP_Cours_smacchia): cours de P. Smacchia
 - [Cours en ligne de C++](http://www.xgarreau.org/aide/devel/cpp) par X. Garreau
-- [pdf](https://openclassrooms.com/fr/old-courses-pdf) des anciens cours de C++ du Site du zéro:
+- les anciens cours de C++ du [Site du zéro](https://openclassrooms.com/fr/old-courses-pdf) en pdf:
   - [Programmez avec le langage C++](http://user.oc-static.com/pdf/11406-programmez-avec-le-langage-c.pdf)
   - [Bien choisir ses structures de données](http://user.oc-static.com/pdf/624658-c-bien-choisir-ses-structures-de-donnees.pdf)
   - [Déboguer avec Code::Blocks](http://user.oc-static.com/pdf/544477-c-deboguer-avec-code-blocks.pdf)
