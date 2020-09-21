@@ -34,6 +34,7 @@
   - [Une nouvelle fonctionnalité de C++11 : la sémantique de mouvement](https://zestedesavoir.com/tutoriels/496/une-nouvelle-fonctionnalite-de-c-11-la-semantique-de-mouvement/)
   - [Simplifier la gestion de la mémoire en C++ avec RAII](https://zestedesavoir.com/tutoriels/460/simplifier-la-gestion-de-la-memoire-en-c-avec-raii/)
   - [La déduction de type en C++](https://zestedesavoir.com/tutoriels/474/la-deduction-de-type-en-c/)
+- wikibook [Programmation C++](https://fr.wikibooks.org/wiki/Programmation_C-C%2B%2B) avec notamment le chapitre ["Passage de paramètres par variable ou par valeur"](https://fr.wikibooks.org/wiki/Programmation_C-C%2B%2B/Passage_de_param%C3%A8tres_par_variable_ou_par_valeur)
 
 
 ### Contact
