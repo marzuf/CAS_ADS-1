@@ -3,9 +3,9 @@
 [[Back to main page]](../index.md)
 
 ### Notebooks
-- [key points](notebooks/cpp_summary_notebook.ipynb) from the [pdf](http://user.oc-static.com/pdf/11406-programmez-avec-le-langage-c.pdf) "Programmez avec le langage C++"
-- all the ["En résumé"](notebooks/cpp_en_resume_notebook.ipynb) from the [pdf](http://user.oc-static.com/pdf/11406-programmez-avec-le-langage-c.pdf) "Programmez avec le langage C++"
-- [key points](notebooks/cpp_aide_memoire_notebook.ipynb) from the "Aide-mémoire de C++" (J.-M. Réveillac)
+- [key points](https://raw.githack.com/mariezufferey/CAS_ADS/master/extra/notebooks/cpp_summary_notebook.ipynb) from the [pdf](http://user.oc-static.com/pdf/11406-programmez-avec-le-langage-c.pdf) "Programmez avec le langage C++"
+- [all the "En résumé"](https://raw.githack.com/mariezufferey/CAS_ADS/master/extra/notebooks/cpp_en_resume_notebook.ipynb) from the [pdf](http://user.oc-static.com/pdf/11406-programmez-avec-le-langage-c.pdf) "Programmez avec le langage C++"
+- [key points](https://raw.githack.com/mariezufferey/CAS_ADS/master/extra/notebooks/cpp_aide_memoire_notebook.ipynb) from the "Aide-mémoire de C++" (J.-M. Réveillac)
 
 
 ### Ressources
