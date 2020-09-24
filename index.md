@@ -1,6 +1,6 @@
 # CAS in Applied Data Science (ADS)
 
-This repository contains some material and additional references related to the courses attended during my [ADS CAS](https://www.math.unibe.ch/continuing_education/cas_applied_data_science/index_eng.html) at University of Bern (2019-2020).
+This repository contains some material and additional references related to the courses attended during my [ADS CAS](https://www.math.unibe.ch/continuing_education/cas_applied_data_science/index_eng.html) at University of Bern (2019-2020). For additional information, see my [main page](http://mariezufferey.github.io).
 
 ## Summary of the content
 - [Module 1](module1/module1_index.md): data acquisition and management
