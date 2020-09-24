@@ -8,7 +8,7 @@ This repository contains some material and additional references related to the 
 - [Module 3](module3/module3_index.md): data analysis and machine learning
 - [Module 4](module4/module4_index.md): ethics and best practices
 - [Module 5](module5/module5_index.md): consolidations and electives
-- [Extra](extra/extra_index.md): C++ programming
+- [Extra](extra/extra_index.md): C++ and Java programming
 
 ## Some ressources of interest
 - various online tutorials from [Cornell Virtual Workshop](https://cvw.cac.cornell.edu/topics)
