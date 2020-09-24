@@ -1,15 +1,14 @@
-## Extra: C++ programming
+## Extra: C++ and Java programming
 
 [[Back to main page]](../index.md)
 
-### Notebooks
+### Notebooks - C++
 - [key points](https://github.com/mariezufferey/CAS_ADS/blob/master/extra/notebooks/cpp_summary_notebook.ipynb) from the [pdf](http://user.oc-static.com/pdf/11406-programmez-avec-le-langage-c.pdf) "Programmez avec le langage C++"
 - [all the "En résumé"](https://github.com/mariezufferey/CAS_ADS/blob/master/extra/notebooks/cpp_en_resume_notebook.ipynb) from the [pdf](http://user.oc-static.com/pdf/11406-programmez-avec-le-langage-c.pdf) "Programmez avec le langage C++"
 - [key points](https://github.com/mariezufferey/CAS_ADS/blob/master/extra/notebooks/cpp_aide_memoire_notebook.ipynb) from the "Aide-mémoire de C++" (J.-M. Réveillac)
 
 
-### Ressources
-
+### Ressources - C++
 - [ressources C++](http://www-igm.univ-mlv.fr/~dr/C_CPP_index.html) de l'IGM 
 - [cours en ligne de C/C++](http://casteyde.christian.free.fr/cpp/cours/online/book1.html) de Christian Casteyde
 - [cours en ligne](https://emse.fr/~boissier/enseignement/c/LATEX-WWW/SEMESTER-II/COURS-CPP/) structure de données, alogirthmes et objets (C++ et Java) 
@@ -17,6 +16,8 @@
 - [Le langage C++](cpp/polyCpp_garreta): tutoriel de H. Garreta
 - [Le langage de programmation C++](cpp/CPP_Cours_smacchia): cours de P. Smacchia
 - [Cours en ligne de C++](http://www.xgarreau.org/aide/devel/cpp) par X. Garreau
+- [Introduction à la programmation orientée objet en C++](https://www.epflpress.org/product/814/9782889143993/introduction-a-la-programmation-orientee-objet-en-c) - BOOCs EPFL ([pdf](epfl/Introduction_a_la_programmation_orientee_objet_en_C.pdf))
+- [Initiation à la programmation en C++](https://www.epflpress.org/product/814/9782889143993/introduction-a-la-programmation-orientee-objet-en-c) - BOOCs EPFL ([pdf](epfl/Initiation_a_la_programmation_en_C.pdf))
 - les anciens cours de C++ du [Site du zéro](https://openclassrooms.com/fr/old-courses-pdf) en pdf:
   - [Programmez avec le langage C++](http://user.oc-static.com/pdf/11406-programmez-avec-le-langage-c.pdf)
   - [Bien choisir ses structures de données](http://user.oc-static.com/pdf/624658-c-bien-choisir-ses-structures-de-donnees.pdf)
@@ -36,6 +37,11 @@
   - [Simplifier la gestion de la mémoire en C++ avec RAII](https://zestedesavoir.com/tutoriels/460/simplifier-la-gestion-de-la-memoire-en-c-avec-raii/)
   - [La déduction de type en C++](https://zestedesavoir.com/tutoriels/474/la-deduction-de-type-en-c/)
 - wikibook [Programmation C++](https://fr.wikibooks.org/wiki/Programmation_C-C%2B%2B) avec notamment le chapitre ["Passage de paramètres par variable ou par valeur"](https://fr.wikibooks.org/wiki/Programmation_C-C%2B%2B/Passage_de_param%C3%A8tres_par_variable_ou_par_valeur)
+
+
+### Ressources - Java
+- [Initiation à la programmation en Java](https://www.epflpress.org/product/806/9782889143979/initiation-a-la-programmation-en-java) - BOOCs EPFL ([pdf](epfl/Initiation_a_la_programmation_en_Java.pdf))
+- [Introduction à la programmation orientée objet en Java](https://www.epflpress.org/product/823/9782889143986/introduction-a-la-programmation-orientee-objet-en-java) - BOOCs EPFL ([pdf](epfl/Introduction_a_la_programmation_orientee_objet_en_Java.pdf))
 
 
 ### Contact
